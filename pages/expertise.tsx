@@ -27,7 +27,6 @@ const Expertise = () => (
         <ul>
           <li>ReactJS</li>
           <li>NextJS</li>
-          <li>GraphQL</li>
         </ul>
       </Section>
       <Section title="Programming Languages">
@@ -63,7 +62,6 @@ const Expertise = () => (
       <Section title="Hosting">
         <ul>
           <li>Vercel</li>
-          <li>Kubernetes</li>
         </ul>
       </Section>
       <Section title="Cloud Services">

@@ -3,8 +3,11 @@ import { DefaultSeo } from "next-seo";
 import seo from "../next-seo.config";
 import Header from "../components/Header";
 import "tailwindcss/tailwind.css";
+import useTranslation from "next-translate/useTranslation";
 
 function App({ Component, pageProps }) {
+  const { t } = useTranslation("common");
+
   return (
     <>
       <DefaultSeo {...seo} />
@@ -22,17 +25,16 @@ function App({ Component, pageProps }) {
         </main>
         <footer className="p-12 text-center print:hidden">
           <p>
-            Made with <span className="text-red-700">❤️</span> by Alex Rohleder
-          </p>
+          <div dangerouslySetInnerHTML={{__html: t('footer')}}></div>          </p>
           <p className="hidden print:block">
-            Visit{" "}
+            Visit
             <a
               className="text-blue-700"
-              href="https://alexrohleder.com/expertise"
+              href="https://ismaelrodino.vercel.app/expertise"
               target="_blank"
             >
-              alexrohleder.com/expertise
-            </a>{" "}
+              ismaelrodino.vercel.app/expertise
+            </a>
             for more info.
           </p>
         </footer>

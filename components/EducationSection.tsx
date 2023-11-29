@@ -1,3 +1,4 @@
+import useTranslation from "next-translate/useTranslation";
 import Section from "./Section";
 
 const ExternalLink = () => (
@@ -18,43 +19,35 @@ const ExternalLink = () => (
 );
 
 const EducationSection = () => {
+  const { t, lang } = useTranslation("common");
+
   return (
-    <Section title="Education">
+    <Section title={t("education")}>
       <ul className="list-disc">
         <li className="mb-4 lg:mb-2">
           <a
             className="flex items-center"
-            href="https://en.wikipedia.org/wiki/Bachelor_of_Information_Systems#:~:text=Bachelor%20of%20Information%20Systems%20is,covered%20in%20the%20study%20program.&text=A%20typical%20job%20gained%20after%20graduation%20is%20IT%20consulting."
+            href={
+              "https://en.wikipedia.org/wiki/Bachelor_of_Software_Engineering"
+            }
             target="_blank"
             rel="noopener"
           >
-            Information Systems BSc
+            {t("softwareEngineering")}
             <ExternalLink />
           </a>
         </li>
         <li>
           <a
             className="flex items-center"
-            href="https://reactlive.nl/"
+            href="https://en.wikipedia.org/wiki/Software_engineering"
             target="_blank"
             rel="noopener"
           >
-            Advanced Patterns - React Live AMS
-            <ExternalLink />
+            {t("systemsDevelopmentAndAnalysis")} <ExternalLink />
           </a>
         </li>
       </ul>
-      <p className="mt-4 lg:mt-2 text-sm text-gray-500">
-        <a
-          className="text-blue-700 hover:underline print:hidden"
-          href="/trainings"
-        >
-          Click here for a full list trainings and certifications
-        </a>
-        <span className="hidden print:block">
-          And more trainings and certifications...
-        </span>
-      </p>
     </Section>
   );
 };

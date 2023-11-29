@@ -1,3 +1,101 @@
 {
-    "title": "Fullstack software engineer"
+  "title": "Fullstack software engineer",
+  "location": "Porto Alegre, Brazil",
+  "exp": " with over 3 years of experience",
+  "desc1": "Hey! I'm a Brazilian who is passionate about building high-impact, well-performing user experiences.",
+  "desc2": "I believe that work is a big portion of my day, so I try to make the best out of it for me and my colleagues.",
+  "desc3": "To achieve that I focus on empathy during conversations and try to deliver something I'm happy with.",
+  "howConfortable": "How confortable I'm with each technology",
+  "years": "years",
+  "courses": "courses",
+  "nonExhaustive": "Non-exhaustive list of languages, technologies and tools",
+  "education": "Education",
+  "softwareEngineering": "Software Engineering",
+  "systemsDevelopmentAndAnalysis": "Systems Development & Analysis",
+  "languages": "Languages",
+  "basedonCEFR": "Based on CEFR language proficiency levels",
+  "portuguese": "Portuguese",
+  "english": "English",
+  "native": "native",
+  "downloadCurriculum": "Download Curriculum",
+  "scheduleAmeeting": "Schedule a meeting",
+  "experience": {
+    "ongoing":"Ongoing",
+    "title": "Experience",
+    "softwareEngineer": "Software Engineer",
+    "softwareEngineerMid": "Software Engineer (Mid-level)"
+  },
+
+  "whatsetsmeapart": {
+    "title": "What sets me apart?",
+    "reason1": "I demonstrate strong performance so <b>colleagues can rely upon me</b>.",
+    "reason2": "I'm <b>self-motivated</b> with a <b>passion for learning</b> and using both front and back-end technologies.",
+    "reason3": " I'm a <b>systems thinker</b> who can reason through systems and <b>understand technical tradeoffs</b>."
+  },
+
+  "workexp": {
+    "notlisted":"There is two freelance working experiences that are not listed.",
+    "lucalto": {
+      "name": "Lucalto",
+      "location": "Oslo, Norway",
+      "desc": "A Norwegian based company that provides consulting services in web technologies.",
+      "highlight1": "I developed my skills in a production environment, using next.js and typescript",
+      "highlight2": "I honed my skills in independent problem-solving and information retrieval"
+    },
+    "switchApp": {
+      "name": "Switch App",
+      "location": "Vitória, Brasil",
+      "desc": "Switch is a service contracting platform for Bars, Restaurants, Hotels and other establishments.",
+      "highlight1": "Updated several legacy system libraries",
+      "highlight2": "I significantly improved the accessibility of your system, e.g. responsiveness, UX, loading",
+      "highlight3": "Contributed significantly to the discussion of ideas in daily meetings"
+    },
+    "speedCast": {
+      "name": "Speedcast",
+      "location": "Virginia, USA",
+      "desc": "Speedcast is a company specializing in communications satellite technology.",
+      "highlight1": "I converted large amounts of data into Excel (csv and xlsx)",
+      "highlight2": "I was part of a global and multicultural team",
+      "highlight3": "Built the UI and UX from scratch for the company's new platform",
+      "highlight4": "Worked with several frameworks, such as react and Vue.js"
+    },
+    "alex": {
+      "location": "Trondheim, Norway",
+      "desc": "Speedcast is a company specializing in communications satellite technology.",
+      "highlight1": "Maintainance and migration of a legacy create-react-app system to Next.js",
+      "highlight2": "Implemented translations with a compatibility layer between CRA and Next.js",
+      "highlight3": "Resolves performance and setup E2e, unit, snapshot tests",
+      "highlight4": "Configured, centralized and managed the sending of emails"
+    }
+  },
+
+  "projects": {
+    "title": "Projects",
+    "openSource": "Open Source",
+    "mentoring": {
+      "title": "Mentoring - still in progress, preview bellow",
+      "desc1": "Sending customized PDF certificates",
+      "desc2": "Certificates can be named after students, dates",
+      "desc3": "Text/date fields can be positioned in the PDF before emailing"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "desc1": "Simple e-commerce with stripe",
+      "desc2": "Checkout products",
+      "desc3": "Registration and authentication"
+    },
+    "blog": {
+      "title": "Blog",
+      "desc1": "Create account and manage posts",
+      "desc2": "Comment/react to posts."
+    },
+    "certificates": {
+      "title": "Certificates sender",
+      "desc1": "Sending customized PDF certificates",
+      "desc2": "Certificates can be named after students, dates",
+      "desc3": "Text/date fields can be positioned in the PDF before emailing"
+    }
+  },
+
+  "footer": "Made with <span className='text-red-700'>❤️</span> by Ismael Rodino"
 }

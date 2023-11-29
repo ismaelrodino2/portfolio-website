@@ -1,7 +1,7 @@
 export type Props = {
   title: string;
-  sourceLink: string;
-  deployLink: string;
+  sourceLink?: string;
+  deployLink?: string;
   year: number;
   highlights: string[];
 };

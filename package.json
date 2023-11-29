@@ -1,7 +1,7 @@
 {
-  "name": "alexrohleder.com",
+  "name": "ismaelrodino.vercel.app",
   "version": "0.1.0",
-  "description": "Alex's personal website",
+  "description": "Ismael's personal website",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

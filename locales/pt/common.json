@@ -1,3 +1,101 @@
 {
-    "title": "Engenheiro de software fullstack"
-  }
+  "title": "Engenheiro de Software Fullstack",
+  "location": "Porto Alegre, Brasil",
+  "exp": " com mais de 3 anos de experiência",
+  "desc1": "Olá! Sou um brasileiro apaixonado por construir experiências de usuário de alto impacto e bem-performantes.",
+  "desc2": "Acredito que o trabalho ocupa uma grande parte do meu dia, então tento tirar o melhor proveito para mim e meus colegas.",
+  "desc3": "Para alcançar isso, foco na empatia durante as conversas e tento entregar algo com o qual eu esteja satisfeito.",
+  "howConfortable": "Quão confortável estou com cada tecnologia",
+  "years": "anos",
+  "courses": "cursos",
+  "nonExhaustive": "Lista não exaustiva de linguagens, tecnologias e ferramentas",
+  "education": "Educação",
+  "softwareEngineering": "Engenharia de Software",
+  "systemsDevelopmentAndAnalysis": "Análise e Desenvolvimento de Sistemas",
+  "languages": "Idiomas",
+  "basedonCEFR": "Com base nos níveis de proficiência em idiomas CEFR",
+  "portuguese": "Português",
+  "english": "Inglês",
+  "native": "nativo",
+  "downloadCurriculum": "Baixar Currículo",
+  "scheduleAmeeting": "Agendar uma reunião",
+  "experience": {
+    "ongoing": "Atual",
+    "title": "Experiência",
+    "softwareEngineer": "Engenheiro de Software",
+    "softwareEngineerMid": "Engenheiro de Software (Pleno)"
+  },
+
+  "whatsetsmeapart": {
+    "title": "O que me destaca?",
+    "reason1": "Demonstro alto desempenho para que <b>os colegas possam contar comigo</b>.",
+    "reason2": "Sou <b>auto-motivado</b> com uma <b>paixão por aprender</b> e usar tecnologias de front-end e back-end.",
+    "reason3": "Sou um <b>pensador de sistemas</b> que pode raciocinar sobre sistemas e <b>entender trade-offs técnicos</b>."
+  },
+
+  "workexp": {
+    "notlisted": "Há duas experiências de trabalho freelance que não estão listadas.",
+    "lucalto": {
+      "name": "Lucalto",
+      "location": "Oslo, Noruega",
+      "desc": "Uma empresa norueguesa que fornece serviços de consultoria em tecnologias web.",
+      "highlight1": "Desenvolvi minhas habilidades em um ambiente de produção, usando next.js e typescript",
+      "highlight2": "Aprimorei minhas habilidades em resolução independente de problemas e recuperação de informações"
+    },
+    "switchApp": {
+      "name": "Switch App",
+      "location": "Vitória, Brasil",
+      "desc": "Switch é uma plataforma de contratação de serviços para Bares, Restaurantes, Hotéis e outros estabelecimentos.",
+      "highlight1": "Atualizei várias bibliotecas de sistemas legados",
+      "highlight2": "Melhorei significativamente a acessibilidade do seu sistema, por exemplo, responsividade, UX, carregamento",
+      "highlight3": "Contribuí significativamente para a discussão de ideias em reuniões diárias"
+    },
+    "speedCast": {
+      "name": "Speedcast",
+      "location": "Virginia, EUA",
+      "desc": "Speedcast é uma empresa especializada em tecnologia de satélites de comunicação.",
+      "highlight1": "Converti grandes quantidades de dados em Excel (csv e xlsx)",
+      "highlight2": "Fiz parte de uma equipe global e multicultural",
+      "highlight3": "Construí a interface de usuário (UI) e experiência do usuário (UX) do zero para a nova plataforma da empresa",
+      "highlight4": "Trabalhei com vários frameworks, como react e Vue.js"
+    },
+    "alex": {
+      "location": "Trondheim, Noruega",
+      "desc": "Speedcast é uma empresa especializada em tecnologia de satélites de comunicação.",
+      "highlight1": "Manutenção e migração de um sistema legacy create-react-app para Next.js",
+      "highlight2": "Implementação de traduções com uma camada de compatibilidade entre CRA e Next.js",
+      "highlight3": "Resolução de desempenho e configuração de testes E2e, unitários, de snapshot",
+      "highlight4": "Configuração, centralização e gerenciamento do envio de e-mails"
+    }
+  },
+
+  "projects": {
+    "title": "Projetos",
+    "openSource": "Código Aberto",
+    "mentoring": {
+      "title": "Mentoria - ainda em progresso, visualização abaixo",
+      "desc1": "Envio de certificados PDF personalizados",
+      "desc2": "Certificados podem ser nomeados após alunos, datas",
+      "desc3": "Campos de texto/data podem ser posicionados no PDF antes do envio por e-mail"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "desc1": "E-commerce simples com stripe",
+      "desc2": "Pagamento de produtos",
+      "desc3": "Registro e autenticação"
+    },
+    "blog": {
+      "title": "Blog",
+      "desc1": "Criar conta e gerenciar postagens",
+      "desc2": "Comentar/reagir às postagens."
+    },
+    "certificates": {
+      "title": "Envio de Certificados",
+      "desc1": "Envio de certificados PDF personalizados",
+      "desc2": "Certificados podem ser nomeados após alunos, datas",
+      "desc3": "Campos de texto/data podem ser posicionados no PDF antes do envio por e-mail"
+    }
+  },
+
+  "footer": "Feito com <span className='text-red-700'>❤️</span> por Ismael Rodino"
+}

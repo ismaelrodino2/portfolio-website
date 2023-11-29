@@ -26,7 +26,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       printBackground: true,
       scale: 0.58,
       format: "a4",
-      path: path.resolve("./public/alex-rohleder-cv.pdf"),
+      path: path.resolve("./public/ismael-cv.pdf"),
     });
 
     res.status(200).end("OK");

@@ -1,3 +1,4 @@
+import useTranslation from "next-translate/useTranslation";
 import Expertise from "./Expertise";
 import Section from "./Section";
 
@@ -8,24 +9,25 @@ const Chip = (props: { label: string }) => (
 );
 
 const ExpertiseSection = () => {
+  const { t } = useTranslation("common");
+
   return (
     <Section
       title="Expertise"
-      subTitle="How confortable I'm with each technology"
+      subTitle={t("howConfortable")}
     >
-      <Expertise label="JavaScript (5+ years)" value={100} />
-      <Expertise label="TypeScript (3+ years)" value={90} />
-      <Expertise label="React (4 years + courses)" value={95} />
+      <Expertise label={`JavaScript (3+ ${t("years")})`} value={100} />
+      <Expertise label={`TypeScript (3+ ${t("years")})`} value={90} />
+      <Expertise label={`React (3 ${t("years")} + ${t("courses")})`} value={95} />
       <p className="text-gray-500 text-sm mb-4">
-        Non-exhaustive list of languages, technologies and tools
+        {t("nonExhaustive")}
       </p>
       <div className="flex flex-wrap gap-2">
-        <Chip label="Redux" />
-        <Chip label="GraphQL" />
+        <Chip label="SQL" />
+        <Chip label="Vue.js" />
         <Chip label="Jest" />
-        <Chip label="Kubernetes" />
-        <Chip label="AWS" />
-        <Chip label="Micro-Frontends" />
+        <Chip label="Firebase" />
+        <Chip label="Cognite sdk" />
         <Chip label="Node.js" />
       </div>
     </Section>

@@ -1,29 +1,16 @@
 const description =
-  "Frontend software engineer with 5+ years of experience and passion for building high-impact, well-performing user experiences.";
+  "FullStack software engineer with 3+ years of experience and passion for building high-impact, well-performing user experiences.";
 
 export default {
-  title: "Alex Rohleder - Frontend Software Engineer",
-  titleTemplate: "%s - Alex Rohleder",
+  title: "Ismael Rodino - FullStack Software Engineer",
+  titleTemplate: "%s - Ismael Rodino",
   description,
   openGraph: {
-    title: "Alex Rohleder - Frontend Software Engineer",
+    title: "Ismael Rodino - Frontend Software Engineer",
     description,
     type: "website",
     locale: "en_IE",
-    url: "https://alexrohleder.com",
-    site_name: "Alex Rohleder Portfolio",
-    // images: [
-    //   {
-    //     url: "/card.png",
-    //     width: 800,
-    //     height: 600,
-    //     alt: "Alex Rohleder Portfolio",
-    //   },
-    // ],
-  },
-  twitter: {
-    handle: "@alexrohleder",
-    site: "@alexrohleder",
-    cardType: "summary_large_image",
+    url: "https://ismaelrodino.vercel.app",
+    site_name: "Ismael Rodino Portfolio",
   },
 };

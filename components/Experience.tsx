@@ -5,10 +5,10 @@ type Props = {
   title: string;
   employeer: string;
   employeerWebsite: string;
-  startDate: Date;
-  endDate?: Date;
+  startDate: number;
+  endDate?: number;
   location: string;
-  summary: string;
+  summary?: string;
   highlights: string[];
 };
 
@@ -45,9 +45,8 @@ const Experience = (props: Props) => {
             />
           </svg>
           <div>
-            {getFormattedDate(props.startDate)} -{" "}
-            {props.endDate ? getFormattedDate(props.endDate) : "Ongoing"} ·{" "}
-            {getWorkedTime(props.startDate, props.endDate)}
+            {(props.startDate)} -{" "}
+            {props.endDate ? (props.endDate) : "Ongoing"} ·{" "}
           </div>
         </div>
         <div className="flex items-center gap-2">

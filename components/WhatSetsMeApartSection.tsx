@@ -1,21 +1,25 @@
+import useTranslation from "next-translate/useTranslation";
 import Section from "./Section";
 
-const WhatSetsMeApartSection = () => (
-  <Section title="What sets me apart?">
+const WhatSetsMeApartSection = () => {
+  const { t } = useTranslation("common");
+
+  return(
+  <Section title={t('whatsetsmeapart.title')}>
     <ul className="list-disc">
       <li className="mb-2">
-        I demonstrate strong performance so <b>colleagues can rely upon me</b>.
+        <div dangerouslySetInnerHTML={{__html: t('whatsetsmeapart.reason1')}}></div>
       </li>
       <li className="mb-2">
-        I'm <b>self-motivated</b> with a <b>passion for learning</b> and using
-        front-end technology.
+      <div dangerouslySetInnerHTML={{__html: t('whatsetsmeapart.reason2')}}></div>
+
       </li>
       <li>
-        I'm a <b>systems thinker</b> who can reason through systems and{" "}
-        <b>understand technical tradeoffs</b>.
+      <div dangerouslySetInnerHTML={{__html: t('whatsetsmeapart.reason3')}}></div>
+
       </li>
     </ul>
   </Section>
-);
+)};
 
 export default WhatSetsMeApartSection;
