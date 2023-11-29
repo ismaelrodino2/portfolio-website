@@ -1,5 +1,6 @@
 {
-  "title": "Engenheiro de Software Fullstack",
+  "title": "Engenheiro de Software full stack",
+  "summary":"Sumário",
   "location": "Porto Alegre, Brasil",
   "exp": " com mais de 3 anos de experiência",
   "desc1": "Olá! Sou um brasileiro apaixonado por construir experiências de usuário de alto impacto e bem-performantes.",
@@ -94,6 +95,11 @@
       "desc1": "Envio de certificados PDF personalizados",
       "desc2": "Certificados podem ser nomeados após alunos, datas",
       "desc3": "Campos de texto/data podem ser posicionados no PDF antes do envio por e-mail"
+    },
+    "autofill": {
+      "title": "Preenchimento automático de vaga",
+      "desc1": "App feito em Electron.js para preencher formulários de emprego automaticamente",
+      "desc2": "Utiliza puppeteer para a automação"
     }
   },
 

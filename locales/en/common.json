@@ -1,5 +1,6 @@
 {
   "title": "Fullstack software engineer",
+  "summary":"Summary",
   "location": "Porto Alegre, Brazil",
   "exp": " with over 3 years of experience",
   "desc1": "Hey! I'm a Brazilian who is passionate about building high-impact, well-performing user experiences.",
@@ -20,7 +21,7 @@
   "downloadCurriculum": "Download Curriculum",
   "scheduleAmeeting": "Schedule a meeting",
   "experience": {
-    "ongoing":"Ongoing",
+    "ongoing": "Ongoing",
     "title": "Experience",
     "softwareEngineer": "Software Engineer",
     "softwareEngineerMid": "Software Engineer (Mid-level)"
@@ -34,7 +35,7 @@
   },
 
   "workexp": {
-    "notlisted":"There is two freelance working experiences that are not listed.",
+    "notlisted": "There is two freelance working experiences that are not listed.",
     "lucalto": {
       "name": "Lucalto",
       "location": "Oslo, Norway",
@@ -94,6 +95,11 @@
       "desc1": "Sending customized PDF certificates",
       "desc2": "Certificates can be named after students, dates",
       "desc3": "Text/date fields can be positioned in the PDF before emailing"
+    },
+    "autofill": {
+      "title": "Job autofill",
+      "desc1": "App made in Electron.js to automatically fill job forms",
+      "desc2": "Use puppeteer for automation"
     }
   },
 

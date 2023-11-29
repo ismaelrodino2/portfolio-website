@@ -2,10 +2,10 @@ import useTranslation from "next-translate/useTranslation";
 import Section from "./Section";
 
 const SummarySection = () => {
-  const { t, lang } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
-    <Section title="Summary">
+    <Section title={t("summary")}>
       <div className="flex flex-col gap-2">
         <p className="flex items-center gap-1">
           {t("desc1")}

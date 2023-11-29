@@ -11,8 +11,6 @@ type Projects =
   | { type: "employer"; data: EmployerProjectProps }
   | { type: "opensource"; data: OpenSourceProjectProps };
 
-
-
 const ProjectsSection = () => {
   const { t } = useTranslation("common");
 
@@ -21,10 +19,10 @@ const ProjectsSection = () => {
       type: "opensource",
       data: {
         title: t("projects.certificates.title"),
-        sourceLink: "github.com/ismaelrodino2/Certificate-Sender2",
-  
+        sourceLink: "github.com/ismaelrodino2/certificates-sender",
+
         year: 2022,
-  
+
         highlights: [
           t("projects.certificates.desc1"),
           t("projects.certificates.desc2"),
@@ -39,11 +37,8 @@ const ProjectsSection = () => {
         sourceLink: "github.com/ismaelrodino2/batdev",
         deployLink: "batdev.vercel.app/",
         year: 2022,
-  
-        highlights: [
-          t("projects.blog.desc1"),
-          t("projects.blog.desc2"),
-        ],
+
+        highlights: [t("projects.blog.desc1"), t("projects.blog.desc2")],
       },
     },
     {
@@ -52,11 +47,11 @@ const ProjectsSection = () => {
         title: t("projects.ecommerce.title"),
         deployLink: "e-commerce-black-seven.vercel.app/",
         year: 2022,
-  
+
         highlights: [
           t("projects.ecommerce.desc1"),
           t("projects.ecommerce.desc2"),
-          t("projects.ecommerce.desc3")
+          t("projects.ecommerce.desc3"),
         ],
       },
     },
@@ -70,7 +65,19 @@ const ProjectsSection = () => {
           t("projects.mentoring.desc1"),
           t("projects.mentoring.desc2"),
           t("projects.mentoring.desc3"),
-          t("projects.mentoring.desc3")
+          t("projects.mentoring.desc3"),
+        ],
+      },
+    },
+    {
+      type: "opensource",
+      data: {
+        title: t("projects.autofill.title"),
+        sourceLink: "github.com/ismaelrodino2/Job-autofill",
+        year: 2023,
+        highlights: [
+          t("projects.autofill.desc1"),
+          t("projects.autofill.desc2"),
         ],
       },
     },

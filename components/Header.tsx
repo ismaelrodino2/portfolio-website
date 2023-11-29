@@ -50,7 +50,7 @@ const Header = () => {
             </div>
             <a
               className="px-4 py-2 text-sm font-medium text-black bg-gray-300 rounded hover:bg-gray-400 transition-colors"
-              href={lang==="en"?"/ismael-cv-english.pdf":"ismael-cv.pdf"}
+              href={lang==="en"?"/ismael-cv-english.pdf":"/ismael-cv.pdf"}
               target="_blank"
               rel="noopener"
             >

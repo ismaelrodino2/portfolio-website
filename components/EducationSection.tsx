@@ -19,7 +19,7 @@ const ExternalLink = () => (
 );
 
 const EducationSection = () => {
-  const { t, lang } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
     <Section title={t("education")}>
