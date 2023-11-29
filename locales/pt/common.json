@@ -75,9 +75,10 @@
     "openSource": "Código Aberto",
     "mentoring": {
       "title": "Mentoria - ainda em progresso, visualização abaixo",
-      "desc1": "Envio de certificados PDF personalizados",
-      "desc2": "Certificados podem ser nomeados após alunos, datas",
-      "desc3": "Campos de texto/data podem ser posicionados no PDF antes do envio por e-mail"
+      "desc1": "Possibilidade de mentorar e ser mentorado com sistema de match",
+      "desc2": "Chat em tempo real",
+      "desc3": "Autenticação e cadastro"
+     
     },
     "ecommerce": {
       "title": "E-commerce",

@@ -1,6 +1,6 @@
 {
   "title": "Fullstack software engineer",
-  "summary":"Summary",
+  "summary": "Summary",
   "location": "Porto Alegre, Brazil",
   "exp": " with over 3 years of experience",
   "desc1": "Hey! I'm a Brazilian who is passionate about building high-impact, well-performing user experiences.",
@@ -75,9 +75,9 @@
     "openSource": "Open Source",
     "mentoring": {
       "title": "Mentoring - still in progress, preview bellow",
-      "desc1": "Sending customized PDF certificates",
-      "desc2": "Certificates can be named after students, dates",
-      "desc3": "Text/date fields can be positioned in the PDF before emailing"
+      "desc1": "Possibility to mentor and be mentored with match system",
+      "desc2": "Real time chat",
+      "desc3": "Authentication and registration"
     },
     "ecommerce": {
       "title": "E-commerce",

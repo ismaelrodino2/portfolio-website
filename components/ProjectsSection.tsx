@@ -66,6 +66,7 @@ const ProjectsSection = () => {
           t("projects.mentoring.desc2"),
           t("projects.mentoring.desc3"),
           t("projects.mentoring.desc3"),
+          t("projects.mentoring.desc4"),
         ],
       },
     },
