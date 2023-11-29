@@ -6,7 +6,7 @@ export default {
   titleTemplate: "%s - Ismael Rodino",
   description,
   openGraph: {
-    title: "Ismael Rodino - Frontend Software Engineer",
+    title: "Ismael Rodino - FullStack Software Engineer",
     description,
     type: "website",
     locale: "en_IE",
