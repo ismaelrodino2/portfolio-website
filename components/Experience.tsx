@@ -1,3 +1,4 @@
+import useTranslation from "next-translate/useTranslation";
 import getFormattedDate from "../lib/getFormattedDate";
 import getWorkedTime from "../lib/getWorkedTime";
 
@@ -13,6 +14,8 @@ type Props = {
 };
 
 const Experience = (props: Props) => {
+  const { t } = useTranslation("common");
+
   return (
     <article>
       <h1 className="font-semibold">
@@ -46,7 +49,7 @@ const Experience = (props: Props) => {
           </svg>
           <div>
             {(props.startDate)} -{" "}
-            {props.endDate ? (props.endDate) : "Ongoing"} ·{" "}
+            {props.endDate ? (props.endDate) : t("experience.ongoing")} ·{" "}
           </div>
         </div>
         <div className="flex items-center gap-2">

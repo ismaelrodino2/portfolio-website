@@ -1,3 +1,4 @@
+import useTranslation from "next-translate/useTranslation";
 import getFormattedDate from "../lib/getFormattedDate";
 import getWorkedTime from "../lib/getWorkedTime";
 
@@ -14,6 +15,8 @@ export type Props = {
 };
 
 const EmployerProject = (props: Props) => {
+  const { t } = useTranslation("common");
+
   return (
     <article>
       <h1 className="font-semibold">{props.title}</h1>
@@ -35,7 +38,7 @@ const EmployerProject = (props: Props) => {
           </svg>
           <div>
             {getFormattedDate(props.startDate)} -{" "}
-            {props.endDate ? getFormattedDate(props.endDate) : "Ongoing"} ·{" "}
+            {props.endDate ? getFormattedDate(props.endDate) : t("experience.ongoing")} ·{" "}
             {getWorkedTime(props.startDate, props.endDate)}
           </div>
         </div>
