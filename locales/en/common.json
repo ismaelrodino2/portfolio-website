@@ -41,7 +41,7 @@
       "location": "Oslo, Norway",
       "desc": "A Norwegian based company that provides consulting services in web technologies.",
       "highlight1": "I developed my skills in a production environment, using next.js and typescript",
-      "highlight2": "I honed my skills in independent problem-solving and information retrieval"
+      "highlight2": "I honed my skills in independent problem-solving"
     },
     "switchApp": {
       "name": "Switch App",
@@ -57,13 +57,11 @@
       "desc": "Speedcast is a company specializing in communications satellite technology.",
       "highlight1": "I converted large amounts of data into Excel (csv and xlsx)",
       "highlight2": "I was part of a global and multicultural team",
-      "highlight3": "Built the UI and UX from scratch for the company's new platform",
-      "highlight4": "Worked with several frameworks, such as react and Vue.js"
+      "highlight3": "Built the UI and UX from scratch for the company's new platform"
     },
     "alex": {
       "location": "Trondheim, Norway",
-      "desc": "Speedcast is a company specializing in communications satellite technology.",
-      "highlight1": "Maintainance and migration of a legacy create-react-app system to Next.js",
+      "highlight1": "Maintenance and migration of a legacy create-react-app system to Next.js",
       "highlight2": "Implemented translations with a compatibility layer between CRA and Next.js",
       "highlight3": "Resolves performance and setup E2e, unit, snapshot tests",
       "highlight4": "Configured, centralized and managed the sending of emails"

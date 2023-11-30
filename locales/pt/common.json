@@ -40,29 +40,27 @@
       "name": "Lucalto",
       "location": "Oslo, Noruega",
       "desc": "Uma empresa norueguesa que fornece serviços de consultoria em tecnologias web.",
-      "highlight1": "Desenvolvi minhas habilidades em um ambiente de produção, usando next.js e typescript",
-      "highlight2": "Aprimorei minhas habilidades em resolução independente de problemas e recuperação de informações"
+      "highlight1": "Desenvolvimento de habilidades em um ambiente de produção, usando next.js e typescript",
+      "highlight2": "Aprimoramento de habilidades em resolução de problemas de forma independente"
     },
     "switchApp": {
       "name": "Switch App",
       "location": "Vitória, Brasil",
       "desc": "Switch é uma plataforma de contratação de serviços para Bares, Restaurantes, Hotéis e outros estabelecimentos.",
-      "highlight1": "Atualizei várias bibliotecas de sistemas legados",
-      "highlight2": "Melhorei significativamente a acessibilidade do seu sistema, por exemplo, responsividade, UX, carregamento",
-      "highlight3": "Contribuí significativamente para a discussão de ideias em reuniões diárias"
+      "highlight1": "Atualização de várias bibliotecas de sistemas legados",
+      "highlight2": "Melhora significativa da acessibilidade do sistema, por exemplo, responsividade, UX, carregamento",
+      "highlight3": "Contribuição significativa para a discussão de ideias em reuniões diárias"
     },
     "speedCast": {
       "name": "Speedcast",
       "location": "Virginia, EUA",
       "desc": "Speedcast é uma empresa especializada em tecnologia de satélites de comunicação.",
-      "highlight1": "Converti grandes quantidades de dados em Excel (csv e xlsx)",
-      "highlight2": "Fiz parte de uma equipe global e multicultural",
-      "highlight3": "Construí a interface de usuário (UI) e experiência do usuário (UX) do zero para a nova plataforma da empresa",
-      "highlight4": "Trabalhei com vários frameworks, como react e Vue.js"
+      "highlight1": "Conversão de grandes quantidades de dados em Excel (csv e xlsx)",
+      "highlight2": "Parte de uma equipe global e multicultural",
+      "highlight3": "Construção de UI e UX do zero para a nova plataforma da empresa"
     },
     "alex": {
       "location": "Trondheim, Noruega",
-      "desc": "Speedcast é uma empresa especializada em tecnologia de satélites de comunicação.",
       "highlight1": "Manutenção e migração de um sistema legacy create-react-app para Next.js",
       "highlight2": "Implementação de traduções com uma camada de compatibilidade entre CRA e Next.js",
       "highlight3": "Resolução de desempenho e configuração de testes E2e, unitários, de snapshot",

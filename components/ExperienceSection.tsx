@@ -33,7 +33,6 @@ const ExperienceSection = () => {
             t("workexp.speedCast.highlight1"),
             t("workexp.speedCast.highlight2"),
             t("workexp.speedCast.highlight3"),
-            t("workexp.speedCast.highlight4"),
           ]}
         />
        <Experience
