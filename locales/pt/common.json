@@ -1,8 +1,8 @@
 {
   "title": "Engenheiro de Software full stack",
-  "summary":"Sumário",
+  "summary": "Sumário",
   "location": "Porto Alegre, Brasil",
-  "exp": " com mais de 3 anos de experiência",
+  "exp": " com mais de 4 anos de experiência",
   "desc1": "Olá! Sou um brasileiro apaixonado por construir experiências de usuário de alto impacto e bem-performantes.",
   "desc2": "Acredito que o trabalho ocupa uma grande parte do meu dia, então tento tirar o melhor proveito para mim e meus colegas.",
   "desc3": "Para alcançar isso, foco na empatia durante as conversas e tento entregar algo com o qual eu esteja satisfeito.",
@@ -65,6 +65,21 @@
       "highlight2": "Implementação de traduções com uma camada de compatibilidade entre CRA e Next.js",
       "highlight3": "Resolução de desempenho e configuração de testes E2e, unitários, de snapshot",
       "highlight4": "Configuração, centralização e gerenciamento do envio de e-mails"
+    },
+
+    "quattrus": {
+      "name": "Quattrus",
+      "location": "Porto Alegre, Brasil",
+      "desc": "Manutenção e migração de um sistema legado em Ext.js para Next.js.",
+      "highlight1": "Criação de uma plataforma de comunicação para empresas e seus clientes, com a ajuda de IA, usando Next.js.",
+      "highlight2": "Liderei com sucesso uma equipe na migração de um dos produtos-chave."
+    },
+    "bucksense": {
+      "name": "Bucksense",
+      "location": "Nova York, EUA",
+      "desc": "Contribuí para 8+ novos recursos e inúmeras correções de bugs em um sistema Next.js.",
+      "highlight1": "Contribuição para mais de 8 novas funcionalidades e diversas correções de bugs em um sistema Next.js.",
+      "highlight2": "Documentação de software e desenvolvimento de mais de 30 testes automatizados do zero."
     }
   },
 
@@ -76,7 +91,6 @@
       "desc1": "Possibilidade de mentorar e ser mentorado com sistema de match",
       "desc2": "Chat em tempo real",
       "desc3": "Autenticação e cadastro"
-     
     },
     "ecommerce": {
       "title": "E-commerce",
@@ -99,6 +113,12 @@
       "title": "Preenchimento automático de vaga",
       "desc1": "App feito em Electron.js para preencher formulários de emprego automaticamente",
       "desc2": "Utiliza puppeteer para a automação"
+    },
+    "linkedinJobBot": {
+      "title": "Bot para Aplicações no LinkedIn",
+      "desc1": "Um bot impulsionado por IA que aplica automaticamente para vagas no LinkedIn",
+      "desc2": "Busca de vagas, envio de candidaturas e geração de cartas de apresentação personalizadas",
+      "desc3": "Aplicativo será publicado para uso público em breve"
     }
   },
 

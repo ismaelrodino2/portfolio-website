@@ -80,6 +80,19 @@ const ProjectsSection = () => {
         ],
       },
     },
+    {
+      type: "opensource",
+      data: {
+        title: t("projects.linkedinJobBot.title"),
+        sourceLink: "github.com/ismaelrodino2/",
+        year: 2023,
+        highlights: [
+          t("projects.linkedinJobBot.desc1"),
+          t("projects.linkedinJobBot.desc2"),
+          t("projects.linkedinJobBot.desc3"),
+        ],
+      },
+    },
   ];
 
   return (

@@ -9,6 +9,28 @@ const ExperienceSection = () => {
     <Section title={t("experience.title")} >
       <div className="flex flex-col gap-6">
         <Experience
+          title={t("experience.softwareEngineer")}
+          employeer="Bucksense"
+          employeerWebsite="https://www.bucksense.com/"
+          startDate={2024}
+          location={t("workexp.bucksense.location")}
+          highlights={[
+            t("workexp.bucksense.highlight1"),
+            t("workexp.bucksense.highlight2"),
+          ]}
+        />
+        <Experience
+          title={t("experience.softwareEngineer")}
+          employeer="Quattrus"
+          employeerWebsite="https://www.quattrus.com/"
+          startDate={2024}
+          location={t("workexp.quattrus.location")}
+          highlights={[
+            t("workexp.quattrus.highlight1"),
+            t("workexp.quattrus.highlight2"),
+          ]}
+        />
+        <Experience
           title={t("experience.softwareEngineerMid")}
           employeer="Alex Rohleder LTDA"
           employeerWebsite="https://www.linkedin.com/in/alexrohleder/?originalSubdomain=no"

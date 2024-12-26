@@ -2,7 +2,7 @@
   "title": "Fullstack software engineer",
   "summary": "Summary",
   "location": "Porto Alegre, Brazil",
-  "exp": " with over 3 years of experience",
+  "exp": " with over 4 years of experience",
   "desc1": "Hey! I'm a Brazilian who is passionate about building high-impact, well-performing user experiences.",
   "desc2": "I believe that work is a big portion of my day, so I try to make the best out of it for me and my colleagues.",
   "desc3": "To achieve that I focus on empathy during conversations and try to deliver something I'm happy with.",
@@ -65,6 +65,20 @@
       "highlight2": "Implemented translations with a compatibility layer between CRA and Next.js",
       "highlight3": "Resolves performance and setup E2e, unit, snapshot tests",
       "highlight4": "Configured, centralized and managed the sending of emails"
+    },
+    "quattrus": {
+      "name": "Quattrus",
+      "location": "Porto Alegre, Brazil",
+      "desc": "Maintained and migrated a legacy Ext.js system to Next.js.",
+      "highlight1": "Created a communication platform for companies and their customers with the help of AI, using Next.js.",
+      "highlight2": "Successfully led a team through the migration of one of the key products."
+    },
+    "bucksense": {
+      "name": "Bucksense",
+      "location": "New York, USA",
+      "desc": "Contributed to 8+ new features and numerous bug fixes in a Next.js system.",
+      "highlight1": "Contributed to 8+ new features and numerous bug fixes in a Next.js system.",
+      "highlight2": "Wrote software documentation and developed 30+ automated tests from scratch."
     }
   },
 
@@ -98,6 +112,12 @@
       "title": "Job autofill",
       "desc1": "App made in Electron.js to automatically fill job forms",
       "desc2": "Use puppeteer for automation"
+    },
+    "linkedinJobBot": {
+      "title": "LinkedIn Job Application Bot",
+      "desc1": "An AI-powered bot that automatically applies for job openings on LinkedIn",
+      "desc2": "Automated job search, application submission, and customized cover letter generation",
+      "desc3": "App will be published for public use soon"
     }
   },
 
