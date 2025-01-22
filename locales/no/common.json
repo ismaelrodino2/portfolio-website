@@ -1,0 +1,127 @@
+{
+    "title": "Fullstack programvareingeniør",
+    "summary": "Sammendrag",
+    "location": "Porto Alegre, Brasil",
+    "exp": "med mer enn 4 års erfaring",
+    "desc1": "Hei! Jeg er en brasilianer som brenner for å bygge brukeropplevelser som har høy innvirkning og ytelse.",
+    "desc2": "Jeg tror arbeid tar en stor del av dagen min, så jeg prøver å få det beste ut av det for meg selv og mine kolleger.",
+    "desc3": "For å oppnå dette fokuserer jeg på empati i samtaler og prøver å levere noe jeg er fornøyd med.",
+    "howConfortable": "Hvor komfortabel jeg er med hver teknologi",
+    "years": "år",
+    "courses": "kurs",
+    "nonExhaustive": "Ikke-uttømmende liste over språk, teknologier og verktøy",
+    "education": "Utdanning",
+    "softwareEngineering": "Programvareteknikk",
+    "systemsDevelopmentAndAnalysis": "Systemutvikling og analyse",
+    "languages": "Språk",
+    "basedonCEFR": "Basert på CEFR-språknivåer",
+    "portuguese": "Portugisisk",
+    "english": "Engelsk",
+    "native": "morsmål",
+    "downloadCurriculum": "Last ned CV",
+    "scheduleAmeeting": "Avtal et møte",
+    "experience": {
+      "ongoing": "Nåværende",
+      "title": "Erfaring",
+      "softwareEngineer": "Programvareingeniør",
+      "softwareEngineerMid": "Programvareingeniør (Mellomnivå)"
+    },
+  
+    "whatsetsmeapart": {
+      "title": "Hva skiller meg ut?",
+      "reason1": "Jeg viser høy ytelse slik at <b>kollegene mine kan stole på meg</b>.",
+      "reason2": "Jeg er <b>selvmotivert</b> med en <b>lidenskap for å lære</b> og bruke frontend- og backend-teknologier.",
+      "reason3": "Jeg er en <b>systemtenker</b> som kan resonnere om systemer og <b>forstå tekniske avveininger</b>."
+    },
+  
+    "workexp": {
+      "notlisted": "Det er to freelance-jobber som ikke er oppført.",
+      "lucalto": {
+        "name": "Lucalto",
+        "location": "Oslo, Norge",
+        "desc": "Et norsk selskap som tilbyr rådgivningstjenester innen webteknologier.",
+        "highlight1": "Utvikling av ferdigheter i et produksjonsmiljø, ved bruk av next.js og typescript",
+        "highlight2": "Forbedring av problemløsningsevner uavhengig"
+      },
+      "switchApp": {
+        "name": "Switch App",
+        "location": "Vitória, Brasil",
+        "desc": "Switch er en plattform for tjenestekontrakter for barer, restauranter, hoteller og andre virksomheter.",
+        "highlight1": "Oppdatering av flere biblioteker i eldre systemer",
+        "highlight2": "Betydelig forbedring av systemets tilgjengelighet, som responsivitet, UX, lasting",
+        "highlight3": "Betydelig bidrag til idéutveksling i daglige møter"
+      },
+      "speedCast": {
+        "name": "Speedcast",
+        "location": "Virginia, USA",
+        "desc": "Speedcast er et selskap som spesialiserer seg på satellittkommunikasjonsteknologi.",
+        "highlight1": "Konvertering av store datamengder i Excel (csv og xlsx)",
+        "highlight2": "Deltakelse i et globalt og flerkulturelt team",
+        "highlight3": "Bygging av UI og UX fra bunnen av for selskapets nye plattform"
+      },
+      "alex": {
+        "location": "Trondheim, Norge",
+        "highlight1": "Vedlikehold og migrering av et eldre system fra create-react-app til Next.js",
+        "highlight2": "Implementering av oversettelser med et kompatibilitetslag mellom CRA og Next.js",
+        "highlight3": "Løsning av ytelsesproblemer og konfigurasjon av E2E-, enhets- og snapshot-tester",
+        "highlight4": "Konfigurasjon, sentralisering og administrasjon av e-postsending"
+      },
+  
+      "quattrus": {
+        "name": "Quattrus",
+        "location": "Porto Alegre, Brasil",
+        "desc": "Vedlikehold og migrering av et eldre system fra Ext.js til Next.js.",
+        "highlight1": "Skapelse av en kommunikasjonsplattform for selskaper og deres kunder, ved hjelp av AI, med Next.js.",
+        "highlight2": "Lyktes i å lede et team i migreringen av et av nøkkelproduktene."
+      },
+      "bucksense": {
+        "name": "Bucksense",
+        "location": "New York, USA",
+        "desc": "Bidro til over 8 nye funksjoner og mange feilrettinger i et Next.js-system.",
+        "highlight1": "Bidrag til mer enn 8 nye funksjoner og mange feilrettinger i et Next.js-system.",
+        "highlight2": "Dokumentasjon av programvare og utvikling av over 30 automatiserte tester fra bunnen av."
+      }
+    },
+  
+    "projects": {
+      "title": "Prosjekter",
+      "openSource": "Åpen kildekode",
+      "mentoring": {
+        "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
+        "desc1": "Mulighet for å være mentor og bli veiledet med matchingssystem",
+        "desc2": "Sanntidschat",
+        "desc3": "Autentisering og registrering"
+      },
+      "ecommerce": {
+        "title": "E-handel",
+        "desc1": "Enkel nettbutikk med stripe",
+        "desc2": "Betaling av produkter",
+        "desc3": "Registrering og autentisering"
+      },
+      "blog": {
+        "title": "Blogg",
+        "desc1": "Opprett konto og administrer innlegg",
+        "desc2": "Kommenter/reager på innlegg."
+      },
+      "certificates": {
+        "title": "Sertifikatutstedelse",
+        "desc1": "Send tilpassede PDF-sertifikater",
+        "desc2": "Sertifikater kan navngis etter studenter, datoer",
+        "desc3": "Tekst/dato-felt kan plasseres i PDF-en før sending via e-post"
+      },
+      "autofill": {
+        "title": "Automatisk utfylling av jobbsøknader",
+        "desc1": "App laget i Electron.js for automatisk utfylling av jobbsøknadsskjemaer",
+        "desc2": "Bruker puppeteer til automatisering"
+      },
+      "linkedinJobBot": {
+        "title": "LinkedIn Jobb-søkerbot",
+        "desc1": "En AI-drevet bot som automatisk søker på jobber på LinkedIn",
+        "desc2": "Søker etter jobber, sender søknader og lager personlige følgebrev",
+        "desc3": "Appen vil snart bli publisert for offentlig bruk"
+      }
+    },
+  
+    "footer": "Lag med <span className='text-red-700'>❤️</span> av Ismael Rodino"
+  }
+  

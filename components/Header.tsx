@@ -46,6 +46,12 @@ const Header = () => {
                 >
                   PT
                 </button>
+                <button
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                  onClick={async () => await setLanguage("no")}
+                >
+                  NO
+                </button>
               </div>
             </div>
             <a
