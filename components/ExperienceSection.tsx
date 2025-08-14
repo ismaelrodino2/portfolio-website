@@ -31,7 +31,7 @@ const ExperienceSection = () => {
           ]}
         />
         <Experience
-          title={t("experience.softwareEngineerMid")}
+          title={t("experience.contractorSoftwareEngineer")}
           employeer="Alex Rohleder LTDA"
           employeerWebsite="https://www.linkedin.com/in/alexrohleder/?originalSubdomain=no"
           startDate={2023}
@@ -44,7 +44,7 @@ const ExperienceSection = () => {
           ]}
         />
         <Experience
-          title={t("experience.softwareEngineerMid")}
+          title={t("experience.softwareEngineer")}
           employeer="Speedcast"
           employeerWebsite="https://www.speedcast.com/"
           startDate={2022}
@@ -58,7 +58,7 @@ const ExperienceSection = () => {
           ]}
         />
        <Experience
-          title={t("experience.softwareEngineer")}
+          title={t("experience.contractorSoftwareEngineer")}
           employeer="Switch App"
           employeerWebsite="https://www.speedcast.com/"
           startDate={2021}
@@ -72,7 +72,7 @@ const ExperienceSection = () => {
           ]}
         />
                <Experience
-          title={t("experience.softwareEngineer")}
+          title={t("experience.contractorSoftwareEngineer")}
           employeer="Lucalto"
           employeerWebsite="https://www.linkedin.com/company/lucalto/"
           startDate={2021}
