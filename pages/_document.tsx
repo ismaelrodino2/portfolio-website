@@ -4,7 +4,9 @@ class Document extends NextDocument {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        </Head>
         <body>
           <Main />
           <NextScript />
