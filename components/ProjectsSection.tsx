@@ -85,7 +85,8 @@ const ProjectsSection = () => {
       data: {
         title: t("projects.linkedinJobBot.title"),
         sourceLink: "github.com/ismaelrodino2/",
-        year: 2023,
+        deployLink: "www.wishapply.com",
+        year: 2025,
         highlights: [
           t("projects.linkedinJobBot.desc1"),
           t("projects.linkedinJobBot.desc2"),

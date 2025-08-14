@@ -35,50 +35,62 @@
   },
 
   "workexp": {
-    "notlisted": "There is two freelance working experiences that are not listed.",
-    "lucalto": {
-      "name": "Lucalto",
-      "location": "Oslo, Norway",
-      "desc": "A Norwegian based company that provides consulting services in web technologies.",
-      "highlight1": "I developed my skills in a production environment, using next.js and typescript",
-      "highlight2": "I honed my skills in independent problem-solving"
+    "notlisted": "There is one freelance working experience that is not listed.",
+    "bucksense": {
+      "name": "Bucksense",
+      "location": "USA, Remote",
+      "desc": "Developing high-traffic cruise booking platform for Crystal Cruises with international cross-functional team.",
+      "highlight1": "Improved performance scores by ~20 points through image optimization, UI caching, and dynamic imports",
+      "highlight2": "Reduced Algolia API costs by ~30% through optimized search caching and server-side strategies",
+      "highlight3": "Strengthened payment gateway reliability with comprehensive testing suite covering multi-country scenarios"
     },
-    "switchApp": {
-      "name": "Switch App",
-      "location": "Vitória, Brasil",
-      "desc": "Switch is a service contracting platform for Bars, Restaurants, Hotels and other establishments.",
-      "highlight1": "Updated several legacy system libraries",
-      "highlight2": "I significantly improved the accessibility of your system, e.g. responsiveness, UX, loading",
-      "highlight3": "Contributed significantly to the discussion of ideas in daily meetings"
-    },
-    "speedCast": {
-      "name": "Speedcast",
-      "location": "Virginia, USA",
-      "desc": "Speedcast is a company specializing in communications satellite technology.",
-      "highlight1": "I converted large amounts of data into Excel (csv and xlsx)",
-      "highlight2": "I was part of a global and multicultural team",
-      "highlight3": "Built the UI and UX from scratch for the company's new platform"
-    },
-    "alex": {
-      "location": "Trondheim, Norway",
-      "highlight1": "Maintenance and migration of a legacy create-react-app system to Next.js",
-      "highlight2": "Implemented translations with a compatibility layer between CRA and Next.js",
-      "highlight3": "Resolves performance and setup E2e, unit, snapshot tests",
-      "highlight4": "Configured, centralized and managed the sending of emails"
+    "sejaGudi": {
+      "name": "Seja Gudi - Cultural Platform",
+      "location": "Brazil, Remote",
+      "desc": "Led end-to-end development of a multi-platform social network for cultural events and recycling initiatives.",
+      "highlight1": "Built cross-platform apps using React Native (mobile) and Next.js (web) with shared business logic",
+      "highlight2": "Integrated geolocation services for event discovery and admin dashboard with role-based permissions",
+      "highlight3": "Connected Mercado Livre API for payments and reward systems with multi-currency support"
     },
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brazil",
-      "desc": "Maintained and migrated a legacy Ext.js system to Next.js.",
-      "highlight1": "Created a communication platform for companies and their customers with the help of AI, using Next.js.",
-      "highlight2": "Successfully led a team through the migration of one of the key products."
+      "desc": "Led frontend team migration from ExtJS to Next.js for enterprise management applications.",
+      "highlight1": "Eliminated ExtJS licensing costs and improved maintainability with modern web standards",
+      "highlight2": "Increased page load speed by ~40% using hybrid rendering and Vercel deployment with CI/CD",
+      "highlight3": "Created private company-wide design system with Tailwind CSS and led AI-powered document platform development"
     },
-    "bucksense": {
-      "name": "Bucksense",
-      "location": "New York, USA",
-      "desc": "Contributed to 8+ new features and numerous bug fixes in a Next.js system.",
-      "highlight1": "Contributed to 8+ new features and numerous bug fixes in a Next.js system.",
-      "highlight2": "Wrote software documentation and developed 30+ automated tests from scratch."
+    "alex": {
+      "name": "Alex Rohleder LTDA",
+      "location": "Norway, Remote",
+      "desc": "Led migration of legacy Create React App to Next.js for energy company platform managing seasonal student programs.",
+      "highlight1": "Designed hybrid architecture to run old and new applications in same codebase with shared translation engine",
+      "highlight2": "Enhanced caching strategies, optimized webpack, and integrated Firebase for authentication and real-time data",
+      "highlight3": "Established automated E2E, unit, and snapshot tests reducing regression bugs during peak usage"
+    },
+    "speedCast": {
+      "name": "Speedcast",
+      "location": "USA, Remote",
+      "desc": "Contributed to Speedcast Compass, enterprise portal for monitoring and managing remote satellite networks.",
+      "highlight1": "Transformed legacy system into modern, responsive web application with improved data visualization",
+      "highlight2": "Integrated ArcGIS API for real-time 3D satellite positioning and coverage monitoring",
+      "highlight3": "Designed modules to process big data into downloadable reports (CSV, XLSX) for network analysis"
+    },
+    "switchApp": {
+      "name": "Switch App",
+      "location": "Brazil, Remote",
+      "desc": "Enhanced hospitality recruitment platform connecting professionals to job opportunities using React.js, Node.js, and PostgreSQL.",
+      "highlight1": "Developed payment slip and PDF document management features ensuring local payment standards compliance",
+      "highlight2": "Modernized UI components and improved responsiveness contributing to higher user retention rates",
+      "highlight3": "Collaborated with product team to refine layouts and enhance platform usability across devices"
+    },
+    "lucalto": {
+      "name": "Lucalto",
+      "location": "Norway, Remote",
+      "desc": "Contributed to development and launch of Inkhall, a niche social network for tattoo artists.",
+      "highlight1": "Helped bring platform from concept to production enabling early user adoption in target community",
+      "highlight2": "Gained hands-on experience with Next.js, Supabase, and Prisma ORM in startup environment",
+      "highlight3": "Implemented authentication flows, database models, and responsive layouts while learning cross-functional collaboration"
     }
   },
 
@@ -117,7 +129,13 @@
       "title": "LinkedIn Job Application Bot",
       "desc1": "An AI-powered bot that automatically applies for job openings on LinkedIn",
       "desc2": "Automated job search, application submission, and customized cover letter generation",
-      "desc3": "App will be published for public use soon"
+      "desc3": "Published in 2025 as WishApply"
+    },
+    "wishApply": {
+      "title": "WishApply - AI Job Application Platform",
+      "desc1": "Revolutionary AI-powered job application platform that automates the entire job search process",
+      "desc2": "Smart bot applies to hundreds of relevant LinkedIn jobs while you relax",
+      "desc3": "Advanced machine learning with stealth technology for undetectable, authentic applications"
     }
   },
 

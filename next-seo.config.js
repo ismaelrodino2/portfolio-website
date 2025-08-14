@@ -1,5 +1,5 @@
 const description =
-  "FullStack software engineer with 3+ years of experience and passion for building high-impact, well-performing user experiences.";
+  "FullStack software engineer with 4+ years of experience and passion for building high-impact, well-performing user experiences.";
 
 export default {
   title: "Ismael Rodino - FullStack Software Engineer",
