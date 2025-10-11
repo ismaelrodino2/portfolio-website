@@ -1,127 +1,145 @@
 {
-    "title": "Fullstack programvareingeniør",
-    "summary": "Sammendrag",
-    "location": "Porto Alegre, Brasil",
-    "exp": "med mer enn 4 års erfaring",
-    "desc1": "Hei! Jeg er en brasilianer som brenner for å bygge brukeropplevelser som har høy innvirkning og ytelse.",
-    "desc2": "Jeg tror arbeid tar en stor del av dagen min, så jeg prøver å få det beste ut av det for meg selv og mine kolleger.",
-    "desc3": "For å oppnå dette fokuserer jeg på empati i samtaler og prøver å levere noe jeg er fornøyd med.",
-    "howConfortable": "Hvor komfortabel jeg er med hver teknologi",
-    "years": "år",
-    "courses": "kurs",
-    "nonExhaustive": "Ikke-uttømmende liste over språk, teknologier og verktøy",
-    "education": "Utdanning",
-    "softwareEngineering": "Programvareteknikk",
-    "systemsDevelopmentAndAnalysis": "Systemutvikling og analyse",
-    "languages": "Språk",
-    "basedonCEFR": "Basert på CEFR-språknivåer",
-    "portuguese": "Portugisisk",
-    "english": "Engelsk",
-    "native": "morsmål",
-    "downloadCurriculum": "Last ned CV",
-    "scheduleAmeeting": "Avtal et møte",
-    "experience": {
-      "ongoing": "Nåværende",
-      "title": "Erfaring",
-      "softwareEngineer": "Programvareingeniør",
-      "contractorSoftwareEngineer": "Programvareingeniør (Kontrakt)"
+  "title": "Fullstack programvareingeniør",
+  "summary": "Sammendrag",
+  "location": "Porto Alegre, Brasil",
+  "exp": "med mer enn 4 års erfaring",
+  "desc1": "Hei! Jeg er en brasilianer som brenner for å bygge brukeropplevelser som har høy innvirkning og ytelse.",
+  "desc2": "Jeg tror arbeid tar en stor del av dagen min, så jeg prøver å få det beste ut av det for meg selv og mine kolleger.",
+  "desc3": "For å oppnå dette fokuserer jeg på empati i samtaler og prøver å levere noe jeg er fornøyd med.",
+  "howConfortable": "Hvor komfortabel jeg er med hver teknologi",
+  "years": "år",
+  "courses": "kurs",
+  "nonExhaustive": "Ikke-uttømmende liste over språk, teknologier og verktøy",
+  "education": "Utdanning",
+  "softwareEngineering": "Programvareteknikk",
+  "systemsDevelopmentAndAnalysis": "Systemutvikling og analyse",
+  "languages": "Språk",
+  "basedonCEFR": "Basert på CEFR-språknivåer",
+  "portuguese": "Portugisisk",
+  "english": "Engelsk",
+  "native": "morsmål",
+  "downloadCurriculum": "Last ned CV",
+  "scheduleAmeeting": "Avtal et møte",
+  "experience": {
+    "ongoing": "Nåværende",
+    "title": "Erfaring",
+    "softwareEngineer": "Programvareingeniør",
+    "contractorSoftwareEngineer": "Programvareingeniør (Kontrakt)"
+  },
+
+  "whatsetsmeapart": {
+    "title": "Hva skiller meg ut?",
+    "reason1": "Jeg viser høy ytelse slik at <b>kollegene mine kan stole på meg</b>.",
+    "reason2": "Jeg er <b>selvmotivert</b> med en <b>lidenskap for å lære</b> og bruke frontend- og backend-teknologier.",
+    "reason3": "Jeg er en <b>systemtenker</b> som kan resonnere om systemer og <b>forstå tekniske avveininger</b>."
+  },
+
+  "workexp": {
+    "notlisted": "Det er én frilansopplevelse som ikke er oppført.",
+
+    "bucksense": {
+      "name": "Bucksense",
+      "location": "USA, Fjernarbeid",
+      "desc": "Utvikler en høytrafikkert cruisebookingsplattform for Crystal Cruises i et internasjonalt tverrfaglig team.",
+      "highlight1": "Forbedret ytelsesscore med omtrent 20 poeng gjennom bildeoptimalisering, UI-caching og dynamiske imports.",
+      "highlight2": "Reduserte Algolia API-kostnader med omtrent 30% ved hjelp av optimalisert caching og forbedrede spørringsstrategier.",
+      "highlight3": "Forsterket påliteligheten til betalingssystemet med en omfattende automatisert testpakke for flere land og valutaer."
     },
-  
-    "whatsetsmeapart": {
-      "title": "Hva skiller meg ut?",
-      "reason1": "Jeg viser høy ytelse slik at <b>kollegene mine kan stole på meg</b>.",
-      "reason2": "Jeg er <b>selvmotivert</b> med en <b>lidenskap for å lære</b> og bruke frontend- og backend-teknologier.",
-      "reason3": "Jeg er en <b>systemtenker</b> som kan resonnere om systemer og <b>forstå tekniske avveininger</b>."
+
+    "sejaGudi": {
+      "name": "Seja Gudi - Kulturplattform",
+      "location": "Brasil, Fjernarbeid",
+      "desc": "Ledet fullstendig utvikling av en bærekraftig kulturplattform som kombinerer resirkuleringsinsentiver, betaling og arrangementadministrasjon.",
+      "highlight1": "Utviklet apper for både mobil (React Native) og web (Next.js) med felles forretningslogikk og Supabase + Prisma backend.",
+      "highlight2": "Integrerte geolokalisering for oppdagelse av arrangementer og innsamlingspunkter, med rollebasede adminpaneler.",
+      "highlight3": "Koblet til Mercado Livre API for betalinger og belønningssystem med støtte for flere valutaer."
     },
-  
-    "workexp": {
-      "notlisted": "Det er to freelance-jobber som ikke er oppført.",
-      "lucalto": {
-        "name": "Lucalto",
-        "location": "Oslo, Norge",
-        "desc": "Et norsk selskap som tilbyr rådgivningstjenester innen webteknologier.",
-        "highlight1": "Utvikling av ferdigheter i et produksjonsmiljø, ved bruk av next.js og typescript",
-        "highlight2": "Forbedring av problemløsningsevner uavhengig"
-      },
-      "switchApp": {
-        "name": "Switch App",
-        "location": "Vitória, Brasil",
-        "desc": "Switch er en plattform for tjenestekontrakter for barer, restauranter, hoteller og andre virksomheter.",
-        "highlight1": "Oppdatering av flere biblioteker i eldre systemer",
-        "highlight2": "Betydelig forbedring av systemets tilgjengelighet, som responsivitet, UX, lasting",
-        "highlight3": "Betydelig bidrag til idéutveksling i daglige møter"
-      },
-      "speedCast": {
-        "name": "Speedcast",
-        "location": "Virginia, USA",
-        "desc": "Speedcast er et selskap som spesialiserer seg på satellittkommunikasjonsteknologi.",
-        "highlight1": "Konvertering av store datamengder i Excel (csv og xlsx)",
-        "highlight2": "Deltakelse i et globalt og flerkulturelt team",
-        "highlight3": "Bygging av UI og UX fra bunnen av for selskapets nye plattform"
-      },
-      "alex": {
-        "location": "Trondheim, Norge",
-        "highlight1": "Vedlikehold og migrering av et eldre system fra create-react-app til Next.js",
-        "highlight2": "Implementering av oversettelser med et kompatibilitetslag mellom CRA og Next.js",
-        "highlight3": "Løsning av ytelsesproblemer og konfigurasjon av E2E-, enhets- og snapshot-tester",
-        "highlight4": "Konfigurasjon, sentralisering og administrasjon av e-postsending"
-      },
-  
-      "quattrus": {
-        "name": "Quattrus",
-        "location": "Porto Alegre, Brasil",
-        "desc": "Vedlikehold og migrering av et eldre system fra Ext.js til Next.js.",
-        "highlight1": "Skapelse av en kommunikasjonsplattform for selskaper og deres kunder, ved hjelp av AI, med Next.js.",
-        "highlight2": "Lyktes i å lede et team i migreringen av et av nøkkelproduktene."
-      },
-      "bucksense": {
-        "name": "Bucksense",
-        "location": "New York, USA",
-        "desc": "Bidro til over 8 nye funksjoner og mange feilrettinger i et Next.js-system.",
-        "highlight1": "Bidrag til mer enn 8 nye funksjoner og mange feilrettinger i et Next.js-system.",
-        "highlight2": "Dokumentasjon av programvare og utvikling av over 30 automatiserte tester fra bunnen av."
-      }
+
+    "quattrus": {
+      "name": "Quattrus",
+      "location": "Porto Alegre, Brasil",
+      "desc": "Ledet frontend-migrasjon fra ExtJS til Next.js for bedriftsstyringssystemer, og oppdaterte hele teknologistakken.",
+      "highlight1": "Eliminerte ExtJS-lisenskostnader og forbedret vedlikeholdbarhet med hybridrendring (SSG + SSR).",
+      "highlight2": "Økte lastetiden med omtrent 40% og implementerte CI/CD-pipelines med null nedetid via Vercel.",
+      "highlight3": "Bygde et internt designsystem med Tailwind CSS og ShadCN og ledet utviklingen av en AI-basert dokumentplattform."
     },
-  
-    "projects": {
-      "title": "Prosjekter",
-      "openSource": "Åpen kildekode",
-      "mentoring": {
-        "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
-        "desc1": "Mulighet for å være mentor og bli veiledet med matchingssystem",
-        "desc2": "Sanntidschat",
-        "desc3": "Autentisering og registrering"
-      },
-      "ecommerce": {
-        "title": "E-handel",
-        "desc1": "Enkel nettbutikk med stripe",
-        "desc2": "Betaling av produkter",
-        "desc3": "Registrering og autentisering"
-      },
-      "blog": {
-        "title": "Blogg",
-        "desc1": "Opprett konto og administrer innlegg",
-        "desc2": "Kommenter/reager på innlegg."
-      },
-      "certificates": {
-        "title": "Sertifikatutstedelse",
-        "desc1": "Send tilpassede PDF-sertifikater",
-        "desc2": "Sertifikater kan navngis etter studenter, datoer",
-        "desc3": "Tekst/dato-felt kan plasseres i PDF-en før sending via e-post"
-      },
-      "autofill": {
-        "title": "Automatisk utfylling av jobbsøknader",
-        "desc1": "App laget i Electron.js for automatisk utfylling av jobbsøknadsskjemaer",
-        "desc2": "Bruker puppeteer til automatisering"
-      },
-      "linkedinJobBot": {
-        "title": "LinkedIn Jobb-søkerbot",
-        "desc1": "En AI-drevet bot som automatisk søker på jobber på LinkedIn",
-        "desc2": "Søker etter jobber, sender søknader og lager personlige følgebrev",
-        "desc3": "Publisert i 2025 som WishApply"
-      }
+
+    "alex": {
+      "name": "Alex Rohleder LTDA",
+      "location": "Norge, Fjernarbeid",
+      "desc": "Ledet migrasjonen fra Create React App til Next.js for en energibedrift som håndterer sesongbaserte studentprogrammer.",
+      "highlight1": "Designet en hybridarkitektur for å kjøre gamle og nye apper i samme kodebase med delt oversettelseslogikk.",
+      "highlight2": "Forbedret caching og Webpack, integrerte Firebase for autentisering og sanntidsdata.",
+      "highlight3": "Etablerte automatiserte E2E-, enhets- og snapshot-tester for å redusere feil og forbedre stabilitet under høysesong."
     },
-  
-    "footer": "Lag med <span className='text-red-700'>❤️</span> av Ismael Rodino"
+
+    "speedCast": {
+      "name": "Speedcast",
+      "location": "USA, Fjernarbeid",
+      "desc": "Bidro til utviklingen av Speedcast Compass, en plattform for overvåking og administrasjon av satellittnettverk.",
+      "highlight1": "Redesignede det gamle systemet til en moderne, responsiv webapplikasjon med bedre datavisualisering.",
+      "highlight2": "Integrerte ArcGIS API for sanntids 3D-visualisering av satellitter og dekningsovervåking.",
+      "highlight3": "Utviklet moduler for å behandle store datamengder til nedlastbare rapporter (CSV, XLSX)."
+    },
+
+    "switchApp": {
+      "name": "Switch App",
+      "location": "Brasil, Fjernarbeid",
+      "desc": "Forbedret en rekrutteringsplattform for hotell- og servicebransjen som kobler arbeidssøkere til ledige stillinger.",
+      "highlight1": "Utviklet betalings- og PDF-moduler i samsvar med lokale standarder.",
+      "highlight2": "Moderniserte grensesnitt og forbedret responsivitet, noe som økte brukerengasjementet.",
+      "highlight3": "Samarbeidet med produkteamet for å forbedre brukeropplevelsen og ansettelsesflyten."
+    },
+
+    "lucalto": {
+      "name": "Lucalto",
+      "location": "Norge, Fjernarbeid",
+      "desc": "Bidro til utvikling og lansering av Inkhall, et nisjesosialt nettverk for tatovører.",
+      "highlight1": "Hjalp til fra konsept til lansering, noe som førte til tidlig adopsjon i målgruppen.",
+      "highlight2": "Implementerte autentisering, datamodeller og responsive layouter med Next.js, Supabase og Prisma ORM.",
+      "highlight3": "Bygde et solid fundament i fullstack-utvikling og samarbeid i et oppstartsmiljø."
+    }
+  },
+
+"projects": {
+  "title": "Prosjekter",
+  "openSource": "Åpen kildekode",
+  "mentoring": {
+    "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
+    "desc1": "System for matching mellom mentor og deltaker",
+    "desc2": "Sanntidschat-funksjonalitet",
+    "desc3": "Autentisering og registrering"
+  },
+  "ecommerce": {
+    "title": "E-handel",
+    "desc1": "Enkel nettbutikk med Stripe-integrasjon",
+    "desc2": "Betaling og produktkjøp",
+    "desc3": "Brukerregistrering og autentisering"
+  },
+  "blog": {
+    "title": "Blogg",
+    "desc1": "Opprett konto og administrer innlegg",
+    "desc2": "Kommenter og reager på innlegg"
+  },
+  "certificates": {
+    "title": "Sertifikatutstedelse",
+    "desc1": "Send tilpassede PDF-sertifikater",
+    "desc2": "Sertifikater kan inkludere studentnavn og datoer",
+    "desc3": "Tekst- og datofelt kan plasseres før sending via e-post"
+  },
+  "autofill": {
+    "title": "Automatisk utfylling av jobbsøknader",
+    "desc1": "Electron.js-app for automatisk utfylling av jobbsøknadsskjemaer",
+    "desc2": "Bruker Puppeteer for automatisering"
+  },
+  "linkedinJobBot": {
+    "title": "WishApply - LinkedIn Jobbsøkerbot",
+    "desc1": "Skrivebordsapp bygget med Electron.js og Node.js som bruker AI til å søke automatisk på jobber på LinkedIn",
+    "desc2": "Søker etter stillinger, fyller ut søknadsskjemaer og lager personlige følgebrev med AI-modeller",
+    "desc3": "Lansert i 2025 som WishApply, og forenkler prosessen med automatisert jobbsøking"
   }
-  
+}
+,
+
+  "footer": "Lag med <span className='text-red-700'>❤️</span> av Ismael Rodino"
+}

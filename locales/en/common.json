@@ -36,108 +36,110 @@
 
   "workexp": {
     "notlisted": "There is one freelance working experience that is not listed.",
+
     "bucksense": {
       "name": "Bucksense",
       "location": "USA, Remote",
-      "desc": "Developing high-traffic cruise booking platform for Crystal Cruises with international cross-functional team.",
-      "highlight1": "Improved performance scores by ~20 points through image optimization, UI caching, and dynamic imports",
-      "highlight2": "Reduced Algolia API costs by ~30% through optimized search caching and server-side strategies",
-      "highlight3": "Strengthened payment gateway reliability with comprehensive testing suite covering multi-country scenarios"
+      "desc": "Developing a high-traffic cruise booking platform for Crystal Cruises with an international, cross-functional team.",
+      "highlight1": "Improved performance scores by ~20 points via image optimization, UI caching, and dynamic imports, enhancing booking flow speed and user experience.",
+      "highlight2": "Reduced Algolia API costs by ~30% through optimized caching, incremental static regeneration, and refined query strategies.",
+      "highlight3": "Strengthened payment gateway reliability with a comprehensive automated testing suite covering tax, currency, refund, and multi-country scenarios."
     },
+
     "sejaGudi": {
       "name": "Seja Gudi - Cultural Platform",
       "location": "Brazil, Remote",
-      "desc": "Led end-to-end development of a multi-platform social network for cultural events and recycling initiatives.",
-      "highlight1": "Built cross-platform apps using React Native (mobile) and Next.js (web) with shared business logic",
-      "highlight2": "Integrated geolocation services for event discovery and admin dashboard with role-based permissions",
-      "highlight3": "Connected Mercado Livre API for payments and reward systems with multi-currency support"
+      "desc": "Led end-to-end development of a sustainable cultural events platform integrating recycling incentives, payments, and event management.",
+      "highlight1": "Developed cross-platform applications using React Native (mobile) and Next.js (web), sharing business logic with a Supabase + Prisma backend.",
+      "highlight2": "Integrated geolocation for cultural event discovery and recycling points, including role-based admin dashboards for event management.",
+      "highlight3": "Connected Mercado Livre API for payments and reward redemption, enabling multi-currency support and sustainable monetization."
     },
+
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brazil",
-      "desc": "Led frontend team migration from ExtJS to Next.js for enterprise management applications.",
-      "highlight1": "Eliminated ExtJS licensing costs and improved maintainability with modern web standards",
-      "highlight2": "Increased page load speed by ~40% using hybrid rendering and Vercel deployment with CI/CD",
-      "highlight3": "Created private company-wide design system with Tailwind CSS and led AI-powered document platform development"
+      "desc": "Led the frontend migration from ExtJS to Next.js for enterprise management systems, aligning the company’s stack with modern web standards.",
+      "highlight1": "Eliminated ExtJS licensing costs and improved maintainability using a hybrid rendering strategy combining SSG and SSR.",
+      "highlight2": "Increased page load speed by ~40% and implemented CI/CD pipelines on Vercel with zero-downtime deployments.",
+      "highlight3": "Built a private design system with Tailwind CSS and ShadCN, and led development of an AI-powered business document interpretation platform."
     },
+
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "Norway, Remote",
-      "desc": "Led migration of legacy Create React App to Next.js for energy company platform managing seasonal student programs.",
-      "highlight1": "Designed hybrid architecture to run old and new applications in same codebase with shared translation engine",
-      "highlight2": "Enhanced caching strategies, optimized webpack, and integrated Firebase for authentication and real-time data",
-      "highlight3": "Established automated E2E, unit, and snapshot tests reducing regression bugs during peak usage"
+      "desc": "Led migration of a legacy Create React App to Next.js for an energy company managing seasonal student programs.",
+      "highlight1": "Designed hybrid architecture allowing legacy and modern apps to coexist, sharing translation engines and business logic modules.",
+      "highlight2": "Enhanced caching strategies, optimized webpack configuration, and integrated Firebase for authentication and real-time features.",
+      "highlight3": "Established automated E2E, unit, and snapshot testing to reduce regression bugs and improve platform stability during seasonal peaks."
     },
+
     "speedCast": {
       "name": "Speedcast",
       "location": "USA, Remote",
-      "desc": "Contributed to Speedcast Compass, enterprise portal for monitoring and managing remote satellite networks.",
-      "highlight1": "Transformed legacy system into modern, responsive web application with improved data visualization",
-      "highlight2": "Integrated ArcGIS API for real-time 3D satellite positioning and coverage monitoring",
-      "highlight3": "Designed modules to process big data into downloadable reports (CSV, XLSX) for network analysis"
+      "desc": "Contributed to Speedcast Compass, an enterprise platform for monitoring and managing remote satellite networks.",
+      "highlight1": "Redesigned the legacy system into a modern, responsive web app with enhanced data visualization and usability.",
+      "highlight2": "Integrated ArcGIS API for real-time 3D satellite visualization and coverage monitoring directly within the main dashboard.",
+      "highlight3": "Developed modules to process and transform big data into downloadable reports (CSV, XLSX), supporting performance analysis."
     },
+
     "switchApp": {
       "name": "Switch App",
       "location": "Brazil, Remote",
-      "desc": "Enhanced hospitality recruitment platform connecting professionals to job opportunities using React.js, Node.js, and PostgreSQL.",
-      "highlight1": "Developed payment slip and PDF document management features ensuring local payment standards compliance",
-      "highlight2": "Modernized UI components and improved responsiveness contributing to higher user retention rates",
-      "highlight3": "Collaborated with product team to refine layouts and enhance platform usability across devices"
+      "desc": "Enhanced a hospitality recruitment platform connecting professionals to jobs across the service and hospitality sectors.",
+      "highlight1": "Developed and optimized payment slip and PDF management modules ensuring compliance with Brazilian payment standards.",
+      "highlight2": "Modernized UI components and refined layout responsiveness, resulting in higher user retention and engagement.",
+      "highlight3": "Collaborated with the product team to improve UX consistency and streamline the hiring flow experience."
     },
+
     "lucalto": {
       "name": "Lucalto",
       "location": "Norway, Remote",
-      "desc": "Contributed to development and launch of Inkhall, a niche social network for tattoo artists.",
-      "highlight1": "Helped bring platform from concept to production enabling early user adoption in target community",
-      "highlight2": "Gained hands-on experience with Next.js, Supabase, and Prisma ORM in startup environment",
-      "highlight3": "Implemented authentication flows, database models, and responsive layouts while learning cross-functional collaboration"
+      "desc": "Contributed to the development and launch of Inkhall, a niche social network for tattoo artists and enthusiasts.",
+      "highlight1": "Helped bring the product from concept to production, enabling early adoption within the tattoo artist community.",
+      "highlight2": "Implemented authentication flows, database models, and responsive layouts using Next.js, Supabase, and Prisma ORM.",
+      "highlight3": "Gained strong full-stack development experience and improved collaboration skills in a startup environment."
     }
   },
 
-  "projects": {
-    "title": "Projects",
-    "openSource": "Open Source",
-    "mentoring": {
-      "title": "Mentoring - still in progress, preview bellow",
-      "desc1": "Possibility to mentor and be mentored with match system",
-      "desc2": "Real time chat",
-      "desc3": "Authentication and registration"
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "desc1": "Simple e-commerce with stripe",
-      "desc2": "Checkout products",
-      "desc3": "Registration and authentication"
-    },
-    "blog": {
-      "title": "Blog",
-      "desc1": "Create account and manage posts",
-      "desc2": "Comment/react to posts."
-    },
-    "certificates": {
-      "title": "Certificates sender",
-      "desc1": "Sending customized PDF certificates",
-      "desc2": "Certificates can be named after students, dates",
-      "desc3": "Text/date fields can be positioned in the PDF before emailing"
-    },
-    "autofill": {
-      "title": "Job autofill",
-      "desc1": "App made in Electron.js to automatically fill job forms",
-      "desc2": "Use puppeteer for automation"
-    },
-    "linkedinJobBot": {
-      "title": "LinkedIn Job Application Bot",
-      "desc1": "An AI-powered bot that automatically applies for job openings on LinkedIn",
-      "desc2": "Automated job search, application submission, and customized cover letter generation",
-      "desc3": "Published in 2025 as WishApply"
-    },
-    "wishApply": {
-      "title": "WishApply - AI Job Application Platform",
-      "desc1": "Revolutionary AI-powered job application platform that automates the entire job search process",
-      "desc2": "Smart bot applies to hundreds of relevant LinkedIn jobs while you relax",
-      "desc3": "Advanced machine learning with stealth technology for undetectable, authentic applications"
-    }
+"projects": {
+  "title": "Projects",
+  "openSource": "Open Source",
+  "mentoring": {
+    "title": "Mentoring - ongoing project, preview below",
+    "desc1": "Mentor-mentee matching system",
+    "desc2": "Real-time chat functionality",
+    "desc3": "Authentication and user registration"
   },
+  "ecommerce": {
+    "title": "E-commerce",
+    "desc1": "Simple online store built with Stripe integration",
+    "desc2": "Product checkout and payments",
+    "desc3": "Account creation and authentication"
+  },
+  "blog": {
+    "title": "Blog",
+    "desc1": "Create an account and manage posts",
+    "desc2": "Comment and react to articles"
+  },
+  "certificates": {
+    "title": "Certificate Issuing System",
+    "desc1": "Send customized PDF certificates",
+    "desc2": "Certificates include student names and dates",
+    "desc3": "Text/date fields can be positioned before email delivery"
+  },
+  "autofill": {
+    "title": "Automatic Job Application Autofill",
+    "desc1": "Electron.js app for automatically filling out job application forms",
+    "desc2": "Uses Puppeteer for automation and form submission"
+  },
+  "linkedinJobBot": {
+    "title": "WishApply - LinkedIn Job Application Bot",
+    "desc1": "Desktop app built with Electron.js and Node.js that uses AI to apply automatically for jobs on LinkedIn",
+    "desc2": "Searches job listings, fills forms, and generates personalized cover letters using AI models",
+    "desc3": "Released in 2025 as WishApply, simplifying the automated job application process"
+  }
+},
+
 
   "footer": "Made with <span className='text-red-700'>❤️</span> by Ismael Rodino"
 }

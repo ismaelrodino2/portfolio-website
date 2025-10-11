@@ -35,92 +35,111 @@
   },
 
   "workexp": {
-    "notlisted": "Há duas experiências de trabalho freelance que não estão listadas.",
-    "lucalto": {
-      "name": "Lucalto",
-      "location": "Oslo, Noruega",
-      "desc": "Uma empresa norueguesa que fornece serviços de consultoria em tecnologias web.",
-      "highlight1": "Desenvolvimento de habilidades em um ambiente de produção, usando next.js e typescript",
-      "highlight2": "Aprimoramento de habilidades em resolução de problemas de forma independente"
+    "notlisted": "Há uma experiência freelance que não está listada.",
+
+    "bucksense": {
+      "name": "Bucksense",
+      "location": "EUA, Remoto",
+      "desc": "Desenvolvimento de uma plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises, em equipe internacional e multifuncional.",
+      "highlight1": "Melhorou as pontuações de desempenho em cerca de 20 pontos por meio da otimização de imagens, cache de interface e imports dinâmicos.",
+      "highlight2": "Reduziu os custos da API Algolia em cerca de 30% com caching otimizado, regeneração estática incremental e estratégias de consulta refinadas.",
+      "highlight3": "Fortaleceu a confiabilidade do gateway de pagamento com uma suíte de testes automatizados cobrindo impostos, moedas, reembolsos e cenários multicountry."
     },
-    "switchApp": {
-      "name": "Switch App",
-      "location": "Vitória, Brasil",
-      "desc": "Switch é uma plataforma de contratação de serviços para Bares, Restaurantes, Hotéis e outros estabelecimentos.",
-      "highlight1": "Atualização de várias bibliotecas de sistemas legados",
-      "highlight2": "Melhora significativa da acessibilidade do sistema, por exemplo, responsividade, UX, carregamento",
-      "highlight3": "Contribuição significativa para a discussão de ideias em reuniões diárias"
-    },
-    "speedCast": {
-      "name": "Speedcast",
-      "location": "Virginia, EUA",
-      "desc": "Speedcast é uma empresa especializada em tecnologia de satélites de comunicação.",
-      "highlight1": "Conversão de grandes quantidades de dados em Excel (csv e xlsx)",
-      "highlight2": "Parte de uma equipe global e multicultural",
-      "highlight3": "Construção de UI e UX do zero para a nova plataforma da empresa"
-    },
-    "alex": {
-      "location": "Trondheim, Noruega",
-      "highlight1": "Manutenção e migração de um sistema legacy create-react-app para Next.js",
-      "highlight2": "Implementação de traduções com uma camada de compatibilidade entre CRA e Next.js",
-      "highlight3": "Resolução de desempenho e configuração de testes E2e, unitários, de snapshot",
-      "highlight4": "Configuração, centralização e gerenciamento do envio de e-mails"
+
+    "sejaGudi": {
+      "name": "Seja Gudi - Plataforma Cultural",
+      "location": "Brasil, Remoto",
+      "desc": "Liderou o desenvolvimento completo de uma plataforma sustentável de eventos culturais que integra incentivos de reciclagem, pagamentos e gestão de eventos.",
+      "highlight1": "Desenvolveu aplicativos multiplataforma usando React Native (mobile) e Next.js (web), compartilhando a lógica de negócios com backend Supabase + Prisma.",
+      "highlight2": "Implementou geolocalização para descoberta de eventos culturais e pontos de reciclagem, com dashboards administrativos baseados em permissões.",
+      "highlight3": "Conectou a API do Mercado Livre para pagamentos e recompensas de reciclagem, com suporte a múltiplas moedas e modelo sustentável de monetização."
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brasil",
-      "desc": "Manutenção e migração de um sistema legado em Ext.js para Next.js.",
-      "highlight1": "Criação de uma plataforma de comunicação para empresas e seus clientes, com a ajuda de IA, usando Next.js.",
-      "highlight2": "Liderei com sucesso uma equipe na migração de um dos produtos-chave."
+      "desc": "Liderou a migração do frontend de ExtJS para Next.js em sistemas empresariais, modernizando o stack tecnológico da empresa.",
+      "highlight1": "Eliminou custos de licenciamento do ExtJS e melhorou a manutenção usando estratégia híbrida de renderização (SSG + SSR).",
+      "highlight2": "Aumentou a velocidade de carregamento em ~40% e implementou pipelines CI/CD com deploys sem interrupção via Vercel.",
+      "highlight3": "Criou um design system privado com Tailwind CSS e ShadCN e liderou o desenvolvimento de uma plataforma de documentos com IA."
     },
-    "bucksense": {
-      "name": "Bucksense",
-      "location": "Nova York, EUA",
-      "desc": "Contribuí para 8+ novos recursos e inúmeras correções de bugs em um sistema Next.js.",
-      "highlight1": "Contribuição para mais de 8 novas funcionalidades e diversas correções de bugs em um sistema Next.js.",
-      "highlight2": "Documentação de software e desenvolvimento de mais de 30 testes automatizados do zero."
+
+    "alex": {
+      "name": "Alex Rohleder LTDA",
+      "location": "Noruega, Remoto",
+      "desc": "Liderou a migração de um sistema em Create React App para Next.js em uma plataforma de gestão de programas estudantis sazonais.",
+      "highlight1": "Projetou arquitetura híbrida permitindo coexistência de apps legados e modernos, com motor de tradução e lógica de negócios compartilhada.",
+      "highlight2": "Otimização de cache, webpack e integração do Firebase para autenticação e dados em tempo real.",
+      "highlight3": "Implementou testes automatizados E2E, unitários e de snapshot, reduzindo bugs de regressão e aumentando a estabilidade."
+    },
+
+    "speedCast": {
+      "name": "Speedcast",
+      "location": "EUA, Remoto",
+      "desc": "Contribuiu para o Speedcast Compass, portal empresarial de monitoramento e gestão de redes via satélite.",
+      "highlight1": "Redesenhou o sistema legado em uma aplicação moderna e responsiva com melhor visualização de dados.",
+      "highlight2": "Integrado o ArcGIS API para visualização 3D em tempo real de satélites e cobertura de rede.",
+      "highlight3": "Desenvolveu módulos para processar grandes volumes de dados em relatórios baixáveis (CSV, XLSX) para análise de desempenho."
+    },
+
+    "switchApp": {
+      "name": "Switch App",
+      "location": "Brasil, Remoto",
+      "desc": "Aprimorou uma plataforma de recrutamento para o setor de hospitalidade, conectando profissionais a oportunidades de trabalho.",
+      "highlight1": "Desenvolveu e otimizou módulos de boletos e gestão de PDFs, garantindo conformidade com padrões de pagamento locais.",
+      "highlight2": "Modernizou componentes visuais e aprimorou a responsividade, resultando em maior retenção e engajamento de usuários.",
+      "highlight3": "Colaborou com a equipe de produto para melhorar o fluxo de contratação e a consistência da experiência do usuário."
+    },
+
+    "lucalto": {
+      "name": "Lucalto",
+      "location": "Noruega, Remoto",
+      "desc": "Contribuiu para o desenvolvimento e lançamento do Inkhall, uma rede social voltada para tatuadores e entusiastas.",
+      "highlight1": "Participou do processo do conceito ao lançamento, possibilitando adoção antecipada pela comunidade de tatuadores.",
+      "highlight2": "Implementou autenticação, modelos de banco de dados e layouts responsivos com Next.js, Supabase e Prisma ORM.",
+      "highlight3": "Adquiriu forte base em desenvolvimento full-stack e colaboração em ambiente de startup."
     }
   },
 
-  "projects": {
-    "title": "Projetos",
-    "openSource": "Código Aberto",
-    "mentoring": {
-      "title": "Mentoria - ainda em progresso, visualização abaixo",
-      "desc1": "Possibilidade de mentorar e ser mentorado com sistema de match",
-      "desc2": "Chat em tempo real",
-      "desc3": "Autenticação e cadastro"
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "desc1": "E-commerce simples com stripe",
-      "desc2": "Pagamento de produtos",
-      "desc3": "Registro e autenticação"
-    },
-    "blog": {
-      "title": "Blog",
-      "desc1": "Criar conta e gerenciar postagens",
-      "desc2": "Comentar/reagir às postagens."
-    },
-    "certificates": {
-      "title": "Envio de Certificados",
-      "desc1": "Envio de certificados PDF personalizados",
-      "desc2": "Certificados podem ser nomeados após alunos, datas",
-      "desc3": "Campos de texto/data podem ser posicionados no PDF antes do envio por e-mail"
-    },
-    "autofill": {
-      "title": "Preenchimento automático de vaga",
-      "desc1": "App feito em Electron.js para preencher formulários de emprego automaticamente",
-      "desc2": "Utiliza puppeteer para a automação"
-    },
-    "linkedinJobBot": {
-      "title": "Bot para Aplicações no LinkedIn",
-      "desc1": "Um bot impulsionado por IA que aplica automaticamente para vagas no LinkedIn",
-      "desc2": "Busca de vagas, envio de candidaturas e geração de cartas de apresentação personalizadas",
-      "desc3": "Publicado em 2025 como WishApply"
-    }
+"projects": {
+  "title": "Projetos",
+  "openSource": "Código Aberto",
+  "mentoring": {
+    "title": "Mentoria - ainda em andamento, prévia abaixo",
+    "desc1": "Sistema de mentoria com correspondência entre mentor e aluno",
+    "desc2": "Chat em tempo real",
+    "desc3": "Autenticação e registro de usuários"
   },
+  "ecommerce": {
+    "title": "E-commerce",
+    "desc1": "Loja virtual simples com Stripe",
+    "desc2": "Pagamento de produtos",
+    "desc3": "Cadastro e autenticação"
+  },
+  "blog": {
+    "title": "Blog",
+    "desc1": "Criação de conta e gerenciamento de postagens",
+    "desc2": "Comente e reaja às postagens"
+  },
+  "certificates": {
+    "title": "Emissão de Certificados",
+    "desc1": "Envio de certificados PDF personalizados",
+    "desc2": "Certificados podem conter nomes e datas de alunos",
+    "desc3": "Campos de texto e data podem ser posicionados antes do envio por e-mail"
+  },
+  "autofill": {
+    "title": "Preenchimento Automático de Candidaturas",
+    "desc1": "Aplicativo desenvolvido em Electron.js para preencher formulários de emprego automaticamente",
+    "desc2": "Utiliza Puppeteer para automação de navegação e envio"
+  },
+  "linkedinJobBot": {
+    "title": "WishApply - Bot de Vagas no LinkedIn",
+    "desc1": "Aplicativo de desktop criado em Electron.js e Node.js com integração de IA para aplicar automaticamente em vagas no LinkedIn",
+    "desc2": "Pesquisa vagas, preenche formulários e gera cartas de apresentação personalizadas usando modelos de IA",
+    "desc3": "Lançado em 2025 como WishApply, simplificando o processo de candidatura automatizada"
+  }
+},
+
 
   "footer": "Feito com <span className='text-red-700'>❤️</span> por Ismael Rodino"
 }
