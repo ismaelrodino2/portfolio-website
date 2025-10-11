@@ -101,45 +101,44 @@
     }
   },
 
-"projects": {
-  "title": "Projects",
-  "openSource": "Open Source",
-  "mentoring": {
-    "title": "Mentoring - ongoing project, preview below",
-    "desc1": "Mentor-mentee matching system",
-    "desc2": "Real-time chat functionality",
-    "desc3": "Authentication and user registration"
+  "projects": {
+    "title": "Projects",
+    "openSource": "Open Source",
+    "mentoring": {
+      "title": "Mentoring - ongoing project, preview below",
+      "desc1": "Mentor-mentee matching system",
+      "desc2": "Real-time chat functionality",
+      "desc3": "Authentication and user registration"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "desc1": "Simple online store built with Stripe integration",
+      "desc2": "Product checkout and payments",
+      "desc3": "Account creation and authentication"
+    },
+    "blog": {
+      "title": "Blog",
+      "desc1": "Create an account and manage posts",
+      "desc2": "Comment and react to articles"
+    },
+    "certificates": {
+      "title": "Certificate Issuing System",
+      "desc1": "Send customized PDF certificates",
+      "desc2": "Certificates include student names and dates",
+      "desc3": "Text/date fields can be positioned before email delivery"
+    },
+    "autofill": {
+      "title": "Automatic Job Application Autofill",
+      "desc1": "Electron.js app for automatically filling out job application forms",
+      "desc2": "Uses Puppeteer for automation and form submission"
+    },
+    "linkedinJobBot": {
+      "title": "WishApply - LinkedIn Job Application Bot",
+      "desc1": "Desktop app built with Electron.js and Node.js that uses AI to apply automatically for jobs on LinkedIn",
+      "desc2": "Searches job listings, fills forms, and generates personalized cover letters using AI models",
+      "desc3": "Released in 2025 as WishApply, simplifying the automated job application process"
+    }
   },
-  "ecommerce": {
-    "title": "E-commerce",
-    "desc1": "Simple online store built with Stripe integration",
-    "desc2": "Product checkout and payments",
-    "desc3": "Account creation and authentication"
-  },
-  "blog": {
-    "title": "Blog",
-    "desc1": "Create an account and manage posts",
-    "desc2": "Comment and react to articles"
-  },
-  "certificates": {
-    "title": "Certificate Issuing System",
-    "desc1": "Send customized PDF certificates",
-    "desc2": "Certificates include student names and dates",
-    "desc3": "Text/date fields can be positioned before email delivery"
-  },
-  "autofill": {
-    "title": "Automatic Job Application Autofill",
-    "desc1": "Electron.js app for automatically filling out job application forms",
-    "desc2": "Uses Puppeteer for automation and form submission"
-  },
-  "linkedinJobBot": {
-    "title": "WishApply - LinkedIn Job Application Bot",
-    "desc1": "Desktop app built with Electron.js and Node.js that uses AI to apply automatically for jobs on LinkedIn",
-    "desc2": "Searches job listings, fills forms, and generates personalized cover letters using AI models",
-    "desc3": "Released in 2025 as WishApply, simplifying the automated job application process"
-  }
-},
-
 
   "footer": "Made with <span className='text-red-700'>❤️</span> by Ismael Rodino"
 }

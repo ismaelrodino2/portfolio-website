@@ -101,45 +101,43 @@
     }
   },
 
-"projects": {
-  "title": "Prosjekter",
-  "openSource": "Åpen kildekode",
-  "mentoring": {
-    "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
-    "desc1": "System for matching mellom mentor og deltaker",
-    "desc2": "Sanntidschat-funksjonalitet",
-    "desc3": "Autentisering og registrering"
+  "projects": {
+    "title": "Prosjekter",
+    "openSource": "Åpen kildekode",
+    "mentoring": {
+      "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
+      "desc1": "System for matching mellom mentor og deltaker",
+      "desc2": "Sanntidschat-funksjonalitet",
+      "desc3": "Autentisering og registrering"
+    },
+    "ecommerce": {
+      "title": "E-handel",
+      "desc1": "Enkel nettbutikk med Stripe-integrasjon",
+      "desc2": "Betaling og produktkjøp",
+      "desc3": "Brukerregistrering og autentisering"
+    },
+    "blog": {
+      "title": "Blogg",
+      "desc1": "Opprett konto og administrer innlegg",
+      "desc2": "Kommenter og reager på innlegg"
+    },
+    "certificates": {
+      "title": "Sertifikatutstedelse",
+      "desc1": "Send tilpassede PDF-sertifikater",
+      "desc2": "Sertifikater kan inkludere studentnavn og datoer",
+      "desc3": "Tekst- og datofelt kan plasseres før sending via e-post"
+    },
+    "autofill": {
+      "title": "Automatisk utfylling av jobbsøknader",
+      "desc1": "Electron.js-app for automatisk utfylling av jobbsøknadsskjemaer",
+      "desc2": "Bruker Puppeteer for automatisering"
+    },
+    "linkedinJobBot": {
+      "title": "WishApply - LinkedIn Jobbsøkerbot",
+      "desc1": "Skrivebordsapp bygget med Electron.js og Node.js som bruker AI til å søke automatisk på jobber på LinkedIn",
+      "desc2": "Søker etter stillinger, fyller ut søknadsskjemaer og lager personlige følgebrev med AI-modeller",
+      "desc3": "Lansert i 2025 som WishApply, og forenkler prosessen med automatisert jobbsøking"
+    }
   },
-  "ecommerce": {
-    "title": "E-handel",
-    "desc1": "Enkel nettbutikk med Stripe-integrasjon",
-    "desc2": "Betaling og produktkjøp",
-    "desc3": "Brukerregistrering og autentisering"
-  },
-  "blog": {
-    "title": "Blogg",
-    "desc1": "Opprett konto og administrer innlegg",
-    "desc2": "Kommenter og reager på innlegg"
-  },
-  "certificates": {
-    "title": "Sertifikatutstedelse",
-    "desc1": "Send tilpassede PDF-sertifikater",
-    "desc2": "Sertifikater kan inkludere studentnavn og datoer",
-    "desc3": "Tekst- og datofelt kan plasseres før sending via e-post"
-  },
-  "autofill": {
-    "title": "Automatisk utfylling av jobbsøknader",
-    "desc1": "Electron.js-app for automatisk utfylling av jobbsøknadsskjemaer",
-    "desc2": "Bruker Puppeteer for automatisering"
-  },
-  "linkedinJobBot": {
-    "title": "WishApply - LinkedIn Jobbsøkerbot",
-    "desc1": "Skrivebordsapp bygget med Electron.js og Node.js som bruker AI til å søke automatisk på jobber på LinkedIn",
-    "desc2": "Søker etter stillinger, fyller ut søknadsskjemaer og lager personlige følgebrev med AI-modeller",
-    "desc3": "Lansert i 2025 som WishApply, og forenkler prosessen med automatisert jobbsøking"
-  }
-}
-,
-
   "footer": "Lag med <span className='text-red-700'>❤️</span> av Ismael Rodino"
 }

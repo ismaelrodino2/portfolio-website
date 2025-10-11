@@ -102,43 +102,43 @@
   },
 
   "projects": {
-  "title": "プロジェクト",
-  "openSource": "オープンソース",
-  "mentoring": {
-    "title": "メンタープログラム - 進行中、下にプレビューあり",
-    "desc1": "メンターとメンティーのマッチングシステム",
-    "desc2": "リアルタイムチャット機能",
-    "desc3": "ユーザー認証と登録"
+    "title": "プロジェクト",
+    "openSource": "オープンソース",
+    "mentoring": {
+      "title": "メンタープログラム - 進行中、下にプレビューあり",
+      "desc1": "メンターとメンティーのマッチングシステム",
+      "desc2": "リアルタイムチャット機能",
+      "desc3": "ユーザー認証と登録"
+    },
+    "ecommerce": {
+      "title": "Eコマース",
+      "desc1": "Stripe連携を使用したシンプルなオンラインストア",
+      "desc2": "商品の支払い機能",
+      "desc3": "アカウント登録と認証"
+    },
+    "blog": {
+      "title": "ブログ",
+      "desc1": "アカウントを作成して投稿を管理",
+      "desc2": "投稿にコメント・リアクション可能"
+    },
+    "certificates": {
+      "title": "証明書発行システム",
+      "desc1": "カスタマイズ可能なPDF証明書を送信",
+      "desc2": "証明書に学生名や日付を含めることが可能",
+      "desc3": "送信前にテキストや日付を配置可能"
+    },
+    "autofill": {
+      "title": "自動応募フォーム入力",
+      "desc1": "Electron.jsで作成されたアプリで、求人応募フォームを自動入力",
+      "desc2": "Puppeteerを使用して自動化と送信を実行"
+    },
+    "linkedinJobBot": {
+      "title": "WishApply - LinkedIn求人応募ボット",
+      "desc1": "Electron.jsとNode.jsで構築されたデスクトップアプリ。AIを使用してLinkedInの求人に自動応募。",
+      "desc2": "求人を検索し、応募フォームを自動入力し、AIモデルでパーソナライズされたカバーレターを生成。",
+      "desc3": "2025年にWishApplyとしてリリースされ、自動応募プロセスを簡素化。"
+    }
   },
-  "ecommerce": {
-    "title": "Eコマース",
-    "desc1": "Stripe連携を使用したシンプルなオンラインストア",
-    "desc2": "商品の支払い機能",
-    "desc3": "アカウント登録と認証"
-  },
-  "blog": {
-    "title": "ブログ",
-    "desc1": "アカウントを作成して投稿を管理",
-    "desc2": "投稿にコメント・リアクション可能"
-  },
-  "certificates": {
-    "title": "証明書発行システム",
-    "desc1": "カスタマイズ可能なPDF証明書を送信",
-    "desc2": "証明書に学生名や日付を含めることが可能",
-    "desc3": "送信前にテキストや日付を配置可能"
-  },
-  "autofill": {
-    "title": "自動応募フォーム入力",
-    "desc1": "Electron.jsで作成されたアプリで、求人応募フォームを自動入力",
-    "desc2": "Puppeteerを使用して自動化と送信を実行"
-  },
-  "linkedinJobBot": {
-    "title": "WishApply - LinkedIn求人応募ボット",
-    "desc1": "Electron.jsとNode.jsで構築されたデスクトップアプリ。AIを使用してLinkedInの求人に自動応募。",
-    "desc2": "求人を検索し、応募フォームを自動入力し、AIモデルでパーソナライズされたカバーレターを生成。",
-    "desc3": "2025年にWishApplyとしてリリースされ、自動応募プロセスを簡素化。"
-  }
-},
 
   "footer": "Ismael Rodino が<span className='text-red-700'>❤️</span>を込めて作りました"
 }

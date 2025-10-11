@@ -40,106 +40,105 @@
     "bucksense": {
       "name": "Bucksense",
       "location": "EUA, Remoto",
-      "desc": "Desenvolvimento de uma plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises, em equipe internacional e multifuncional.",
-      "highlight1": "Melhorou as pontuações de desempenho em cerca de 20 pontos por meio da otimização de imagens, cache de interface e imports dinâmicos.",
-      "highlight2": "Reduziu os custos da API Algolia em cerca de 30% com caching otimizado, regeneração estática incremental e estratégias de consulta refinadas.",
-      "highlight3": "Fortaleceu a confiabilidade do gateway de pagamento com uma suíte de testes automatizados cobrindo impostos, moedas, reembolsos e cenários multicountry."
+      "desc": "Desenvolvimento de plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises em equipe internacional e multifuncional.",
+      "highlight1": "Otimização de desempenho com redução de imagens, cache de interface e imports dinâmicos, resultando em melhoria de ~20 pontos em métricas de performance.",
+      "highlight2": "Redução de ~30% nos custos da API Algolia através de caching otimizado, regeneração estática incremental e estratégias de consulta refinadas.",
+      "highlight3": "Criação de suíte de testes automatizados abrangendo impostos, moedas, reembolsos e cenários multicountry para aumento da confiabilidade do gateway de pagamento."
     },
 
     "sejaGudi": {
       "name": "Seja Gudi - Plataforma Cultural",
       "location": "Brasil, Remoto",
-      "desc": "Liderou o desenvolvimento completo de uma plataforma sustentável de eventos culturais que integra incentivos de reciclagem, pagamentos e gestão de eventos.",
-      "highlight1": "Desenvolveu aplicativos multiplataforma usando React Native (mobile) e Next.js (web), compartilhando a lógica de negócios com backend Supabase + Prisma.",
-      "highlight2": "Implementou geolocalização para descoberta de eventos culturais e pontos de reciclagem, com dashboards administrativos baseados em permissões.",
-      "highlight3": "Conectou a API do Mercado Livre para pagamentos e recompensas de reciclagem, com suporte a múltiplas moedas e modelo sustentável de monetização."
+      "desc": "Desenvolvimento completo de uma plataforma sustentável de eventos culturais integrando reciclagem, pagamentos e gestão de eventos.",
+      "highlight1": "Desenvolvimento de aplicativos multiplataforma com React Native (mobile) e Next.js (web) utilizando backend Supabase + Prisma com lógica compartilhada.",
+      "highlight2": "Integração de geolocalização para descoberta de eventos culturais e pontos de reciclagem, com dashboards administrativos e controle de permissões.",
+      "highlight3": "Integração da API do Mercado Livre para pagamentos e sistema de recompensas de reciclagem com suporte a múltiplas moedas."
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brasil",
-      "desc": "Liderou a migração do frontend de ExtJS para Next.js em sistemas empresariais, modernizando o stack tecnológico da empresa.",
-      "highlight1": "Eliminou custos de licenciamento do ExtJS e melhorou a manutenção usando estratégia híbrida de renderização (SSG + SSR).",
-      "highlight2": "Aumentou a velocidade de carregamento em ~40% e implementou pipelines CI/CD com deploys sem interrupção via Vercel.",
-      "highlight3": "Criou um design system privado com Tailwind CSS e ShadCN e liderou o desenvolvimento de uma plataforma de documentos com IA."
+      "desc": "Migração do frontend de sistemas empresariais de ExtJS para Next.js, modernizando a arquitetura e o stack tecnológico.",
+      "highlight1": "Eliminação de custos de licenciamento ExtJS e melhoria de manutenção com estratégia híbrida de renderização (SSG + SSR).",
+      "highlight2": "Aumento de ~40% na velocidade de carregamento e implementação de pipelines CI/CD com deploys sem interrupção via Vercel.",
+      "highlight3": "Criação de design system privado com Tailwind CSS e ShadCN e desenvolvimento de plataforma de documentos corporativos com IA."
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "Noruega, Remoto",
-      "desc": "Liderou a migração de um sistema em Create React App para Next.js em uma plataforma de gestão de programas estudantis sazonais.",
-      "highlight1": "Projetou arquitetura híbrida permitindo coexistência de apps legados e modernos, com motor de tradução e lógica de negócios compartilhada.",
-      "highlight2": "Otimização de cache, webpack e integração do Firebase para autenticação e dados em tempo real.",
-      "highlight3": "Implementou testes automatizados E2E, unitários e de snapshot, reduzindo bugs de regressão e aumentando a estabilidade."
+      "desc": "Migração de sistema legado em Create React App para Next.js em plataforma de gestão de programas estudantis sazonais.",
+      "highlight1": "Arquitetura híbrida com coexistência de aplicações legadas e modernas, compartilhando motor de tradução e lógica de negócios.",
+      "highlight2": "Otimização de cache e webpack com integração Firebase para autenticação e dados em tempo real.",
+      "highlight3": "Criação de suíte automatizada de testes E2E, unitários e de snapshot para redução de bugs de regressão e aumento da estabilidade."
     },
 
     "speedCast": {
       "name": "Speedcast",
       "location": "EUA, Remoto",
-      "desc": "Contribuiu para o Speedcast Compass, portal empresarial de monitoramento e gestão de redes via satélite.",
-      "highlight1": "Redesenhou o sistema legado em uma aplicação moderna e responsiva com melhor visualização de dados.",
-      "highlight2": "Integrado o ArcGIS API para visualização 3D em tempo real de satélites e cobertura de rede.",
-      "highlight3": "Desenvolveu módulos para processar grandes volumes de dados em relatórios baixáveis (CSV, XLSX) para análise de desempenho."
+      "desc": "Participação no desenvolvimento do Speedcast Compass, portal empresarial para monitoramento e gestão de redes via satélite.",
+      "highlight1": "Redesenho de sistema legado em aplicação moderna e responsiva com visualização aprimorada de dados.",
+      "highlight2": "Integração do ArcGIS API para visualização 3D em tempo real de satélites e cobertura de rede.",
+      "highlight3": "Desenvolvimento de módulos para processamento de big data e exportação de relatórios (CSV, XLSX) para análise de desempenho."
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "Brasil, Remoto",
-      "desc": "Aprimorou uma plataforma de recrutamento para o setor de hospitalidade, conectando profissionais a oportunidades de trabalho.",
-      "highlight1": "Desenvolveu e otimizou módulos de boletos e gestão de PDFs, garantindo conformidade com padrões de pagamento locais.",
-      "highlight2": "Modernizou componentes visuais e aprimorou a responsividade, resultando em maior retenção e engajamento de usuários.",
-      "highlight3": "Colaborou com a equipe de produto para melhorar o fluxo de contratação e a consistência da experiência do usuário."
+      "desc": "Aprimoramento de plataforma de recrutamento voltada ao setor de hospitalidade, conectando profissionais e empregadores.",
+      "highlight1": "Desenvolvimento e otimização de módulos de boletos e gestão de PDFs com conformidade aos padrões locais de pagamento.",
+      "highlight2": "Modernização de componentes de interface e melhoria da responsividade para aumento da retenção de usuários.",
+      "highlight3": "Colaboração com equipe de produto em refinamento de layouts e usabilidade da plataforma."
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "Noruega, Remoto",
-      "desc": "Contribuiu para o desenvolvimento e lançamento do Inkhall, uma rede social voltada para tatuadores e entusiastas.",
-      "highlight1": "Participou do processo do conceito ao lançamento, possibilitando adoção antecipada pela comunidade de tatuadores.",
-      "highlight2": "Implementou autenticação, modelos de banco de dados e layouts responsivos com Next.js, Supabase e Prisma ORM.",
-      "highlight3": "Adquiriu forte base em desenvolvimento full-stack e colaboração em ambiente de startup."
+      "desc": "Desenvolvimento do Inkhall, rede social de nicho voltada para tatuadores e entusiastas, desde o conceito até o lançamento.",
+      "highlight1": "Participação no ciclo completo do produto — concepção, desenvolvimento e entrega — com adoção inicial pela comunidade-alvo.",
+      "highlight2": "Implementação de autenticação, modelos de banco de dados e layouts responsivos com Next.js, Supabase e Prisma ORM.",
+      "highlight3": "Experiência prática em desenvolvimento full-stack e colaboração multidisciplinar em ambiente de startup."
     }
   },
 
-"projects": {
-  "title": "Projetos",
-  "openSource": "Código Aberto",
-  "mentoring": {
-    "title": "Mentoria - ainda em andamento, prévia abaixo",
-    "desc1": "Sistema de mentoria com correspondência entre mentor e aluno",
-    "desc2": "Chat em tempo real",
-    "desc3": "Autenticação e registro de usuários"
+  "projects": {
+    "title": "Projetos",
+    "openSource": "Código Aberto",
+    "mentoring": {
+      "title": "Mentoria - ainda em andamento, prévia abaixo",
+      "desc1": "Sistema de mentoria com correspondência entre mentor e aluno",
+      "desc2": "Chat em tempo real",
+      "desc3": "Autenticação e registro de usuários"
+    },
+    "ecommerce": {
+      "title": "E-commerce",
+      "desc1": "Loja virtual simples com Stripe",
+      "desc2": "Pagamento de produtos",
+      "desc3": "Cadastro e autenticação"
+    },
+    "blog": {
+      "title": "Blog",
+      "desc1": "Criação de conta e gerenciamento de postagens",
+      "desc2": "Comente e reaja às postagens"
+    },
+    "certificates": {
+      "title": "Emissão de Certificados",
+      "desc1": "Envio de certificados PDF personalizados",
+      "desc2": "Certificados podem conter nomes e datas de alunos",
+      "desc3": "Campos de texto e data podem ser posicionados antes do envio por e-mail"
+    },
+    "autofill": {
+      "title": "Preenchimento Automático de Candidaturas",
+      "desc1": "Aplicativo desenvolvido em Electron.js para preencher formulários de emprego automaticamente",
+      "desc2": "Utiliza Puppeteer para automação de navegação e envio"
+    },
+    "linkedinJobBot": {
+      "title": "WishApply - Bot de Vagas no LinkedIn",
+      "desc1": "Aplicativo de desktop criado em Electron.js e Node.js com integração de IA para aplicar automaticamente em vagas no LinkedIn",
+      "desc2": "Pesquisa vagas, preenche formulários e gera cartas de apresentação personalizadas usando modelos de IA",
+      "desc3": "Lançado em 2025 como WishApply, simplificando o processo de candidatura automatizada"
+    }
   },
-  "ecommerce": {
-    "title": "E-commerce",
-    "desc1": "Loja virtual simples com Stripe",
-    "desc2": "Pagamento de produtos",
-    "desc3": "Cadastro e autenticação"
-  },
-  "blog": {
-    "title": "Blog",
-    "desc1": "Criação de conta e gerenciamento de postagens",
-    "desc2": "Comente e reaja às postagens"
-  },
-  "certificates": {
-    "title": "Emissão de Certificados",
-    "desc1": "Envio de certificados PDF personalizados",
-    "desc2": "Certificados podem conter nomes e datas de alunos",
-    "desc3": "Campos de texto e data podem ser posicionados antes do envio por e-mail"
-  },
-  "autofill": {
-    "title": "Preenchimento Automático de Candidaturas",
-    "desc1": "Aplicativo desenvolvido em Electron.js para preencher formulários de emprego automaticamente",
-    "desc2": "Utiliza Puppeteer para automação de navegação e envio"
-  },
-  "linkedinJobBot": {
-    "title": "WishApply - Bot de Vagas no LinkedIn",
-    "desc1": "Aplicativo de desktop criado em Electron.js e Node.js com integração de IA para aplicar automaticamente em vagas no LinkedIn",
-    "desc2": "Pesquisa vagas, preenche formulários e gera cartas de apresentação personalizadas usando modelos de IA",
-    "desc3": "Lançado em 2025 como WishApply, simplificando o processo de candidatura automatizada"
-  }
-},
-
 
   "footer": "Feito com <span className='text-red-700'>❤️</span> por Ismael Rodino"
 }
