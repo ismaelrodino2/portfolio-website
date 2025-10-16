@@ -40,64 +40,64 @@
     "bucksense": {
       "name": "Bucksense",
       "location": "USA, Fjernarbeid",
-      "desc": "Utvikler en høytrafikkert cruisebookingsplattform for Crystal Cruises i et internasjonalt tverrfaglig team.",
-      "highlight1": "Forbedret ytelsesscore med omtrent 20 poeng gjennom bildeoptimalisering, UI-caching og dynamiske imports.",
-      "highlight2": "Reduserte Algolia API-kostnader med omtrent 30% ved hjelp av optimalisert caching og forbedrede spørringsstrategier.",
-      "highlight3": "Forsterket påliteligheten til betalingssystemet med en omfattende automatisert testpakke for flere land og valutaer."
+      "desc": "Utvikler en høytrafikkert cruisebookingsplattform for Crystal Cruises i et internasjonalt tverrfaglig team",
+      "highlight1": "Forbedret ytelsesscore med omtrent 20 poeng gjennom bildeoptimalisering, UI-caching og dynamiske imports",
+      "highlight2": "Reduserte Algolia API-kostnader med omtrent 30% ved hjelp av optimalisert caching og forbedrede spørringsstrategier",
+      "highlight3": "Forsterket påliteligheten til betalingssystemet med en omfattende automatisert testpakke for flere land og valutaer"
     },
 
     "sejaGudi": {
       "name": "Seja Gudi - Kulturplattform",
       "location": "Brasil, Fjernarbeid",
-      "desc": "Ledet fullstendig utvikling av en bærekraftig kulturplattform som kombinerer resirkuleringsinsentiver, betaling og arrangementadministrasjon.",
-      "highlight1": "Utviklet apper for både mobil (React Native) og web (Next.js) med felles forretningslogikk og Supabase + Prisma backend.",
-      "highlight2": "Integrerte geolokalisering for oppdagelse av arrangementer og innsamlingspunkter, med rollebasede adminpaneler.",
-      "highlight3": "Koblet til Mercado Livre API for betalinger og belønningssystem med støtte for flere valutaer."
+      "desc": "Ledet fullstendig utvikling av en bærekraftig kulturplattform som kombinerer resirkuleringsinsentiver, betaling og arrangementadministrasjon",
+      "highlight1": "Utviklet apper for både mobil (React Native) og web (Next.js) med felles forretningslogikk og Supabase + Prisma backend",
+      "highlight2": "Integrerte geolokalisering for oppdagelse av arrangementer og innsamlingspunkter, med rollebasede adminpaneler",
+      "highlight3": "Koblet til Mercado Livre API for betalinger og belønningssystem med støtte for flere valutaer"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brasil",
-      "desc": "Ledet frontend-migrasjon fra ExtJS til Next.js for bedriftsstyringssystemer, og oppdaterte hele teknologistakken.",
-      "highlight1": "Eliminerte ExtJS-lisenskostnader og forbedret vedlikeholdbarhet med hybridrendring (SSG + SSR).",
-      "highlight2": "Økte lastetiden med omtrent 40% og implementerte CI/CD-pipelines med null nedetid via Vercel.",
-      "highlight3": "Bygde et internt designsystem med Tailwind CSS og ShadCN og ledet utviklingen av en AI-basert dokumentplattform."
+      "desc": "Ledet frontend-migrasjon fra ExtJS til Next.js for bedriftsstyringssystemer, og oppdaterte hele teknologistakken",
+      "highlight1": "Eliminerte ExtJS-lisenskostnader og forbedret vedlikeholdbarhet med hybridrendring (SSG + SSR)",
+      "highlight2": "Økte lastetiden med omtrent 40% og implementerte CI/CD-pipelines med null nedetid via Vercel",
+      "highlight3": "Bygde et internt designsystem med Tailwind CSS og ShadCN og ledet utviklingen av en AI-basert dokumentplattform"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "Norge, Fjernarbeid",
-      "desc": "Ledet migrasjonen fra Create React App til Next.js for en energibedrift som håndterer sesongbaserte studentprogrammer.",
-      "highlight1": "Designet en hybridarkitektur for å kjøre gamle og nye apper i samme kodebase med delt oversettelseslogikk.",
-      "highlight2": "Forbedret caching og Webpack, integrerte Firebase for autentisering og sanntidsdata.",
-      "highlight3": "Etablerte automatiserte E2E-, enhets- og snapshot-tester for å redusere feil og forbedre stabilitet under høysesong."
+      "desc": "Ledet migrasjonen fra Create React App til Next.js for en energibedrift som håndterer sesongbaserte studentprogrammer",
+      "highlight1": "Designet en hybridarkitektur for å kjøre gamle og nye apper i samme kodebase med delt oversettelseslogikk",
+      "highlight2": "Forbedret caching og Webpack, integrerte Firebase for autentisering og sanntidsdata",
+      "highlight3": "Etablerte automatiserte E2E-, enhets- og snapshot-tester for å redusere feil og forbedre stabilitet under høysesong"
     },
 
     "speedCast": {
       "name": "Speedcast",
       "location": "USA, Fjernarbeid",
-      "desc": "Bidro til utviklingen av Speedcast Compass, en plattform for overvåking og administrasjon av satellittnettverk.",
-      "highlight1": "Redesignede det gamle systemet til en moderne, responsiv webapplikasjon med bedre datavisualisering.",
-      "highlight2": "Integrerte ArcGIS API for sanntids 3D-visualisering av satellitter og dekningsovervåking.",
-      "highlight3": "Utviklet moduler for å behandle store datamengder til nedlastbare rapporter (CSV, XLSX)."
+      "desc": "Bidro til utviklingen av Speedcast Compass, en plattform for overvåking og administrasjon av satellittnettverk",
+      "highlight1": "Redesignede det gamle systemet til en moderne, responsiv webapplikasjon med bedre datavisualisering",
+      "highlight2": "Integrerte ArcGIS API for sanntids 3D-visualisering av satellitter og dekningsovervåking",
+      "highlight3": "Utviklet moduler for å behandle store datamengder til nedlastbare rapporter (CSV, XLSX)"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "Brasil, Fjernarbeid",
-      "desc": "Forbedret en rekrutteringsplattform for hotell- og servicebransjen som kobler arbeidssøkere til ledige stillinger.",
-      "highlight1": "Utviklet betalings- og PDF-moduler i samsvar med lokale standarder.",
-      "highlight2": "Moderniserte grensesnitt og forbedret responsivitet, noe som økte brukerengasjementet.",
-      "highlight3": "Samarbeidet med produkteamet for å forbedre brukeropplevelsen og ansettelsesflyten."
+      "desc": "Forbedret en rekrutteringsplattform for hotell- og servicebransjen som kobler arbeidssøkere til ledige stillinger",
+      "highlight1": "Utviklet betalings- og PDF-moduler i samsvar med lokale standarder",
+      "highlight2": "Moderniserte grensesnitt og forbedret responsivitet, noe som økte brukerengasjementet",
+      "highlight3": "Samarbeidet med produkteamet for å forbedre brukeropplevelsen og ansettelsesflyten"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "Norge, Fjernarbeid",
-      "desc": "Bidro til utvikling og lansering av Inkhall, et nisjesosialt nettverk for tatovører.",
-      "highlight1": "Hjalp til fra konsept til lansering, noe som førte til tidlig adopsjon i målgruppen.",
-      "highlight2": "Implementerte autentisering, datamodeller og responsive layouter med Next.js, Supabase og Prisma ORM.",
-      "highlight3": "Bygde et solid fundament i fullstack-utvikling og samarbeid i et oppstartsmiljø."
+      "desc": "Bidro til utvikling og lansering av Inkhall, et nisjesosialt nettverk for tatovører",
+      "highlight1": "Hjalp til fra konsept til lansering, noe som førte til tidlig adopsjon i målgruppen",
+      "highlight2": "Implementerte autentisering, datamodeller og responsive layouter med Next.js, Supabase og Prisma ORM",
+      "highlight3": "Bygde et solid fundament i fullstack-utvikling og samarbeid i et oppstartsmiljø"
     }
   },
 

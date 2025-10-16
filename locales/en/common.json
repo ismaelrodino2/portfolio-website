@@ -41,63 +41,63 @@
       "name": "Bucksense",
       "location": "USA, Remote",
       "desc": "Developing a high-traffic cruise booking platform for Crystal Cruises with an international, cross-functional team.",
-      "highlight1": "Improved performance scores by ~20 points via image optimization, UI caching, and dynamic imports, enhancing booking flow speed and user experience.",
-      "highlight2": "Reduced Algolia API costs by ~30% through optimized caching, incremental static regeneration, and refined query strategies.",
-      "highlight3": "Strengthened payment gateway reliability with a comprehensive automated testing suite covering tax, currency, refund, and multi-country scenarios."
+      "highlight1": "Improved performance scores by ~20 points via image optimization, UI caching, and dynamic imports, enhancing booking flow speed and user experience",
+      "highlight2": "Reduced Algolia API costs by ~30% through optimized caching, incremental static regeneration, and refined query strategies",
+      "highlight3": "Strengthened payment gateway reliability with a comprehensive automated testing suite covering tax, currency, refund, and multi-country scenarios"
     },
 
     "sejaGudi": {
       "name": "Seja Gudi - Cultural Platform",
       "location": "Brazil, Remote",
-      "desc": "Led end-to-end development of a sustainable cultural events platform integrating recycling incentives, payments, and event management.",
-      "highlight1": "Developed cross-platform applications using React Native (mobile) and Next.js (web), sharing business logic with a Supabase + Prisma backend.",
-      "highlight2": "Integrated geolocation for cultural event discovery and recycling points, including role-based admin dashboards for event management.",
-      "highlight3": "Connected Mercado Livre API for payments and reward redemption, enabling multi-currency support and sustainable monetization."
+      "desc": "Led end-to-end development of a sustainable cultural events platform integrating recycling incentives, payments, and event management",
+      "highlight1": "Developed cross-platform applications using React Native (mobile) and Next.js (web), sharing business logic with a Supabase + Prisma backend",
+      "highlight2": "Integrated geolocation for cultural event discovery and recycling points, including role-based admin dashboards for event management",
+      "highlight3": "Connected Mercado Livre API for payments and reward redemption, enabling multi-currency support and sustainable monetization"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brazil",
-      "desc": "Led the frontend migration from ExtJS to Next.js for enterprise management systems, aligning the company’s stack with modern web standards.",
-      "highlight1": "Eliminated ExtJS licensing costs and improved maintainability using a hybrid rendering strategy combining SSG and SSR.",
-      "highlight2": "Increased page load speed by ~40% and implemented CI/CD pipelines on Vercel with zero-downtime deployments.",
-      "highlight3": "Built a private design system with Tailwind CSS and ShadCN, and led development of an AI-powered business document interpretation platform."
+      "desc": "Led the frontend migration from ExtJS to Next.js for enterprise management systems, aligning the company’s stack with modern web standards",
+      "highlight1": "Eliminated ExtJS licensing costs and improved maintainability using a hybrid rendering strategy combining SSG and SSR",
+      "highlight2": "Increased page load speed by ~40% and implemented CI/CD pipelines on Vercel with zero-downtime deployments",
+      "highlight3": "Built a private design system with Tailwind CSS and ShadCN, and led development of an AI-powered business document interpretation platform"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "Norway, Remote",
-      "desc": "Led migration of a legacy Create React App to Next.js for an energy company managing seasonal student programs.",
-      "highlight1": "Designed hybrid architecture allowing legacy and modern apps to coexist, sharing translation engines and business logic modules.",
-      "highlight2": "Enhanced caching strategies, optimized webpack configuration, and integrated Firebase for authentication and real-time features.",
-      "highlight3": "Established automated E2E, unit, and snapshot testing to reduce regression bugs and improve platform stability during seasonal peaks."
+      "desc": "Led migration of a legacy Create React App to Next.js for an energy company managing seasonal student programs",
+      "highlight1": "Designed hybrid architecture allowing legacy and modern apps to coexist, sharing translation engines and business logic modules",
+      "highlight2": "Enhanced caching strategies, optimized webpack configuration, and integrated Firebase for authentication and real-time features",
+      "highlight3": "Established automated E2E, unit, and snapshot testing to reduce regression bugs and improve platform stability during seasonal peaks"
     },
 
     "speedCast": {
       "name": "Speedcast",
       "location": "USA, Remote",
-      "desc": "Contributed to Speedcast Compass, an enterprise platform for monitoring and managing remote satellite networks.",
-      "highlight1": "Redesigned the legacy system into a modern, responsive web app with enhanced data visualization and usability.",
-      "highlight2": "Integrated ArcGIS API for real-time 3D satellite visualization and coverage monitoring directly within the main dashboard.",
-      "highlight3": "Developed modules to process and transform big data into downloadable reports (CSV, XLSX), supporting performance analysis."
+      "desc": "Contributed to Speedcast Compass, an enterprise platform for monitoring and managing remote satellite networks",
+      "highlight1": "Redesigned the legacy system into a modern, responsive web app with enhanced data visualization and usability",
+      "highlight2": "Integrated ArcGIS API for real-time 3D satellite visualization and coverage monitoring directly within the main dashboard",
+      "highlight3": "Developed modules to process and transform big data into downloadable reports (CSV, XLSX), supporting performance analysis"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "Brazil, Remote",
-      "desc": "Enhanced a hospitality recruitment platform connecting professionals to jobs across the service and hospitality sectors.",
-      "highlight1": "Developed and optimized payment slip and PDF management modules ensuring compliance with Brazilian payment standards.",
-      "highlight2": "Modernized UI components and refined layout responsiveness, resulting in higher user retention and engagement.",
-      "highlight3": "Collaborated with the product team to improve UX consistency and streamline the hiring flow experience."
+      "desc": "Enhanced a hospitality recruitment platform connecting professionals to jobs across the service and hospitality sectors",
+      "highlight1": "Developed and optimized payment slip and PDF management modules ensuring compliance with Brazilian payment standards",
+      "highlight2": "Modernized UI components and refined layout responsiveness, resulting in higher user retention and engagement",
+      "highlight3": "Collaborated with the product team to improve UX consistency and streamline the hiring flow experience"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "Norway, Remote",
-      "desc": "Contributed to the development and launch of Inkhall, a niche social network for tattoo artists and enthusiasts.",
-      "highlight1": "Helped bring the product from concept to production, enabling early adoption within the tattoo artist community.",
-      "highlight2": "Implemented authentication flows, database models, and responsive layouts using Next.js, Supabase, and Prisma ORM.",
-      "highlight3": "Gained strong full-stack development experience and improved collaboration skills in a startup environment."
+      "desc": "Contributed to the development and launch of Inkhall, a niche social network for tattoo artists and enthusiasts",
+      "highlight1": "Helped bring the product from concept to production, enabling early adoption within the tattoo artist community",
+      "highlight2": "Implemented authentication flows, database models, and responsive layouts using Next.js, Supabase, and Prisma ORM",
+      "highlight3": "Gained strong full-stack development experience and improved collaboration skills in a startup environment"
     }
   },
 

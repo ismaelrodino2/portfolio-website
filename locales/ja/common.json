@@ -40,64 +40,64 @@
     "bucksense": {
       "name": "Bucksense",
       "location": "アメリカ合衆国・リモート",
-      "desc": "国際的なチームと共に、Crystal Cruises向けの高トラフィックなクルーズ予約プラットフォームを開発。",
-      "highlight1": "画像最適化、UIキャッシュ、動的インポートにより、パフォーマンススコアを約20ポイント改善。",
-      "highlight2": "キャッシュ最適化と静的再生成により、Algolia APIコストを約30%削減。",
-      "highlight3": "多国対応の決済シナリオを含む自動テストスイートで、決済ゲートウェイの信頼性を強化。"
+      "desc": "国際的なチームと共に、Crystal Cruises向けの高トラフィックなクルーズ予約プラットフォームを開発",
+      "highlight1": "画像最適化、UIキャッシュ、動的インポートにより、パフォーマンススコアを約20ポイント改善",
+      "highlight2": "キャッシュ最適化と静的再生成により、Algolia APIコストを約30%削減",
+      "highlight3": "多国対応の決済シナリオを含む自動テストスイートで、決済ゲートウェイの信頼性を強化"
     },
 
     "sejaGudi": {
       "name": "Seja Gudi - 文化プラットフォーム",
       "location": "ブラジル・リモート",
-      "desc": "リサイクル報酬と文化イベント管理を統合した持続可能なプラットフォームを開発。",
-      "highlight1": "React Native（モバイル）とNext.js（Web）を使用してクロスプラットフォームアプリを構築し、Supabase + Prismaバックエンドを共有。",
-      "highlight2": "イベントとリサイクルポイントの発見にジオロケーションを導入し、権限管理付きダッシュボードを構築。",
-      "highlight3": "Mercado Livre APIを統合して支払いと報酬を実装し、多通貨に対応。"
+      "desc": "リサイクル報酬と文化イベント管理を統合した持続可能なプラットフォームを開発",
+      "highlight1": "React Native（モバイル）とNext.js（Web）を使用してクロスプラットフォームアプリを構築し、Supabase + Prismaバックエンドを共有",
+      "highlight2": "イベントとリサイクルポイントの発見にジオロケーションを導入し、権限管理付きダッシュボードを構築",
+      "highlight3": "Mercado Livre APIを統合して支払いと報酬を実装し、多通貨に対応"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "ポルト・アレグレ、ブラジル",
-      "desc": "企業向け管理システムのフロントエンドをExtJSからNext.jsへ移行し、最新技術へ刷新。",
-      "highlight1": "ExtJSライセンスコストを削減し、SSG + SSRハイブリッドレンダリング戦略で保守性を向上。",
-      "highlight2": "ページ速度を約40%向上し、VercelのCI/CDパイプラインでゼロダウンタイム展開を実現。",
-      "highlight3": "Tailwind CSSとShadCNを用いた社内デザインシステムを構築し、AI搭載文書プラットフォームの開発を主導。"
+      "desc": "企業向け管理システムのフロントエンドをExtJSからNext.jsへ移行し、最新技術へ刷新",
+      "highlight1": "ExtJSライセンスコストを削減し、SSG + SSRハイブリッドレンダリング戦略で保守性を向上",
+      "highlight2": "ページ速度を約40%向上し、VercelのCI/CDパイプラインでゼロダウンタイム展開を実現",
+      "highlight3": "Tailwind CSSとShadCNを用いた社内デザインシステムを構築し、AI搭載文書プラットフォームの開発を主導"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "ノルウェー・リモート",
-      "desc": "季節労働プログラムを管理するエネルギー企業向けに、Create React AppをNext.jsへ移行。",
-      "highlight1": "旧システムと新システムを共存させるハイブリッドアーキテクチャを設計し、翻訳とビジネスロジックを共有。",
-      "highlight2": "キャッシュとWebpackを最適化し、Firebaseで認証とリアルタイムデータを統合。",
-      "highlight3": "E2E、ユニット、スナップショットテストを自動化し、回帰バグを削減。"
+      "desc": "季節労働プログラムを管理するエネルギー企業向けに、Create React AppをNext.jsへ移行",
+      "highlight1": "旧システムと新システムを共存させるハイブリッドアーキテクチャを設計し、翻訳とビジネスロジックを共有",
+      "highlight2": "キャッシュとWebpackを最適化し、Firebaseで認証とリアルタイムデータを統合",
+      "highlight3": "E2E、ユニット、スナップショットテストを自動化し、回帰バグを削減"
     },
 
     "speedCast": {
       "name": "Speedcast",
       "location": "アメリカ合衆国・リモート",
-      "desc": "衛星ネットワーク監視プラットフォーム『Speedcast Compass』の開発に貢献。",
-      "highlight1": "旧システムをモダンでレスポンシブなWebアプリに再設計し、データ可視化を改善。",
-      "highlight2": "ArcGIS APIを統合してリアルタイム3D衛星可視化を実装。",
-      "highlight3": "ビッグデータを処理し、CSV・XLSXレポート生成モジュールを構築。"
+      "desc": "衛星ネットワーク監視プラットフォーム『Speedcast Compass』の開発に貢献",
+      "highlight1": "旧システムをモダンでレスポンシブなWebアプリに再設計し、データ可視化を改善",
+      "highlight2": "ArcGIS APIを統合してリアルタイム3D衛星可視化を実装",
+      "highlight3": "ビッグデータを処理し、CSV・XLSXレポート生成モジュールを構築"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "ブラジル・リモート",
-      "desc": "ホスピタリティ業界の求人プラットフォームを改善し、求職者と雇用者を効率的にマッチング。",
-      "highlight1": "支払い伝票とPDF管理モジュールを開発し、ブラジルの支払い規格に準拠。",
-      "highlight2": "UIを刷新し、レスポンシブ対応を最適化してユーザー保持率を向上。",
-      "highlight3": "製品チームと協力し、UXと採用フローの一貫性を強化。"
+      "desc": "ホスピタリティ業界の求人プラットフォームを改善し、求職者と雇用者を効率的にマッチング",
+      "highlight1": "支払い伝票とPDF管理モジュールを開発し、ブラジルの支払い規格に準拠",
+      "highlight2": "UIを刷新し、レスポンシブ対応を最適化してユーザー保持率を向上",
+      "highlight3": "製品チームと協力し、UXと採用フローの一貫性を強化"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "ノルウェー・リモート",
-      "desc": "タトゥーアーティストのためのSNS『Inkhall』の開発とローンチに参加。",
-      "highlight1": "コンセプトからリリースまで貢献し、ターゲットコミュニティでの早期採用を実現。",
-      "highlight2": "Next.js、Supabase、Prisma ORMで認証とデータモデルを実装。",
-      "highlight3": "スタートアップ環境でフルスタック開発とチーム協働スキルを強化。"
+      "desc": "タトゥーアーティストのためのSNS『Inkhall』の開発とローンチに参加",
+      "highlight1": "コンセプトからリリースまで貢献し、ターゲットコミュニティでの早期採用を実現",
+      "highlight2": "Next.js、Supabase、Prisma ORMで認証とデータモデルを実装",
+      "highlight3": "スタートアップ環境でフルスタック開発とチーム協働スキルを強化"
     }
   },
 
