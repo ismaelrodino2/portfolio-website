@@ -1,143 +1,158 @@
 {
   "title": "Fullstack programvareingeniør",
-  "summary": "Sammendrag",
+  "summary": "Fullstack programvareingeniør med over 5 års erfaring i å bygge skalerbare og høyytelses web- og mobilapplikasjoner.",
   "location": "Porto Alegre, Brasil",
-  "exp": "med mer enn 4 års erfaring",
-  "desc1": "Hei! Jeg er en brasilianer som brenner for å bygge brukeropplevelser som har høy innvirkning og ytelse.",
-  "desc2": "Jeg tror arbeid tar en stor del av dagen min, så jeg prøver å få det beste ut av det for meg selv og mine kolleger.",
-  "desc3": "For å oppnå dette fokuserer jeg på empati i samtaler og prøver å levere noe jeg er fornøyd med.",
-  "howConfortable": "Hvor komfortabel jeg er med hver teknologi",
+  "exp": "5+ års erfaring",
+
+  "desc1": "Brasiliansk ingeniør med lidenskap for å bygge brukeropplevelser med høy ytelse og stor påvirkning.",
+  "desc2": "Jeg verdsetter ren, vedlikeholdbar kode og effektivt samarbeid i team.",
+  "desc3": "Fokus på eierskap, empati og leveranser jeg er stolt av.",
+
+  "howConfortable": "Kompetansenivå per teknologi",
   "years": "år",
   "courses": "kurs",
-  "nonExhaustive": "Ikke-uttømmende liste over språk, teknologier og verktøy",
+  "nonExhaustive": "Ikke-uttømmende liste over teknologier og verktøy",
+
   "education": "Utdanning",
-  "softwareEngineering": "Programvareteknikk",
+  "softwareEngineering": "Programvareingeniørfag",
   "systemsDevelopmentAndAnalysis": "Systemutvikling og analyse",
+
   "languages": "Språk",
-  "basedonCEFR": "Basert på CEFR-språknivåer",
+  "basedonCEFR": "Basert på CEFR",
   "portuguese": "Portugisisk",
   "english": "Engelsk",
-  "native": "morsmål",
+  "native": "Morsmål",
+
   "downloadCurriculum": "Last ned CV",
-  "scheduleAmeeting": "Avtal et møte",
+  "scheduleAmeeting": "Book et møte",
+
   "experience": {
     "ongoing": "Nåværende",
     "title": "Erfaring",
     "softwareEngineer": "Programvareingeniør",
-    "contractorSoftwareEngineer": "Programvareingeniør (Kontrakt)"
+    "contractorSoftwareEngineer": "Konsulent / kontrakt"
   },
 
   "whatsetsmeapart": {
     "title": "Hva skiller meg ut?",
-    "reason1": "Jeg viser høy ytelse slik at <b>kollegene mine kan stole på meg</b>.",
-    "reason2": "Jeg er <b>selvmotivert</b> med en <b>lidenskap for å lære</b> og bruke frontend- og backend-teknologier.",
-    "reason3": "Jeg er en <b>systemtenker</b> som kan resonnere om systemer og <b>forstå tekniske avveininger</b>."
+    "reason1": "Stabil leveranse — <b>team kan stole på meg</b>.",
+    "reason2": "<b>Selvdrevet</b> med sterk læringsvilje og fullstack-kompetanse.",
+    "reason3": "<b>Systemtenkning</b> — forstår tekniske trade-offs og skalerbarhet."
   },
 
   "workexp": {
-    "notlisted": "Det er én frilansopplevelse som ikke er oppført.",
+    "notlisted": "Ytterligere frilansarbeid er tilgjengelig ved forespørsel.",
 
     "bucksense": {
       "name": "Bucksense",
-      "location": "USA, Fjernarbeid",
-      "desc": "Utvikler en høytrafikkert cruisebookingsplattform for Crystal Cruises i et internasjonalt tverrfaglig team",
-      "highlight1": "Forbedret ytelsesscore med omtrent 20 poeng gjennom bildeoptimalisering, UI-caching og dynamiske imports",
-      "highlight2": "Reduserte Algolia API-kostnader med omtrent 30% ved hjelp av optimalisert caching og forbedrede spørringsstrategier",
-      "highlight3": "Forsterket påliteligheten til betalingssystemet med en omfattende automatisert testpakke for flere land og valutaer"
+      "location": "USA, Remote",
+      "desc": "Utvikler en høytrafikkert cruise-bookingplattform for Crystal Cruises.",
+      "highlight1": "Forbedret ytelse (~+20 poeng) gjennom optimalisering og caching",
+      "highlight2": "Reduserte Algolia API-kostnader med ~30%",
+      "highlight3": "Bygde en robust test-suite for betalingssystemer på tvers av land"
     },
 
     "sejaGudi": {
-      "name": "Seja Gudi - Kulturplattform",
-      "location": "Brasil, Fjernarbeid",
-      "desc": "Ledet fullstendig utvikling av en bærekraftig kulturplattform som kombinerer resirkuleringsinsentiver, betaling og arrangementadministrasjon",
-      "highlight1": "Utviklet apper for både mobil (React Native) og web (Next.js) med felles forretningslogikk og Supabase + Prisma backend",
-      "highlight2": "Integrerte geolokalisering for oppdagelse av arrangementer og innsamlingspunkter, med rollebasede adminpaneler",
-      "highlight3": "Koblet til Mercado Livre API for betalinger og belønningssystem med støtte for flere valutaer"
+      "name": "Seja Gudi",
+      "location": "Brasil, Remote",
+      "desc": "Offentlig finansiert plattform som kobler brukere til kulturelle arrangementer og bærekraftige initiativer.",
+      "highlight1": "Bygde hele plattformen fra bunnen av (React Native + Next.js + Supabase)",
+      "highlight2": "Implementerte geolokasjon og admin-dashboard",
+      "highlight3": "Integrerte betaling og belønningssystem",
+      "highlight4": "Valgt gjennom offentlig støtteordning og planlagt ekspansjon til nye byer"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brasil",
-      "desc": "Ledet frontend-migrasjon fra ExtJS til Next.js for bedriftsstyringssystemer, og oppdaterte hele teknologistakken",
-      "highlight1": "Eliminerte ExtJS-lisenskostnader og forbedret vedlikeholdbarhet med hybridrendring (SSG + SSR)",
-      "highlight2": "Økte lastetiden med omtrent 40% og implementerte CI/CD-pipelines med null nedetid via Vercel",
-      "highlight3": "Bygde et internt designsystem med Tailwind CSS og ShadCN og ledet utviklingen av en AI-basert dokumentplattform"
+      "desc": "Moderniserte enterprise-systemer.",
+      "highlight1": "Migrerte fra ExtJS til Next.js",
+      "highlight2": "Forbedret ytelse med ~40%",
+      "highlight3": "Bygde et internt design system",
+      "highlight4": "Utviklet AI-plattform basert på LLM"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
-      "location": "Norge, Fjernarbeid",
-      "desc": "Ledet migrasjonen fra Create React App til Next.js for en energibedrift som håndterer sesongbaserte studentprogrammer",
-      "highlight1": "Designet en hybridarkitektur for å kjøre gamle og nye apper i samme kodebase med delt oversettelseslogikk",
-      "highlight2": "Forbedret caching og Webpack, integrerte Firebase for autentisering og sanntidsdata",
-      "highlight3": "Etablerte automatiserte E2E-, enhets- og snapshot-tester for å redusere feil og forbedre stabilitet under høysesong"
+      "location": "Norge, Remote",
+      "desc": "Modernisering av plattform for energisektor.",
+      "highlight1": "Migrasjon til Next.js",
+      "highlight2": "Optimalisering av caching og ytelse",
+      "highlight3": "Implementerte automatiserte tester"
     },
 
     "speedCast": {
       "name": "Speedcast",
-      "location": "USA, Fjernarbeid",
-      "desc": "Bidro til utviklingen av Speedcast Compass, en plattform for overvåking og administrasjon av satellittnettverk",
-      "highlight1": "Redesignede det gamle systemet til en moderne, responsiv webapplikasjon med bedre datavisualisering",
-      "highlight2": "Integrerte ArcGIS API for sanntids 3D-visualisering av satellitter og dekningsovervåking",
-      "highlight3": "Utviklet moduler for å behandle store datamengder til nedlastbare rapporter (CSV, XLSX)"
+      "location": "USA, Remote",
+      "desc": "Plattform for overvåking av satellittnettverk.",
+      "highlight1": "Redesignet legacy-system",
+      "highlight2": "Implementerte 3D visualisering med ArcGIS",
+      "highlight3": "Utviklet eksportfunksjoner for data"
     },
 
     "switchApp": {
       "name": "Switch App",
-      "location": "Brasil, Fjernarbeid",
-      "desc": "Forbedret en rekrutteringsplattform for hotell- og servicebransjen som kobler arbeidssøkere til ledige stillinger",
-      "highlight1": "Utviklet betalings- og PDF-moduler i samsvar med lokale standarder",
-      "highlight2": "Moderniserte grensesnitt og forbedret responsivitet, noe som økte brukerengasjementet",
-      "highlight3": "Samarbeidet med produkteamet for å forbedre brukeropplevelsen og ansettelsesflyten"
+      "location": "Brasil, Remote",
+      "desc": "Rekrutteringsplattform.",
+      "highlight1": "Utviklet betalings- og PDF-moduler",
+      "highlight2": "Forbedret UX",
+      "highlight3": "Optimaliserte rekrutteringsflyt"
     },
 
     "lucalto": {
       "name": "Lucalto",
-      "location": "Norge, Fjernarbeid",
-      "desc": "Bidro til utvikling og lansering av Inkhall, et nisjesosialt nettverk for tatovører",
-      "highlight1": "Hjalp til fra konsept til lansering, noe som førte til tidlig adopsjon i målgruppen",
-      "highlight2": "Implementerte autentisering, datamodeller og responsive layouter med Next.js, Supabase og Prisma ORM",
-      "highlight3": "Bygde et solid fundament i fullstack-utvikling og samarbeid i et oppstartsmiljø"
+      "location": "Norge, Remote",
+      "desc": "Sosial plattform for tatoveringsartister.",
+      "highlight1": "Bidro fra konsept til produksjon",
+      "highlight2": "Implementerte autentisering og backend",
+      "highlight3": "Opparbeidet solid fullstack-erfaring"
     }
   },
 
   "projects": {
     "title": "Prosjekter",
-    "openSource": "Åpen kildekode",
+    "openSource": "Open Source",
+
     "mentoring": {
-      "title": "Mentorordning - fortsatt pågående, forhåndsvisning nedenfor",
-      "desc1": "System for matching mellom mentor og deltaker",
-      "desc2": "Sanntidschat-funksjonalitet",
-      "desc3": "Autentisering og registrering"
+      "title": "Mentorplattform (pågående)",
+      "desc1": "Matching mellom mentor og mentee",
+      "desc2": "Sanntids chat",
+      "desc3": "Autentisering"
     },
+
+    "linkedinJobBot": {
+      "title": "WishApply - AI jobbsøknadsautomatisering",
+      "desc1": "Chrome-utvidelse som automatisk søker jobber på LinkedIn",
+      "desc2": "Bruker LLM + RAG for å generere personlige søknader",
+      "desc3": "Automatiserer jobbsøk og søknadsprosess"
+    },
+
+    "autofill": {
+      "title": "Autofyll for jobbsøknader",
+      "desc1": "Automatisering med Electron",
+      "desc2": "Bruker Puppeteer"
+    },
+
     "ecommerce": {
       "title": "E-handel",
-      "desc1": "Enkel nettbutikk med Stripe-integrasjon",
-      "desc2": "Betaling og produktkjøp",
-      "desc3": "Brukerregistrering og autentisering"
+      "desc1": "Nettbutikk med Stripe-integrasjon",
+      "desc2": "Betalingssystem",
+      "desc3": "Autentisering"
     },
+
     "blog": {
-      "title": "Blogg",
-      "desc1": "Opprett konto og administrer innlegg",
-      "desc2": "Kommenter og reager på innlegg"
+      "title": "Bloggplattform",
+      "desc1": "Innlegg og brukerkontoer",
+      "desc2": "Kommentarer"
     },
+
     "certificates": {
-      "title": "Sertifikatutstedelse",
-      "desc1": "Send tilpassede PDF-sertifikater",
-      "desc2": "Sertifikater kan inkludere studentnavn og datoer",
-      "desc3": "Tekst- og datofelt kan plasseres før sending via e-post"
-    },
-    "autofill": {
-      "title": "Automatisk utfylling av jobbsøknader",
-      "desc1": "Electron.js-app for automatisk utfylling av jobbsøknadsskjemaer",
-      "desc2": "Bruker Puppeteer for automatisering"
-    },
-    "linkedinJobBot": {
-      "title": "WishApply - LinkedIn Jobbsøkerbot",
-      "desc1": "Skrivebordsapp bygget med Electron.js og Node.js som bruker AI til å søke automatisk på jobber på LinkedIn",
-      "desc2": "Søker etter stillinger, fyller ut søknadsskjemaer og lager personlige følgebrev med AI-modeller",
-      "desc3": "Lansert i 2025 som WishApply, og forenkler prosessen med automatisert jobbsøking"
+      "title": "Sertifikat-system",
+      "desc1": "Genererer tilpassede PDF-er",
+      "desc2": "Dynamiske data",
+      "desc3": "Justerbart layout"
     }
   },
-  "footer": "Lag med <span className='text-red-700'>❤️</span> av Ismael Rodino"
+
+  "footer": "Laget med ❤️ av Ismael Rodino"
 }

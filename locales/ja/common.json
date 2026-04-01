@@ -1,144 +1,158 @@
 {
   "title": "フルスタックソフトウェアエンジニア",
-  "summary": "概要",
-  "location": "ブラジル、ポルト・アレグレ",
-  "exp": " 実務経験4年以上",
-  "desc1": "こんにちは！高いインパクトと優れたパフォーマンスのユーザー体験づくりに情熱を注ぐブラジル出身のエンジニアです。",
-  "desc2": "仕事は一日の大半を占めるので、自分やチームにとって最良の成果を出すことを大切にしています。",
-  "desc3": "そのために、対話では共感を重視し、納得できる品質で届けることを心がけています。",
-  "howConfortable": "各技術に対する習熟度",
+  "summary": "5年以上の経験を持つフルスタックソフトウェアエンジニア。スケーラブルで高パフォーマンスなWebおよびモバイルアプリケーションを開発。",
+  "location": "ブラジル・ポルトアレグレ",
+  "exp": "5年以上の経験",
+
+  "desc1": "高品質でインパクトのあるユーザー体験を構築することに情熱を持つエンジニアです。",
+  "desc2": "保守性の高いコードとチームでの円滑なコラボレーションを重視しています。",
+  "desc3": "共感力とオーナーシップを持ち、誇りを持てるプロダクトを提供します。",
+
+  "howConfortable": "技術ごとの習熟度",
   "years": "年",
   "courses": "コース",
-  "nonExhaustive": "言語・技術・ツールの網羅的ではない一覧",
+  "nonExhaustive": "使用技術・ツール一覧（一部）",
+
   "education": "学歴",
   "softwareEngineering": "ソフトウェア工学",
   "systemsDevelopmentAndAnalysis": "システム開発・分析",
+
   "languages": "言語",
-  "basedonCEFR": "CEFRに基づく言語熟達度",
+  "basedonCEFR": "CEFR基準",
   "portuguese": "ポルトガル語",
   "english": "英語",
-  "native": "母語",
+  "native": "ネイティブ",
+
   "downloadCurriculum": "履歴書をダウンロード",
   "scheduleAmeeting": "ミーティングを予約",
+
   "experience": {
-    "ongoing": "継続中",
+    "ongoing": "現在",
     "title": "職務経歴",
     "softwareEngineer": "ソフトウェアエンジニア",
     "contractorSoftwareEngineer": "契約ソフトウェアエンジニア"
   },
 
   "whatsetsmeapart": {
-    "title": "私の強み",
-    "reason1": "高い成果を安定して出し、<b>仲間から信頼される存在</b>です。",
-    "reason2": "<b>学習意欲</b>が高く、フロントエンド／バックエンドの両方に情熱を持って取り組みます。",
-    "reason3": "<b>システム思考</b>で全体を捉え、<b>技術的なトレードオフ</b>を理解して判断できます。"
+    "title": "強み",
+    "reason1": "安定した成果 — <b>チームから信頼される存在</b>",
+    "reason2": "<b>自己主導型</b>で学習意欲が高く、フルスタック開発に強み",
+    "reason3": "<b>システム思考</b>により技術的トレードオフを理解し最適な設計が可能"
   },
 
   "workexp": {
-    "notlisted": "掲載されていないフリーランスの経験があります。",
+    "notlisted": "記載されていないフリーランス経験もあります。",
 
     "bucksense": {
       "name": "Bucksense",
-      "location": "アメリカ合衆国・リモート",
-      "desc": "国際的なチームと共に、Crystal Cruises向けの高トラフィックなクルーズ予約プラットフォームを開発",
-      "highlight1": "画像最適化、UIキャッシュ、動的インポートにより、パフォーマンススコアを約20ポイント改善",
-      "highlight2": "キャッシュ最適化と静的再生成により、Algolia APIコストを約30%削減",
-      "highlight3": "多国対応の決済シナリオを含む自動テストスイートで、決済ゲートウェイの信頼性を強化"
+      "location": "アメリカ・リモート",
+      "desc": "Crystal Cruises向けの高トラフィックなクルーズ予約プラットフォームを開発。",
+      "highlight1": "画像最適化やキャッシュによりパフォーマンスを約20ポイント改善",
+      "highlight2": "検索最適化によりAlgolia APIコストを約30%削減",
+      "highlight3": "多国間決済のための自動テストスイートを構築"
     },
 
     "sejaGudi": {
-      "name": "Seja Gudi - 文化プラットフォーム",
+      "name": "Seja Gudi",
       "location": "ブラジル・リモート",
-      "desc": "リサイクル報酬と文化イベント管理を統合した持続可能なプラットフォームを開発",
-      "highlight1": "React Native（モバイル）とNext.js（Web）を使用してクロスプラットフォームアプリを構築し、Supabase + Prismaバックエンドを共有",
-      "highlight2": "イベントとリサイクルポイントの発見にジオロケーションを導入し、権限管理付きダッシュボードを構築",
-      "highlight3": "Mercado Livre APIを統合して支払いと報酬を実装し、多通貨に対応"
+      "desc": "政府の助成金に採択された、文化イベントとサステナビリティを結びつけるプラットフォーム。",
+      "highlight1": "React Native・Next.js・Supabaseを用いてゼロから開発",
+      "highlight2": "位置情報ベースのイベント検索と管理ダッシュボードを実装",
+      "highlight3": "決済および報酬システムを統合",
+      "highlight4": "助成金プロジェクトとして採択され、他都市への展開を計画中"
     },
 
     "quattrus": {
       "name": "Quattrus",
-      "location": "ポルト・アレグレ、ブラジル",
-      "desc": "企業向け管理システムのフロントエンドをExtJSからNext.jsへ移行し、最新技術へ刷新",
-      "highlight1": "ExtJSライセンスコストを削減し、SSG + SSRハイブリッドレンダリング戦略で保守性を向上",
-      "highlight2": "ページ速度を約40%向上し、VercelのCI/CDパイプラインでゼロダウンタイム展開を実現",
-      "highlight3": "Tailwind CSSとShadCNを用いた社内デザインシステムを構築し、AI搭載文書プラットフォームの開発を主導"
+      "location": "ブラジル・ポルトアレグレ",
+      "desc": "企業向けシステムのモダナイゼーションをリード。",
+      "highlight1": "ExtJSからNext.jsへの移行",
+      "highlight2": "パフォーマンスを約40%向上",
+      "highlight3": "デザインシステムを構築",
+      "highlight4": "LLMを活用したAIドキュメント処理プラットフォームを開発"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "ノルウェー・リモート",
-      "desc": "季節労働プログラムを管理するエネルギー企業向けに、Create React AppをNext.jsへ移行",
-      "highlight1": "旧システムと新システムを共存させるハイブリッドアーキテクチャを設計し、翻訳とビジネスロジックを共有",
-      "highlight2": "キャッシュとWebpackを最適化し、Firebaseで認証とリアルタイムデータを統合",
-      "highlight3": "E2E、ユニット、スナップショットテストを自動化し、回帰バグを削減"
+      "desc": "エネルギー企業向けプラットフォームをモダナイズ。",
+      "highlight1": "CRAからNext.jsへの移行",
+      "highlight2": "パフォーマンスとキャッシュの最適化",
+      "highlight3": "自動テストの導入"
     },
 
     "speedCast": {
       "name": "Speedcast",
-      "location": "アメリカ合衆国・リモート",
-      "desc": "衛星ネットワーク監視プラットフォーム『Speedcast Compass』の開発に貢献",
-      "highlight1": "旧システムをモダンでレスポンシブなWebアプリに再設計し、データ可視化を改善",
-      "highlight2": "ArcGIS APIを統合してリアルタイム3D衛星可視化を実装",
-      "highlight3": "ビッグデータを処理し、CSV・XLSXレポート生成モジュールを構築"
+      "location": "アメリカ・リモート",
+      "desc": "衛星ネットワーク監視プラットフォームの開発。",
+      "highlight1": "レガシーUIを刷新",
+      "highlight2": "ArcGISによる3D可視化を実装",
+      "highlight3": "データエクスポート機能を開発"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "ブラジル・リモート",
-      "desc": "ホスピタリティ業界の求人プラットフォームを改善し、求職者と雇用者を効率的にマッチング",
-      "highlight1": "支払い伝票とPDF管理モジュールを開発し、ブラジルの支払い規格に準拠",
-      "highlight2": "UIを刷新し、レスポンシブ対応を最適化してユーザー保持率を向上",
-      "highlight3": "製品チームと協力し、UXと採用フローの一貫性を強化"
+      "desc": "採用プラットフォームの改善。",
+      "highlight1": "決済およびPDF機能を開発",
+      "highlight2": "UXの改善",
+      "highlight3": "採用フローの最適化"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "ノルウェー・リモート",
-      "desc": "タトゥーアーティストのためのSNS『Inkhall』の開発とローンチに参加",
-      "highlight1": "コンセプトからリリースまで貢献し、ターゲットコミュニティでの早期採用を実現",
-      "highlight2": "Next.js、Supabase、Prisma ORMで認証とデータモデルを実装",
-      "highlight3": "スタートアップ環境でフルスタック開発とチーム協働スキルを強化"
+      "desc": "タトゥーアーティスト向けSNSの開発。",
+      "highlight1": "コンセプトから本番まで貢献",
+      "highlight2": "認証とバックエンド実装",
+      "highlight3": "フルスタック開発経験を習得"
     }
   },
 
   "projects": {
     "title": "プロジェクト",
     "openSource": "オープンソース",
+
     "mentoring": {
-      "title": "メンタープログラム - 進行中、下にプレビューあり",
-      "desc1": "メンターとメンティーのマッチングシステム",
-      "desc2": "リアルタイムチャット機能",
-      "desc3": "ユーザー認証と登録"
+      "title": "メンタリングプラットフォーム（開発中）",
+      "desc1": "メンターとメンティーのマッチング",
+      "desc2": "リアルタイムチャット",
+      "desc3": "認証機能"
     },
+
+    "linkedinJobBot": {
+      "title": "WishApply - AI求人応募自動化",
+      "desc1": "LinkedInで自動応募を行うChrome拡張機能",
+      "desc2": "LLMとRAGを活用して応募内容を生成",
+      "desc3": "求人検索から応募までを自動化"
+    },
+
+    "autofill": {
+      "title": "応募フォーム自動入力ツール",
+      "desc1": "Electronによる自動化アプリ",
+      "desc2": "Puppeteerを使用"
+    },
+
     "ecommerce": {
-      "title": "Eコマース",
-      "desc1": "Stripe連携を使用したシンプルなオンラインストア",
-      "desc2": "商品の支払い機能",
-      "desc3": "アカウント登録と認証"
+      "title": "ECサイト",
+      "desc1": "Stripe連携のオンラインストア",
+      "desc2": "決済システム",
+      "desc3": "認証機能"
     },
+
     "blog": {
-      "title": "ブログ",
-      "desc1": "アカウントを作成して投稿を管理",
-      "desc2": "投稿にコメント・リアクション可能"
+      "title": "ブログプラットフォーム",
+      "desc1": "投稿管理とアカウント",
+      "desc2": "コメント機能"
     },
+
     "certificates": {
       "title": "証明書発行システム",
-      "desc1": "カスタマイズ可能なPDF証明書を送信",
-      "desc2": "証明書に学生名や日付を含めることが可能",
-      "desc3": "送信前にテキストや日付を配置可能"
-    },
-    "autofill": {
-      "title": "自動応募フォーム入力",
-      "desc1": "Electron.jsで作成されたアプリで、求人応募フォームを自動入力",
-      "desc2": "Puppeteerを使用して自動化と送信を実行"
-    },
-    "linkedinJobBot": {
-      "title": "WishApply - LinkedIn求人応募ボット",
-      "desc1": "Electron.jsとNode.jsで構築されたデスクトップアプリ。AIを使用してLinkedInの求人に自動応募。",
-      "desc2": "求人を検索し、応募フォームを自動入力し、AIモデルでパーソナライズされたカバーレターを生成。",
-      "desc3": "2025年にWishApplyとしてリリースされ、自動応募プロセスを簡素化。"
+      "desc1": "カスタムPDF生成",
+      "desc2": "動的データ挿入",
+      "desc3": "レイアウト調整可能"
     }
   },
 
-  "footer": "Ismael Rodino が<span className='text-red-700'>❤️</span>を込めて作りました"
+  "footer": "Ismael Rodino によって ❤️ で作成"
 }

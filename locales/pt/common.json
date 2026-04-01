@@ -1,144 +1,153 @@
 {
-  "title": "Engenheiro de Software full stack",
-  "summary": "Sumário",
+  "title": "Engenheiro de Software Fullstack",
+  "summary": "Engenheiro de Software Fullstack com 5+ anos de experiência desenvolvendo aplicações web e mobile escaláveis e de alta performance.",
   "location": "Porto Alegre, Brasil",
-  "exp": " com mais de 4 anos de experiência",
-  "desc1": "Olá! Sou um brasileiro apaixonado por construir experiências de usuário de alto impacto e bem-performantes.",
-  "desc2": "Acredito que o trabalho ocupa uma grande parte do meu dia, então tento tirar o melhor proveito para mim e meus colegas.",
-  "desc3": "Para alcançar isso, foco na empatia durante as conversas e tento entregar algo com o qual eu esteja satisfeito.",
-  "howConfortable": "Quão confortável estou com cada tecnologia",
+  "exp": "5+ anos de experiência",
+  "desc1": "Engenheiro brasileiro apaixonado por construir experiências de usuário performáticas e de alto impacto.",
+  "desc2": "Valorizo código limpo, manutenção a longo prazo e colaboração eficiente.",
+  "desc3": "Foco em empatia, senso de dono e entregas das quais me orgulho.",
+  "howConfortable": "Nível de domínio por tecnologia",
   "years": "anos",
   "courses": "cursos",
-  "nonExhaustive": "Lista não exaustiva de linguagens, tecnologias e ferramentas",
-  "education": "Educação",
+  "nonExhaustive": "Lista não exaustiva de tecnologias e ferramentas",
+  "education": "Formação",
   "softwareEngineering": "Engenharia de Software",
   "systemsDevelopmentAndAnalysis": "Análise e Desenvolvimento de Sistemas",
   "languages": "Idiomas",
-  "basedonCEFR": "Com base nos níveis de proficiência em idiomas CEFR",
+  "basedonCEFR": "Baseado no CEFR",
   "portuguese": "Português",
   "english": "Inglês",
-  "native": "nativo",
+  "native": "Nativo",
   "downloadCurriculum": "Baixar Currículo",
-  "scheduleAmeeting": "Agendar uma reunião",
+  "scheduleAmeeting": "Agendar reunião",
+
   "experience": {
     "ongoing": "Atual",
     "title": "Experiência",
     "softwareEngineer": "Engenheiro de Software",
-    "contractorSoftwareEngineer": "Engenheiro de Software (Contractor)"
+    "contractorSoftwareEngineer": "Engenheiro de Software (Contrato)"
   },
 
   "whatsetsmeapart": {
-    "title": "O que me destaca?",
-    "reason1": "Demonstro alto desempenho para que <b>os colegas possam contar comigo</b>.",
-    "reason2": "Sou <b>auto-motivado</b> com uma <b>paixão por aprender</b> e usar tecnologias de front-end e back-end.",
-    "reason3": "Sou um <b>pensador de sistemas</b> que pode raciocinar sobre sistemas e <b>entender trade-offs técnicos</b>."
+    "title": "Diferenciais",
+    "reason1": "Alta consistência — <b>times podem confiar na minha entrega</b>.",
+    "reason2": "<b>Autodidata</b> com forte interesse por aprendizado contínuo e fullstack.",
+    "reason3": "<b>Pensamento sistêmico</b> — entendo trade-offs e escalabilidade."
   },
 
   "workexp": {
-    "notlisted": "Há uma experiência freelance que não está listada.",
+    "notlisted": "Há experiências freelance adicionais não listadas.",
 
     "bucksense": {
       "name": "Bucksense",
       "location": "EUA, Remoto",
-      "desc": "Desenvolvimento de plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises em equipe internacional e multifuncional.",
-      "highlight1": "Otimização de desempenho com redução de imagens, cache de interface e imports dinâmicos, resultando em melhoria de ~20 pontos em métricas de performance",
-      "highlight2": "Redução de ~30% nos custos da API Algolia através de caching otimizado, regeneração estática incremental e estratégias de consulta refinadas",
-      "highlight3": "Criação de suíte de testes automatizados abrangendo impostos, moedas, reembolsos e cenários multicountry para aumento da confiabilidade do gateway de pagamento"
+      "desc": "Desenvolvendo uma plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises.",
+      "highlight1": "Melhoria de performance (~+20 pontos) com otimizações e caching",
+      "highlight2": "Redução de ~30% nos custos da API Algolia",
+      "highlight3": "Criação de suíte robusta de testes para pagamentos multi-país"
     },
 
     "sejaGudi": {
-      "name": "Seja Gudi - Plataforma Cultural",
+      "name": "Seja Gudi",
       "location": "Brasil, Remoto",
-      "desc": "Desenvolvimento completo de uma plataforma sustentável de eventos culturais integrando reciclagem, pagamentos e gestão de eventos",
-      "highlight1": "Desenvolvimento de aplicativos multiplataforma com React Native (mobile) e Next.js (web) utilizando backend Supabase + Prisma com lógica compartilhada",
-      "highlight2": "Integração de geolocalização para descoberta de eventos culturais e pontos de reciclagem, com dashboards administrativos e controle de permissões",
-      "highlight3": "Integração da API do Mercado Livre para pagamentos e sistema de recompensas de reciclagem com suporte a múltiplas moedas"
+      "desc": "Plataforma cultural financiada por edital conectando usuários a eventos e iniciativas sustentáveis.",
+      "highlight1": "Desenvolvimento completo (React Native + Next.js + Supabase)",
+      "highlight2": "Geolocalização e dashboard administrativo",
+      "highlight3": "Integração com pagamentos e sistema de recompensas",
+      "highlight4": "Projeto selecionado por edital e em expansão para novas cidades"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brasil",
-      "desc": "Migração do frontend de sistemas empresariais de ExtJS para Next.js, modernizando a arquitetura e o stack tecnológico",
-      "highlight1": "Eliminação de custos de licenciamento ExtJS e melhoria de manutenção com estratégia híbrida de renderização (SSG + SSR)",
-      "highlight2": "Aumento de ~40% na velocidade de carregamento e implementação de pipelines CI/CD com deploys sem interrupção via Vercel",
-      "highlight3": "Criação de design system privado com Tailwind CSS e ShadCN e desenvolvimento de plataforma de documentos corporativos com IA"
+      "desc": "Modernização de sistemas empresariais.",
+      "highlight1": "Migração de ExtJS para Next.js",
+      "highlight2": "Melhoria de performance (~40%)",
+      "highlight3": "Criação de design system",
+      "highlight4": "Plataforma de IA com LLMs"
     },
 
     "alex": {
       "name": "Alex Rohleder LTDA",
       "location": "Noruega, Remoto",
-      "desc": "Migração de sistema legado em Create React App para Next.js em plataforma de gestão de programas estudantis sazonais",
-      "highlight1": "Arquitetura híbrida com coexistência de aplicações legadas e modernas, compartilhando motor de tradução e lógica de negócios",
-      "highlight2": "Otimização de cache e webpack com integração Firebase para autenticação e dados em tempo real",
-      "highlight3": "Criação de suíte automatizada de testes E2E, unitários e de snapshot para redução de bugs de regressão e aumento da estabilidade"
+      "desc": "Modernização de plataforma para setor energético.",
+      "highlight1": "Migração para Next.js",
+      "highlight2": "Otimização de performance e caching",
+      "highlight3": "Testes automatizados"
     },
 
     "speedCast": {
       "name": "Speedcast",
       "location": "EUA, Remoto",
-      "desc": "Participação no desenvolvimento do Speedcast Compass, portal empresarial para monitoramento e gestão de redes via satélite",
-      "highlight1": "Redesenho de sistema legado em aplicação moderna e responsiva com visualização aprimorada de dados",
-      "highlight2": "Integração do ArcGIS API para visualização 3D em tempo real de satélites e cobertura de rede",
-      "highlight3": "Desenvolvimento de módulos para processamento de big data e exportação de relatórios (CSV, XLSX) para análise de desempenho"
+      "desc": "Plataforma de monitoramento de redes satelitais.",
+      "highlight1": "Redesign completo",
+      "highlight2": "Visualização 3D com ArcGIS",
+      "highlight3": "Exportação de dados"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "Brasil, Remoto",
-      "desc": "Aprimoramento de plataforma de recrutamento voltada ao setor de hospitalidade, conectando profissionais e empregadores",
-      "highlight1": "Desenvolvimento e otimização de módulos de boletos e gestão de PDFs com conformidade aos padrões locais de pagamento",
-      "highlight2": "Modernização de componentes de interface e melhoria da responsividade para aumento da retenção de usuários",
-      "highlight3": "Colaboração com equipe de produto em refinamento de layouts e usabilidade da plataforma"
+      "desc": "Plataforma de recrutamento.",
+      "highlight1": "Módulos de pagamento e PDF",
+      "highlight2": "Melhoria de UX",
+      "highlight3": "Otimização do fluxo de contratação"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "Noruega, Remoto",
-      "desc": "Desenvolvimento do Inkhall, rede social de nicho voltada para tatuadores e entusiastas, desde o conceito até o lançamento",
-      "highlight1": "Participação no ciclo completo do produto — concepção, desenvolvimento e entrega — com adoção inicial pela comunidade-alvo",
-      "highlight2": "Implementação de autenticação, modelos de banco de dados e layouts responsivos com Next.js, Supabase e Prisma ORM",
-      "highlight3": "Experiência prática em desenvolvimento full-stack e colaboração multidisciplinar em ambiente de startup"
+      "desc": "Rede social para tatuadores.",
+      "highlight1": "Do conceito à produção",
+      "highlight2": "Auth e backend",
+      "highlight3": "Experiência fullstack"
     }
   },
 
   "projects": {
     "title": "Projetos",
-    "openSource": "Código Aberto",
+    "openSource": "Open Source",
+
     "mentoring": {
-      "title": "Mentoria - ainda em andamento, prévia abaixo",
-      "desc1": "Sistema de mentoria com correspondência entre mentor e aluno",
+      "title": "Mentoria (em andamento)",
+      "desc1": "Sistema de matching",
       "desc2": "Chat em tempo real",
-      "desc3": "Autenticação e registro de usuários"
+      "desc3": "Autenticação"
     },
+
+    "linkedinJobBot": {
+      "title": "WishApply - Automação de vagas com IA",
+      "desc1": "Extensão Chrome que aplica automaticamente no LinkedIn",
+      "desc2": "Usa LLM + RAG para respostas personalizadas",
+      "desc3": "Automatiza busca e aplicação"
+    },
+
+    "autofill": {
+      "title": "Autofill de vagas",
+      "desc1": "Automação com Electron",
+      "desc2": "Uso de Puppeteer"
+    },
+
     "ecommerce": {
       "title": "E-commerce",
-      "desc1": "Loja virtual simples com Stripe",
-      "desc2": "Pagamento de produtos",
-      "desc3": "Cadastro e autenticação"
+      "desc1": "Loja com Stripe",
+      "desc2": "Checkout",
+      "desc3": "Autenticação"
     },
+
     "blog": {
       "title": "Blog",
-      "desc1": "Criação de conta e gerenciamento de postagens",
-      "desc2": "Comente e reaja às postagens"
+      "desc1": "Posts e contas",
+      "desc2": "Comentários"
     },
+
     "certificates": {
-      "title": "Emissão de Certificados",
-      "desc1": "Envio de certificados PDF personalizados",
-      "desc2": "Certificados podem conter nomes e datas de alunos",
-      "desc3": "Campos de texto e data podem ser posicionados antes do envio por e-mail"
-    },
-    "autofill": {
-      "title": "Preenchimento Automático de Candidaturas",
-      "desc1": "Aplicativo desenvolvido em Electron.js para preencher formulários de emprego automaticamente",
-      "desc2": "Utiliza Puppeteer para automação de navegação e envio"
-    },
-    "linkedinJobBot": {
-      "title": "WishApply - Bot de Vagas no LinkedIn",
-      "desc1": "Aplicativo de desktop criado em Electron.js e Node.js com integração de IA para aplicar automaticamente em vagas no LinkedIn",
-      "desc2": "Pesquisa vagas, preenche formulários e gera cartas de apresentação personalizadas usando modelos de IA",
-      "desc3": "Lançado em 2025 como WishApply, simplificando o processo de candidatura automatizada"
+      "title": "Sistema de certificados",
+      "desc1": "PDFs personalizados",
+      "desc2": "Dados dinâmicos",
+      "desc3": "Layout customizável"
     }
   },
 
-  "footer": "Feito com <span className='text-red-700'>❤️</span> por Ismael Rodino"
+  "footer": "Feito com ❤️ por Ismael Rodino"
 }
