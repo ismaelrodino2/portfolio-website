@@ -40,7 +40,6 @@ const ExperienceSection = () => {
             t("workexp.alex.highlight1"),
             t("workexp.alex.highlight2"),
             t("workexp.alex.highlight3"),
-            t("workexp.alex.highlight4"),
           ]}
         />
         <Experience
