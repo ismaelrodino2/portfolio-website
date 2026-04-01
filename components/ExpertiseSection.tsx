@@ -16,9 +16,9 @@ const ExpertiseSection = () => {
       title="Expertise"
       subTitle={t("howConfortable")}
     >
-      <Expertise label={`JavaScript (4+ ${t("years")})`} value={100} />
-      <Expertise label={`TypeScript (4+ ${t("years")})`} value={90} />
-      <Expertise label={`React (4 ${t("years")} + ${t("courses")})`} value={95} />
+      <Expertise label={`JavaScript (5+ ${t("years")})`} value={100} />
+      <Expertise label={`TypeScript (5+ ${t("years")})`} value={90} />
+      <Expertise label={`React (5 ${t("years")} + ${t("courses")})`} value={95} />
       <p className="text-gray-500 text-sm mb-4">
         {t("nonExhaustive")}
       </p>
