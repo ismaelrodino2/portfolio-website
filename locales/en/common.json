@@ -1,12 +1,12 @@
 {
-  "title": "Fullstack Software Engineer",
-  "summary": "Fullstack Software Engineer with 5+ years of experience building scalable, high-performance web and mobile applications.",
+  "title": "Full-Stack Engineer",
+  "summary": "Full-Stack Engineer specializing in high-performance web systems, marketplaces, and payment infrastructure.",
   "location": "Porto Alegre, Brazil",
   "exp": "5+ years of experience",
 
-  "desc1": "Brazilian software engineer passionate about building high-impact and performant user experiences.",
-  "desc2": "I care about writing clean, maintainable code and collaborating effectively with teams.",
-  "desc3": "I focus on empathy, ownership, and delivering solutions I'm proud of.",
+  "desc1": "I build scalable web and mobile applications with a strong focus on performance, system design, and real-world impact.",
+  "desc2": "Improved load times by up to 55% and reduced API costs by ~30% in production environments.",
+  "desc3": "Experience building marketplaces, payment systems, and AI-powered applications using modern architectures.",
 
   "howConfortable": "How comfortable I am with each technology",
   "years": "years",
@@ -35,9 +35,9 @@
 
   "whatsetsmeapart": {
     "title": "What sets me apart?",
-    "reason1": "Consistent high performance — <b>teams can rely on me to deliver</b>.",
-    "reason2": "<b>Self-driven</b> with a strong passion for learning and building across the full stack.",
-    "reason3": "<b>Systems thinker</b> — I understand trade-offs and design scalable solutions."
+    "reason1": "Strong focus on performance optimization and scalable architectures in real-world systems.",
+    "reason2": "Experience building production-grade products (marketplaces, payment systems, AI tools).",
+    "reason3": "Ability to design systems end-to-end — from architecture to production."
   },
 
   "workexp": {
@@ -47,29 +47,29 @@
       "name": "Bucksense",
       "location": "USA, Remote",
       "desc": "Working on a high-traffic cruise booking platform for Crystal Cruises in an international team.",
-      "highlight1": "Improved performance scores by ~20 points through image optimization, caching, and dynamic imports",
-      "highlight2": "Reduced Algolia API costs by ~30% with better caching and query strategies",
-      "highlight3": "Built a robust automated testing suite for multi-country payment flows"
+      "highlight1": "Improved Lighthouse score by +20 through bundle optimization, caching, and dynamic imports",
+      "highlight2": "Reduced Algolia API costs by ~30% via query optimization and server-side caching",
+      "highlight3": "Built automated testing suite for multi-country payment flows, improving reliability"
     },
 
     "sejaGudi": {
       "name": "Seja Gudi",
       "location": "Brazil, Remote",
-      "desc": "Founder & lead engineer of a government-funded cultural platform connecting users to events and sustainability initiatives.",
-      "highlight1": "Built entire platform from scratch (React Native + Next.js + Supabase + Prisma)",
-      "highlight2": "Implemented geolocation-based event discovery and admin dashboards",
-      "highlight3": "Integrated payments and reward system with Mercado Livre API",
-      "highlight4": "Selected through a government funding program and preparing for expansion to new cities (e.g., Gramado)"
+      "desc": "Full-stack marketplace (mobile + web) built from scratch, including payments, rewards system, and real user flows.",
+      "highlight1": "Designed product architecture, user journeys, and core business logic",
+      "highlight2": "Implemented payments, loyalty system, and role-based access (RLS)",
+      "highlight3": "Built scalable backend using PostgreSQL (Supabase) and optimized queries for performance",
+      "highlight4": "Developed mobile (React Native) and web (Next.js) platforms"
     },
 
     "quattrus": {
       "name": "Quattrus",
       "location": "Porto Alegre, Brazil",
       "desc": "Led frontend modernization of enterprise systems.",
-      "highlight1": "Migrated from ExtJS to Next.js, eliminating licensing costs",
-      "highlight2": "Improved performance by ~40% with hybrid rendering (SSR + SSG)",
-      "highlight3": "Built internal design system with Tailwind + ShadCN",
-      "highlight4": "Led development of an AI-powered document processing platform (LLMs)"
+      "highlight1": "Led migration from ExtJS to Next.js, eliminating licensing costs and modernizing the stack",
+      "highlight2": "Improved performance by ~40% using hybrid rendering (SSR + SSG) and caching strategies",
+      "highlight3": "Built reusable design system with Tailwind + ShadCN, accelerating development",
+      "highlight4": "Contributed to AI-powered document processing platform using LLMs"
     },
 
     "alex": {
@@ -85,26 +85,26 @@
       "name": "Speedcast",
       "location": "USA, Remote",
       "desc": "Worked on satellite network management platform.",
-      "highlight1": "Redesigned legacy UI into a modern responsive app",
-      "highlight2": "Integrated real-time 3D satellite visualization (ArcGIS)",
-      "highlight3": "Built data processing and export features (CSV/XLSX)"
+      "highlight1": "Redesigned legacy UI into a modern responsive application",
+      "highlight2": "Integrated real-time 3D satellite visualization using ArcGIS",
+      "highlight3": "Built data processing and export features for large datasets"
     },
 
     "switchApp": {
       "name": "Switch App",
       "location": "Brazil, Remote",
       "desc": "Improved a hospitality recruitment platform.",
-      "highlight1": "Developed payment and PDF modules",
-      "highlight2": "Enhanced UI/UX and responsiveness",
-      "highlight3": "Improved hiring flow experience"
+      "highlight1": "Developed payment processing and document generation modules",
+      "highlight2": "Enhanced UI responsiveness and user experience",
+      "highlight3": "Improved hiring flow and platform usability"
     },
 
     "lucalto": {
       "name": "Lucalto",
       "location": "Norway, Remote",
-      "desc": "Helped build a niche social network for tattoo artists.",
+      "desc": "Helped build a niche social platform for tattoo artists.",
       "highlight1": "Took product from concept to production",
-      "highlight2": "Built authentication and backend models",
+      "highlight2": "Built authentication flows and backend models",
       "highlight3": "Worked with Next.js, Supabase, and Prisma"
     }
   },
@@ -121,10 +121,10 @@
     },
 
     "linkedinJobBot": {
-      "title": "WishApply - AI Job Application Automation",
-      "desc1": "Chrome extension that automatically applies to LinkedIn jobs",
-      "desc2": "Uses LLM + RAG to generate personalized applications and answers",
-      "desc3": "Automates job search, form filling, and cover letter generation"
+      "title": "WishApply - AI Job Application Assistant",
+      "desc1": "AI-powered Chrome extension that automates job applications across platforms",
+      "desc2": "Uses LLM + RAG to generate personalized responses and reduce token usage",
+      "desc3": "Automates job search, form filling, and dynamic input handling"
     },
 
     "autofill": {
