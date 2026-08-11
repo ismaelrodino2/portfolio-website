@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ismaelrodino.vercel.app/sitemap.xml

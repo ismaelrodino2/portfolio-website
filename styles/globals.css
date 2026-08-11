@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------------------
+   Design tokens. Light is the default; `.theme-dark` on <html> flips them.
+   Tailwind's color scale maps onto these (see tailwind.config.js), so markup
+   stays theme-agnostic.
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #ffffff;
+  --surface: #f7f8fa;
+  --raised: #ffffff;
+  --line: #e6e8ec;
+  --line-strong: #cfd4dc;
+  --ink: #0d1117;
+  --muted: #545c69;
+  --faint: #6b7280; /* 4.8:1 on --bg — AA for the small metadata it carries */
+  --accent: #1f56d6;
+  --accent-ink: #ffffff;
+  --accent-wash: #eef2fe;
+  --glow: rgba(31, 86, 214, 0.1);
+  --grid: rgba(13, 17, 23, 0.045);
+  --bg-translucent: rgba(255, 255, 255, 0.82);
+}
+
+.theme-dark {
+  --bg: #08090c;
+  --surface: #0e1015;
+  --raised: #12151b;
+  --line: #1e222b;
+  --line-strong: #2c313c;
+  --ink: #e8ebf1;
+  --muted: #98a1b0;
+  --faint: #798394; /* 5.2:1 on --bg */
+  --accent: #7aa2ff;
+  --accent-ink: #08090c;
+  --accent-wash: rgba(122, 162, 255, 0.12);
+  --glow: rgba(122, 162, 255, 0.14);
+  --grid: rgba(255, 255, 255, 0.035);
+  --bg-translucent: rgba(8, 9, 12, 0.78);
+}
+
+/* Tailwind 2 has no slash-opacity or backdrop-filter utilities, so the
+   translucent sticky bar is expressed here rather than in class names. */
+.nav-surface {
+  background-color: var(--bg-translucent);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  backdrop-filter: saturate(180%) blur(12px);
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  .nav-surface {
+    background-color: var(--bg);
+  }
+}
+
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* Subtle graph-paper backdrop behind the hero — reads as "engineering" without
+   costing a request or a repaint. */
+.backdrop-grid {
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 44px 44px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 35%, transparent 78%);
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, #000 35%, transparent 78%);
+}
+
+.accent-glow {
+  box-shadow: 0 0 0 1px var(--line), 0 18px 50px -28px var(--glow);
+}
+
+/* Timeline rail for the experience list. */
+.rail::before {
+  content: "";
+  position: absolute;
+  left: 0.3125rem;
+  top: 1.4rem;
+  bottom: -1.75rem;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--line-strong), transparent);
+}
+
+.rail:last-child::before {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Print / PDF export (pages/api/curriculum.ts adds `.print` to <body>).
+   Force the light token set so the exported CV is never a black page.
+-------------------------------------------------------------------------- */
+@media print {
+  :root,
+  .theme-dark {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --raised: #ffffff;
+    --line: #d5d9df;
+    --line-strong: #b6bcc6;
+    --ink: #000000;
+    --muted: #3a4250;
+    --faint: #5c6472;
+    --accent: #14349b;
+    --accent-wash: #ffffff;
+    --grid: transparent;
+  }
+
+  .backdrop-grid,
+  .accent-glow {
+    background-image: none;
+    box-shadow: none;
+  }
+}
+
+.print {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --raised: #ffffff;
+  --line: #d5d9df;
+  --line-strong: #b6bcc6;
+  --ink: #000000;
+  --muted: #3a4250;
+  --faint: #5c6472;
+  --accent: #14349b;
+  --accent-wash: #ffffff;
+  --grid: transparent;
+}

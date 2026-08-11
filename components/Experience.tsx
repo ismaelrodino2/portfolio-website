@@ -1,89 +1,88 @@
 import useTranslation from "next-translate/useTranslation";
-import getFormattedDate from "../lib/getFormattedDate";
-import getWorkedTime from "../lib/getWorkedTime";
+import Icon from "./Icon";
 
-type Props = {
-  title: string;
-  employeer: string;
-  employeerWebsite: string;
-  startDate: number;
-  endDate?: number;
+export type Props = {
+  company: string;
+  website?: string;
+  role: string;
+  /** `YYYY-MM` */
+  start: string;
+  /** `YYYY-MM`; omit for an ongoing role. */
+  end?: string;
   location: string;
   summary?: string;
   highlights: string[];
 };
 
+// Formatted from a fixed table rather than Intl so server and client render
+// byte-identical output regardless of the Node build's ICU data.
+const MONTHS: Record<string, string[]> = {
+  en: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  pt: ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+};
+
+const formatMonth = (value: string, lang: string) => {
+  const [year, month] = value.split("-");
+  const names = MONTHS[lang] || MONTHS.en;
+  return `${names[Number(month) - 1]} ${year}`;
+};
+
 const Experience = (props: Props) => {
-  const { t } = useTranslation("common");
+  const { t, lang } = useTranslation("common");
 
   return (
-    <article>
-      <h1 className="font-semibold">
-        <a
-          className="text-blue-700 hover:underline"
-          href={props.employeerWebsite}
-          target="_blank"
-          rel="noopener"
-        >
-          {props.employeer}
-        </a>
-        {" - "}
-        {props.title}
-      </h1>
+    <article className="rail relative pl-7">
+      <span className="absolute left-0 top-1.5 h-2.5 w-2.5 rounded-full border-2 border-accent bg-bg" />
 
-      <div className="flex flex-col gap-2 lg:gap-4 text-gray-500 text-sm mt-1 lg:flex-row">
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
+      <h3 className="font-semibold tracking-tight">
+        {props.website ? (
+          <a
+            className="text-accent hover:underline"
+            href={props.website}
+            target="_blank"
+            rel="noopener"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1}
-              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-            />
-          </svg>
-          <div>
-            {(props.startDate)} -{" "}
-            {props.endDate ? (props.endDate) : t("experience.ongoing")} ·{" "}
-          </div>
-        </div>
-        <div className="flex items-center gap-2">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-4 w-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1}
-              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-            />
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1}
-              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-            />
-          </svg>
-          <div>{props.location}</div>
-        </div>
+            {props.company}
+          </a>
+        ) : (
+          <span className="text-accent">{props.company}</span>
+        )}
+        <span className="text-faint"> · </span>
+        <span>{props.role}</span>
+      </h3>
+
+      <div className="mt-1 flex flex-col gap-1 text-sm text-faint sm:flex-row sm:items-center sm:gap-4">
+        <span className="flex items-center gap-2">
+          <Icon name="calendar" />
+          <span>
+            <time dateTime={props.start}>{formatMonth(props.start, lang)}</time>
+            {" — "}
+            {props.end ? (
+              <time dateTime={props.end}>{formatMonth(props.end, lang)}</time>
+            ) : (
+              t("experience.present")
+            )}
+          </span>
+        </span>
+        <span className="flex items-center gap-2">
+          <Icon name="pin" />
+          {props.location}
+        </span>
       </div>
-      <p className="my-4">{props.summary}</p>
-      <ol className="list-disc mt-2">
-        {props.highlights.map((highlight, index) => (
-          <li className="mb-2" key={index}>
-            {highlight};
+
+      {props.summary && (
+        <p className="mt-3 max-w-3xl text-sm text-muted">{props.summary}</p>
+      )}
+
+      {/* Capped measure — full-container lines run past 140 characters. */}
+      <ul className="mt-3 flex max-w-3xl flex-col gap-2">
+        {props.highlights.map((highlight) => (
+          <li key={highlight} className="flex gap-2.5 text-sm leading-relaxed">
+            <span aria-hidden="true" className="mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-line-strong" />
+            <span className="text-muted">{highlight}</span>
           </li>
         ))}
-      </ol>
+      </ul>
     </article>
   );
 };

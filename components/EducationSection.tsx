@@ -1,54 +1,64 @@
 import useTranslation from "next-translate/useTranslation";
+import Icon from "./Icon";
 import Section from "./Section";
 
-const ExternalLink = () => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-4 w-4 ml-2 inline print:hidden"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-  >
-    <path
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1}
-      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-    />
-  </svg>
+const Row = ({
+  icon,
+  title,
+  meta,
+  year
+}: {
+  icon: "graduation" | "badge";
+  title: string;
+  meta: string;
+  year?: string;
+}) => (
+  <li className="flex items-start gap-3 border-t border-line py-4">
+    <span className="mt-0.5 text-faint">
+      <Icon name={icon} />
+    </span>
+    <div className="min-w-0 flex-1">
+      <p className="font-medium">{title}</p>
+      <p className="text-sm text-muted">{meta}</p>
+    </div>
+    {year && <span className="font-mono text-xs text-faint">{year}</span>}
+  </li>
 );
 
 const EducationSection = () => {
   const { t } = useTranslation("common");
 
+  // A fragment, not a wrapper: the two sections are laid out as siblings by the
+  // grid in pages/index.tsx.
   return (
-    <Section title={t("education")}>
-      <ul className="list-disc">
-        <li className="mb-4 lg:mb-2">
-          <a
-            className="flex items-center"
-            href={
-              "https://en.wikipedia.org/wiki/Bachelor_of_Software_Engineering"
-            }
-            target="_blank"
-            rel="noopener"
-          >
-            {t("softwareEngineering")}
-            <ExternalLink />
-          </a>
-        </li>
-        <li>
-          <a
-            className="flex items-center"
-            href="https://en.wikipedia.org/wiki/Software_engineering"
-            target="_blank"
-            rel="noopener"
-          >
-            {t("systemsDevelopmentAndAnalysis")} <ExternalLink />
-          </a>
-        </li>
-      </ul>
-    </Section>
+    <>
+      <Section compact title={t("education.title")}>
+        <ul className="flex flex-col">
+          <Row
+            icon="graduation"
+            title={t("education.degree")}
+            meta={t("education.degreeSchool")}
+            year={t("education.degreeYear")}
+          />
+          <Row
+            icon="graduation"
+            title={t("education.technologist")}
+            meta={t("education.technologistNote")}
+          />
+        </ul>
+      </Section>
+
+      <Section compact title={t("education.certificationsTitle")}>
+        <ul className="flex flex-col">
+          <Row
+            icon="badge"
+            title={t("education.architectureCert")}
+            meta={t("education.architectureCertIssuer")}
+            year={t("education.architectureCertYear")}
+          />
+        </ul>
+      </Section>
+    </>
   );
 };
 
