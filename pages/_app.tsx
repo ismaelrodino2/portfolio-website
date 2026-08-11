@@ -1,9 +1,11 @@
 import Head from "next/head";
 import { DefaultSeo } from "next-seo";
-import seo from "../next-seo.config";
-import Header from "../components/Header";
-import "tailwindcss/tailwind.css";
 import useTranslation from "next-translate/useTranslation";
+
+import seo from "../next-seo.config";
+import Nav from "../components/Nav";
+import { PERSON } from "../lib/site";
+import "../styles/globals.css";
 
 function App({ Component, pageProps }) {
   const { t } = useTranslation("common");
@@ -12,31 +14,38 @@ function App({ Component, pageProps }) {
     <>
       <DefaultSeo {...seo} />
       <Head>
-        <style>{`html{overflow-y:scroll} @media screen {
-            .page {
-                page-break-before: always !important;
-            }
-        }`}</style>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#08090c" />
       </Head>
-      <div className="min-h-screen flex flex-col justify-between">
-        <main className="container mx-auto flex flex-col gap-12 px-8 py-24 print:max-w-full print:p-12">
-          <Header />
+
+      <a
+        href="#top"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-accent-ink"
+      >
+        {t("nav.skip")}
+      </a>
+
+      <Nav />
+
+      <div className="flex min-h-screen flex-col justify-between">
+        <main className="mx-auto w-full max-w-content px-5 py-16 sm:px-8 sm:py-20 print:max-w-full print:p-10">
           <Component {...pageProps} />
         </main>
-        <footer className="p-12 text-center print:hidden">
-          <p>
-          <div dangerouslySetInnerHTML={{__html: t('footer')}}></div>          </p>
-          <p className="hidden print:block">
-            Visit
+
+        <footer className="mt-16 border-t border-line print:hidden">
+          <div className="mx-auto flex max-w-content flex-col gap-2 px-5 py-8 text-sm text-faint sm:flex-row sm:items-center sm:justify-between sm:px-8">
+            <p>
+              © {PERSON.name}. {t("footer.built")}
+            </p>
             <a
-              className="text-blue-700"
-              href="https://ismaelrodino.vercel.app/expertise"
+              className="transition-colors hover:text-ink"
+              href={PERSON.repository}
               target="_blank"
+              rel="noopener"
             >
-              ismaelrodino.vercel.app/expertise
+              {t("footer.source")}
             </a>
-            for more info.
-          </p>
+          </div>
         </footer>
       </div>
     </>

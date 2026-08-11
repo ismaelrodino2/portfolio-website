@@ -1,158 +1,319 @@
 {
-  "title": "Full-Stack Engineer",
-  "summary": "Full-Stack Engineer specializing in high-performance web systems, marketplaces, and payment infrastructure.",
-  "location": "Porto Alegre, Brazil",
-  "exp": "5+ years of experience",
-
-  "desc1": "I build scalable web and mobile applications with a strong focus on performance, system design, and real-world impact.",
-  "desc2": "Improved load times by up to 55% and reduced API costs by ~30% in production environments.",
-  "desc3": "Experience building marketplaces, payment systems, and AI-powered applications using modern architectures.",
-
-  "howConfortable": "How comfortable I am with each technology",
-  "years": "years",
-  "courses": "courses",
-  "nonExhaustive": "Non-exhaustive list of technologies and tools",
-
-  "education": "Education",
-  "softwareEngineering": "Software Engineering",
-  "systemsDevelopmentAndAnalysis": "Systems Analysis & Development",
-
-  "languages": "Languages",
-  "basedonCEFR": "Based on CEFR proficiency levels",
-  "portuguese": "Portuguese",
-  "english": "English",
-  "native": "Native",
-
-  "downloadCurriculum": "Download Resume",
-  "scheduleAmeeting": "Schedule a meeting",
-
-  "experience": {
-    "ongoing": "Present",
-    "title": "Experience",
-    "softwareEngineer": "Software Engineer",
-    "contractorSoftwareEngineer": "Contractor Software Engineer"
+  "meta": {
+    "title": "Ismael Rodino — Senior Software Engineer",
+    "description": "Senior Software Engineer with 5+ years building production systems: high-performance web apps, payment infrastructure and AI/LLM pipelines. TypeScript, React, Next.js, Node.js, PostgreSQL, AWS.",
+    "imageAlt": "Ismael Rodino, Senior Software Engineer"
   },
 
-  "whatsetsmeapart": {
-    "title": "What sets me apart?",
-    "reason1": "Strong focus on performance optimization and scalable architectures in real-world systems.",
-    "reason2": "Experience building production-grade products (marketplaces, payment systems, AI tools).",
-    "reason3": "Ability to design systems end-to-end — from architecture to production."
+  "nav": {
+    "skip": "Skip to content",
+    "focus": "Focus",
+    "work": "Work",
+    "experience": "Experience",
+    "stack": "Stack",
+    "about": "About",
+    "resume": "Résumé",
+    "meeting": "Book a call",
+    "theme": "Switch colour theme",
+    "language": "Language"
   },
 
-  "workexp": {
-    "notlisted": "Additional freelance experience available upon request.",
+  "hero": {
+    "role": "Senior Software Engineer",
+    "location": "Porto Alegre, Brazil",
+    "remote": "Remote-first, working across the US, Norway and Brazil",
+    "availability": "Open to senior & staff roles",
+    "headline": "I build production systems that hold up under real users.",
+    "lead": "Five-plus years across frontend, backend, cloud and AI-enabled systems. I take products from architecture to production — and I come back with numbers, not adjectives.",
+    "resumeHint": "One-page PDF"
+  },
 
-    "bucksense": {
-      "name": "Bucksense",
-      "location": "USA, Remote",
-      "desc": "Working on a high-traffic cruise booking platform for Crystal Cruises in an international team.",
-      "highlight1": "Improved Lighthouse score by +20 through bundle optimization, caching, and dynamic imports",
-      "highlight2": "Reduced Algolia API costs by ~30% via query optimization and server-side caching",
-      "highlight3": "Built automated testing suite for multi-country payment flows, improving reliability"
+  "stats": {
+    "title": "Measured outcomes",
+    "years": { "value": "5+", "label": "years shipping production software" },
+    "mainThread": {
+      "value": "−55%",
+      "label": "main-thread execution time",
+      "detail": "10.4s → 4.7s on a key page"
+    },
+    "api": {
+      "value": "−30%",
+      "label": "search API requests",
+      "detail": "query dedup + Redis caching"
+    },
+    "applyTime": {
+      "value": "−36%",
+      "label": "user task time",
+      "detail": "12.5 → 8 min, validated in a study"
+    }
+  },
+
+  "focus": {
+    "title": "What I'm going deep on",
+    "subtitle": "Deliberate study, 2026",
+    "architecture": {
+      "title": "Software Architecture",
+      "desc": "Designing systems that stay changeable: boundaries, trade-off analysis, and knowing which decisions are expensive to reverse. Backed by a Software Architecture certification and applied daily on Gudi and WishApply.",
+      "tags": ["Distributed systems", "Trade-off analysis", "Evolutionary architecture", "Documented decisions"]
+    },
+    "aws": {
+      "title": "AWS & Cloud",
+      "desc": "Moving past managed-platform defaults to owning the infrastructure — networking, infrastructure as code, observability and the cost side of every architectural choice.",
+      "tags": ["IaC", "Serverless", "Observability", "Cost engineering"]
+    },
+    "ai": {
+      "title": "AI Engineering",
+      "desc": "Past calling an API: retrieval only where it compresses, agents only where a verifier gives them a stopping rule, and cost measured against benchmarks instead of guessed at.",
+      "tags": ["RAG", "Agents", "MCP & tool calling", "Evals & token economics"]
+    }
+  },
+
+  "principles": {
+    "title": "How I work",
+    "subtitle": "Four positions I can defend with the code behind them",
+    "items": [
+      {
+        "title": "Measure, then claim",
+        "desc": "Every projection I made about the WishApply pipeline before it ran was wrong in the same direction. Cost and latency now come from benchmarks that isolate one variable at a time, and from usage events recorded per call."
+      },
+      {
+        "title": "Choose the boring mechanism",
+        "desc": "The application loop is an automaton over a finite DOM, not an agent — roughly 7 model calls per job instead of 30–80. A CSS selector that works is more reliable than a model choosing a button."
+      },
+      {
+        "title": "Own the whole line",
+        "desc": "Schema and row-level security, payment orchestration, the render service, the deploy. I have shipped products where there was nobody else to hand the hard part to."
+      },
+      {
+        "title": "Leave the system readable",
+        "desc": "Architecture documents, a single-baseline migration history, written security audits. The next engineer should be able to disagree with a decision on the merits."
+      }
+    ]
+  },
+
+  "work": {
+    "title": "Selected work",
+    "subtitle": "Products I designed and built end to end",
+    "roleLabel": "Role",
+    "stackLabel": "Stack",
+    "liveLabel": "Live",
+    "sourceLabel": "Source",
+
+    "wishapply": {
+      "name": "WishApply",
+      "tagline": "AI career assistant · Chrome extension",
+      "period": "2025 — present",
+      "role": "Solo: architecture, implementation, infrastructure, payments",
+      "summary": "Applies to jobs on LinkedIn and Glassdoor: fills the forms, tailors the CV per posting, and answers screening questions from the candidate's own evidence — never from invention.",
+      "highlights": [
+        {
+          "lead": "An automaton where the DOM is finite.",
+          "text": "The application loop is deterministic, so a job costs about 7 model calls instead of the 30–80 an agent would spend deciding each click."
+        },
+        {
+          "lead": "An agent only where a verifier exists.",
+          "text": "CV tailoring loops against a deterministic verifier, which gives it an objective stopping rule — the one place the extra cost pays for itself."
+        },
+        {
+          "lead": "The cheap model plans, the expensive one writes.",
+          "text": "The plan is structured output over a fixed schema and can be audited by reading it; prose quality cannot. The reasoning stage costs about a tenth of the writing."
+        },
+        {
+          "lead": "Grounded output, by construction.",
+          "text": "Claims are graded verified / derived / transferable against an evidence store built with pgvector, so nothing reaches an employer that the candidate's profile does not support."
+        },
+        {
+          "lead": "Validated, not assumed.",
+          "text": "An undergraduate study measured a 36% drop in average application time, from 12.5 to 8 minutes."
+        }
+      ],
+      "stack": ["Chrome MV3", "TypeScript", "React", "Supabase", "PostgreSQL + pgvector", "Deno Edge Functions", "OpenAI", "Stripe", "Asaas", "Vercel"]
     },
 
-    "sejaGudi": {
-      "name": "Seja Gudi",
-      "location": "Brazil, Remote",
-      "desc": "Full-stack marketplace (mobile + web) built from scratch, including payments, rewards system, and real user flows.",
-      "highlight1": "Designed product architecture, user journeys, and core business logic",
-      "highlight2": "Implemented payments, loyalty system, and role-based access (RLS)",
-      "highlight3": "Built scalable backend using PostgreSQL (Supabase) and optimized queries for performance",
-      "highlight4": "Developed mobile (React Native) and web (Next.js) platforms"
+    "gudi": {
+      "name": "Gudi",
+      "tagline": "Cultural event marketplace · founder",
+      "period": "2025 — present",
+      "role": "Founder & engineer: product, architecture, both apps, backend",
+      "summary": "Connects people to nearby cultural events and local sellers. Two applications over one Supabase backend, built from an empty repository.",
+      "highlights": [
+        {
+          "lead": "Two apps, one backend.",
+          "text": "An Expo app for buyers and a Next.js dashboard for sellers and admins, sharing generated database types through a workspace package so a migration cannot silently break one of them."
+        },
+        {
+          "lead": "Payment orchestration on PIX.",
+          "text": "Split payments, seller payouts, virtual wallet credits and platform revenue distribution, with webhooks isolated to a service role."
+        },
+        {
+          "lead": "Permissions live in the database.",
+          "text": "A four-role model expressed as row-level security policies under one naming convention, with security-definer functions instead of ad-hoc checks scattered across clients."
+        },
+        {
+          "lead": "Built to expand city by city.",
+          "text": "PostGIS-backed discovery by location, with multi-tenancy designed as a policy-level change rather than a rewrite."
+        }
+      ],
+      "stack": ["React Native (Expo)", "Next.js", "TypeScript", "Supabase", "PostgreSQL", "PostGIS", "RLS", "Asaas / PIX", "Turborepo"]
+    }
+  },
+
+  "experience": {
+    "title": "Experience",
+    "subtitle": "Seven teams across four countries, all remote-first",
+    "present": "Present",
+    "notlisted": "Additional freelance engagements available on request.",
+    "roles": {
+      "founderEngineer": "Founder & Software Engineer",
+      "softwareEngineer": "Software Engineer",
+      "contractor": "Contract Software Engineer"
+    },
+
+    "gudi": {
+      "location": "Brazil · Remote",
+      "summary": "Cultural event marketplace built from scratch and now expanding to new cities.",
+      "highlights": [
+        "Architected and built a two-app monorepo — React Native (Expo) for buyers, Next.js for sellers and admins — over a single Supabase backend with generated types shared between them",
+        "Designed payment orchestration on PIX: split payments, seller payouts, virtual wallet credits and platform revenue distribution",
+        "Modelled a four-role access system entirely in Postgres row-level security, with security-definer RPCs and written security audits",
+        "Built location-based discovery with PostGIS, designed for city-by-city expansion"
+      ]
+    },
+
+    "bucksense": {
+      "location": "USA · Remote",
+      "summary": "High-traffic cruise booking platform for Crystal Cruises, in an international team.",
+      "highlights": [
+        "Cut Algolia search requests by ~30% by eliminating redundant queries and putting a Redis cache in front of cruise search",
+        "Raised the Lighthouse performance score by ~20 points through bundle optimisation, responsive images, lazy loading and caching",
+        "Took a key page from 1.62 MB to 781 KB and main-thread execution from 10.4s to 4.7s — a 55% reduction",
+        "Built automated coverage for multi-country payment flows"
+      ]
     },
 
     "quattrus": {
-      "name": "Quattrus",
       "location": "Porto Alegre, Brazil",
-      "desc": "Led frontend modernization of enterprise systems.",
-      "highlight1": "Led migration from ExtJS to Next.js, eliminating licensing costs and modernizing the stack",
-      "highlight2": "Improved performance by ~40% using hybrid rendering (SSR + SSG) and caching strategies",
-      "highlight3": "Built reusable design system with Tailwind + ShadCN, accelerating development",
-      "highlight4": "Contributed to AI-powered document processing platform using LLMs"
+      "summary": "Frontend modernisation of enterprise systems.",
+      "highlights": [
+        "Led the migration of enterprise applications from ExtJS to Next.js, defining the frontend architecture and the migration strategy",
+        "Shipped a private npm package of reusable UI components consumed by every migrated application",
+        "Contributed to an LLM-based document processing platform"
+      ]
     },
 
     "alex": {
-      "name": "Alex Rohleder LTDA",
-      "location": "Norway, Remote",
-      "desc": "Modernized a legacy platform for an energy company.",
-      "highlight1": "Migrated CRA to Next.js with hybrid architecture",
-      "highlight2": "Improved caching, performance, and reliability",
-      "highlight3": "Implemented automated testing (E2E, unit, snapshot)"
+      "location": "Norway · Remote",
+      "summary": "Modernisation of a legacy platform for an energy company.",
+      "highlights": [
+        "Migrated a CRA application to Next.js with a hybrid rendering architecture, consolidating duplicated logic",
+        "Improved caching and reliability, and added end-to-end, unit and snapshot coverage"
+      ]
     },
 
-    "speedCast": {
-      "name": "Speedcast",
-      "location": "USA, Remote",
-      "desc": "Worked on satellite network management platform.",
-      "highlight1": "Redesigned legacy UI into a modern responsive application",
-      "highlight2": "Integrated real-time 3D satellite visualization using ArcGIS",
-      "highlight3": "Built data processing and export features for large datasets"
+    "speedcast": {
+      "location": "USA · Remote",
+      "summary": "Satellite network management platform.",
+      "highlights": [
+        "Built real-time monitoring and data-visualisation features, including ArcGIS geospatial visualisation",
+        "Rebuilt a legacy interface as a responsive application and added export for large datasets"
+      ]
     },
 
     "switchApp": {
-      "name": "Switch App",
-      "location": "Brazil, Remote",
-      "desc": "Improved a hospitality recruitment platform.",
-      "highlight1": "Developed payment processing and document generation modules",
-      "highlight2": "Enhanced UI responsiveness and user experience",
-      "highlight3": "Improved hiring flow and platform usability"
+      "location": "Brazil · Remote",
+      "summary": "Hospitality recruitment platform.",
+      "highlights": [
+        "Built React and Node.js features on PostgreSQL, including payment processing and document generation"
+      ]
     },
 
     "lucalto": {
-      "name": "Lucalto",
-      "location": "Norway, Remote",
-      "desc": "Helped build a niche social platform for tattoo artists.",
-      "highlight1": "Took product from concept to production",
-      "highlight2": "Built authentication flows and backend models",
-      "highlight3": "Worked with Next.js, Supabase, and Prisma"
+      "location": "Norway · Remote",
+      "summary": "Social platform for tattoo artists.",
+      "highlights": [
+        "Built core features with Next.js and Supabase, contributing to the product launch"
+      ]
     }
+  },
+
+  "stack": {
+    "title": "Stack",
+    "subtitle": "What I reach for, grouped by where it sits",
+    "core": "Core",
+    "frontend": "Frontend",
+    "backendData": "Backend & data",
+    "cloudOps": "Cloud & delivery",
+    "ai": "AI engineering",
+    "payments": "Payments"
+  },
+
+  "education": {
+    "title": "Education",
+    "degree": "B.S. in Software Engineering",
+    "degreeSchool": "UNINTER",
+    "degreeYear": "2025",
+    "technologist": "Systems Analysis & Development",
+    "technologistNote": "Technologist degree",
+    "certificationsTitle": "Certifications",
+    "architectureCert": "Software Architecture",
+    "architectureCertIssuer": "Udemy",
+    "architectureCertYear": "2026"
+  },
+
+  "languages": {
+    "title": "Languages",
+    "subtitle": "CEFR levels",
+    "portuguese": "Portuguese",
+    "english": "English",
+    "native": "Native",
+    "c2": "C2 · Professional"
   },
 
   "projects": {
-    "title": "Projects",
-    "openSource": "Open Source",
+    "title": "Side projects",
+    "subtitle": "Smaller things, mostly open source",
+    "openSource": "Open source",
 
     "mentoring": {
-      "title": "Mentoring Platform (ongoing)",
-      "desc1": "Mentor-mentee matching system",
-      "desc2": "Real-time chat",
-      "desc3": "Authentication and user management"
+      "title": "Mentoring platform",
+      "desc": "Mentor–mentee matching with real-time chat, authentication and user management."
     },
-
-    "linkedinJobBot": {
-      "title": "WishApply - AI Job Application Assistant",
-      "desc1": "AI-powered Chrome extension that automates job applications across platforms",
-      "desc2": "Uses LLM + RAG to generate personalized responses and reduce token usage",
-      "desc3": "Automates job search, form filling, and dynamic input handling"
-    },
-
     "autofill": {
-      "title": "Job Application Autofill Tool",
-      "desc1": "Electron app for automating job applications",
-      "desc2": "Uses Puppeteer for browser automation"
+      "title": "Job application autofill",
+      "desc": "Electron desktop app that automates job applications with Puppeteer — the prototype WishApply grew out of."
     },
-
     "ecommerce": {
       "title": "E-commerce",
-      "desc1": "Online store with Stripe integration",
-      "desc2": "Checkout and payment system",
-      "desc3": "Authentication and account management"
+      "desc": "Online store with Stripe checkout, payments and account management."
     },
-
     "blog": {
-      "title": "Blog Platform",
-      "desc1": "User accounts and post management",
-      "desc2": "Comments and reactions"
+      "title": "Blog platform",
+      "desc": "Accounts, post management, comments and reactions."
     },
-
     "certificates": {
-      "title": "Certificate Issuing System",
-      "desc1": "Generate and send custom PDF certificates",
-      "desc2": "Dynamic student data insertion",
-      "desc3": "Customizable layout positioning"
+      "title": "Certificate issuer",
+      "desc": "Generates and mails personalised PDF certificates with dynamic student data and a configurable layout."
     }
   },
 
-  "footer": "Built with ❤️ by Ismael Rodino"
+  "contact": {
+    "title": "Get in touch",
+    "lead": "Available for senior and staff engineering roles, remote or hybrid from Porto Alegre. Fastest reply by email.",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "calendly": "Book a 30-minute call"
+  },
+
+  "notFound": {
+    "title": "This page doesn't exist",
+    "lead": "The link is broken or the page has moved. Everything worth reading lives on the home page.",
+    "back": "Back to home"
+  },
+
+  "footer": {
+    "built": "Built with Next.js and Tailwind. No trackers, no cookie banner.",
+    "source": "Source on GitHub"
+  }
 }

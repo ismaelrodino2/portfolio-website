@@ -1,17 +1,26 @@
+import { NextSeo } from "next-seo";
+import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
+import Icon from "../components/Icon";
+
 const NotFound = () => {
+  const { t } = useTranslation("common");
+
   return (
     <>
-      <hr className="h-px bg-gray-300 w-full" />
-      <div className="text-center">
-        <h1 className="font-semibold text-xl">404 NOT FOUND</h1>
-        <p className="my-4">
-          Hey, I'm still working on this site so not all pages are finished yet.
-        </p>
-        <p>
-          <a className="text-blue-500 hover:underline" href="/">
-            Go to home page
+      <NextSeo noindex nofollow title="404" />
+      <div className="py-16 text-center">
+        <p className="font-mono text-sm uppercase tracking-widest2 text-accent">404</p>
+        <h1 className="mt-3 text-3xl font-semibold tracking-tight">
+          {t("notFound.title")}
+        </h1>
+        <p className="mx-auto mt-4 max-w-md text-muted">{t("notFound.lead")}</p>
+        <Link href="/">
+          <a className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-medium text-accent-ink transition-opacity hover:opacity-90">
+            <Icon name="arrow" />
+            {t("notFound.back")}
           </a>
-        </p>
+        </Link>
       </div>
     </>
   );
@@ -20,7 +29,5 @@ const NotFound = () => {
 export default NotFound;
 
 export async function getStaticProps() {
-  return {
-    props: {}
-  };
+  return { props: {} };
 }
