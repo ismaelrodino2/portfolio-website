@@ -58,8 +58,8 @@
     },
     "aws": {
       "title": "AWS & Cloud",
-      "desc": "Moving past managed-platform defaults to owning the infrastructure — networking, infrastructure as code, observability and the cost side of every architectural choice.",
-      "tags": ["IaC", "Serverless", "Observability", "Cost engineering"]
+      "desc": "Moving past managed-platform defaults to owning the infrastructure. Applied in FlowHall: Cognito for identity, a private S3 media bucket with presigned uploads and lifecycle rules, Route 53 for TLS, all provisioned with Terraform on encrypted remote state.",
+      "tags": ["Terraform", "Cognito", "S3", "Route 53"]
     },
     "ai": {
       "title": "AI Engineering",
@@ -132,9 +132,9 @@
 
     "gudi": {
       "name": "Gudi",
-      "tagline": "Cultural event marketplace · founder",
+      "tagline": "Cultural event marketplace · sole engineer",
       "period": "2025 — present",
-      "role": "Founder & engineer: product, architecture, both apps, backend",
+      "role": "Sole engineer (contract): architecture, both apps, backend, payments",
       "summary": "Connects people to nearby cultural events and local sellers. Two applications over one Supabase backend, built from an empty repository.",
       "highlights": [
         {
@@ -155,16 +155,46 @@
         }
       ],
       "stack": ["React Native (Expo)", "Next.js", "TypeScript", "Supabase", "PostgreSQL", "PostGIS", "RLS", "Asaas / PIX", "Turborepo"]
+    },
+
+    "flowhall": {
+      "name": "FlowHall",
+      "tagline": "Multi-tenant WhatsApp customer-service SaaS · personal project",
+      "period": "2026 — in development",
+      "role": "Solo: architecture, API, web app, AWS infrastructure",
+      "summary": "A B2B help desk where teams share WhatsApp conversations: queues, claiming, transfers, contact history and bulk campaigns. A modular monolith where the tenant is resolved by hostname and every organisation runs on one build, one backend and one database.",
+      "highlights": [
+        {
+          "lead": "Infrastructure as code from day one.",
+          "text": "Terraform with remote state in a versioned, encrypted S3 bucket, and reusable modules for the Cognito user pool and the media bucket."
+        },
+        {
+          "lead": "Media never passes through the API.",
+          "text": "A private S3 bucket with lifecycle and CORS rules; the browser uploads and downloads directly through presigned URLs."
+        },
+        {
+          "lead": "Postgres is the queue.",
+          "text": "Campaigns to thousands of recipients run on FOR UPDATE SKIP LOCKED with leases, retries with backoff and cancellation — no broker, no Redis, no extra process."
+        },
+        {
+          "lead": "Concurrency settled by the database.",
+          "text": "Claiming a conversation is a conditional UPDATE, so two agents clicking at once get one winner and one 409."
+        },
+        {
+          "lead": "Realtime without a second source of truth.",
+          "text": "Messages reach the screen over WebSocket only after COMMIT; PostgreSQL stays authoritative and the socket is just a notification."
+        }
+      ],
+      "stack": ["NestJS", "Next.js", "TypeScript", "Zod", "PostgreSQL", "WebSocket", "AWS Cognito", "S3", "Route 53", "Terraform", "Docker", "Caddy", "WhatsApp (Gupshup)"]
     }
   },
 
   "experience": {
     "title": "Experience",
-    "subtitle": "Seven teams across four countries, all remote-first",
+    "subtitle": "Seven teams across three countries, all remote-first",
     "present": "Present",
     "notlisted": "Additional freelance engagements available on request.",
     "roles": {
-      "founderEngineer": "Founder & Software Engineer",
       "softwareEngineer": "Software Engineer",
       "contractor": "Contract Software Engineer"
     },
@@ -176,18 +206,20 @@
         "Architected and built a two-app monorepo — React Native (Expo) for buyers, Next.js for sellers and admins — over a single Supabase backend with generated types shared between them",
         "Designed payment orchestration on PIX: split payments, seller payouts, virtual wallet credits and platform revenue distribution",
         "Modelled a four-role access system entirely in Postgres row-level security, with security-definer RPCs and written security audits",
-        "Built location-based discovery with PostGIS, designed for city-by-city expansion"
+        "Built location-based discovery with PostGIS, designed for city-by-city expansion",
+        "Built the ticketing flow end to end, from purchase to QR code generation and scan-based validation at venue entry"
       ]
     },
 
     "bucksense": {
       "location": "USA · Remote",
-      "summary": "High-traffic cruise booking platform for Crystal Cruises, in an international team.",
+      "summary": "Full-stack engineer on two high-traffic, SEO-critical booking platforms for the luxury travel sector, including Crystal Cruises, across both product teams.",
       "highlights": [
+        "Took a key page from 1.62 MB to 781 KB and main-thread execution from 10.4s to 4.7s — a 55% reduction — through code splitting, lazy loading, responsive images and rendering fixes",
+        "Raised the Lighthouse performance score by ~20 points on pages where organic search was the primary acquisition channel",
         "Cut Algolia search requests by ~30% by eliminating redundant queries and putting a Redis cache in front of cruise search",
-        "Raised the Lighthouse performance score by ~20 points through bundle optimisation, responsive images, lazy loading and caching",
-        "Took a key page from 1.62 MB to 781 KB and main-thread execution from 10.4s to 4.7s — a 55% reduction",
-        "Built automated coverage for multi-country payment flows"
+        "Set up GitHub Actions pipelines with lint, format and test gates, and owned releases across sandbox, QA and production with PM2",
+        "Maintained automated coverage across regional site variants and multi-country payment flows, and monitored production health through dashboards used by leadership"
       ]
     },
 
@@ -195,8 +227,9 @@
       "location": "Porto Alegre, Brazil",
       "summary": "Frontend modernisation of enterprise systems.",
       "highlights": [
-        "Led the migration of enterprise applications from ExtJS to Next.js, defining the frontend architecture and the migration strategy",
-        "Shipped a private npm package of reusable UI components consumed by every migrated application",
+        "Led the migration of enterprise applications from ExtJS to Next.js on an 8-person team, defining the frontend architecture and the migration strategy and eliminating legacy licensing costs",
+        "Shipped a private npm package of reusable UI components consumed by every migrated application, defining the component API other engineers built against",
+        "Designed a hybrid SSR/SSG architecture with caching strategies, improving application performance by ~40%",
         "Contributed to an LLM-based document processing platform"
       ]
     },
@@ -271,28 +304,20 @@
 
   "projects": {
     "title": "Side projects",
-    "subtitle": "Smaller things, mostly open source",
+    "subtitle": "Smaller things, open source",
     "openSource": "Open source",
 
-    "mentoring": {
-      "title": "Mentoring platform",
-      "desc": "Mentor–mentee matching with real-time chat, authentication and user management."
+    "workspace": {
+      "title": "Workspace reservation system",
+      "desc": "Full-stack + IoT technical assessment built in 2 days: Express, Prisma and PostgreSQL API with domain rules and API-key auth, device telemetry over MQTT broadcast to a React dashboard via WebSocket, and separate Docker Compose environments for dev, test and production."
+    },
+    "certificates": {
+      "title": "Certificate sender",
+      "desc": "Built for a company that needed to issue certificates in bulk: upload a PDF template, position the name and date fields on it, and email a personalised certificate to every recipient on the list in one batch."
     },
     "autofill": {
       "title": "Job application autofill",
       "desc": "Electron desktop app that automates job applications with Puppeteer — the prototype WishApply grew out of."
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "desc": "Online store with Stripe checkout, payments and account management."
-    },
-    "blog": {
-      "title": "Blog platform",
-      "desc": "Accounts, post management, comments and reactions."
-    },
-    "certificates": {
-      "title": "Certificate issuer",
-      "desc": "Generates and mails personalised PDF certificates with dynamic student data and a configurable layout."
     }
   },
 
