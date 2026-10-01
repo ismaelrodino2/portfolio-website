@@ -11,30 +11,19 @@ type Project = {
 
 const projects: Project[] = [
   {
-    key: "autofill",
-    year: 2023,
-    source: "github.com/ismaelrodino2/Job-autofill"
-  },
-  {
-    key: "mentoring",
-    year: 2023,
-    deploy: "twenty-five-two.vercel.app"
-  },
-  {
-    key: "ecommerce",
-    year: 2022,
-    deploy: "e-commerce-black-seven.vercel.app"
-  },
-  {
-    key: "blog",
-    year: 2022,
-    source: "github.com/ismaelrodino2/batdev",
-    deploy: "batdev.vercel.app"
+    key: "workspace",
+    year: 2025,
+    source: "github.com/ismaelrodino2/workspace-reservation-api"
   },
   {
     key: "certificates",
-    year: 2022,
+    year: 2023,
     source: "github.com/ismaelrodino2/certificates-sender"
+  },
+  {
+    key: "autofill",
+    year: 2023,
+    source: "github.com/ismaelrodino2/Job-autofill"
   }
 ];
 

@@ -13,10 +13,17 @@ const links: Record<string, ProjectLinks> = {
   wishapply: {
     live: { href: "https://www.wishapply.com/", label: "wishapply.com" }
   },
-  gudi: {}
+  gudi: {},
+  flowhall: {}
 };
 
-const WorkCard = ({ id }: { id: "wishapply" | "gudi" }) => {
+const WorkCard = ({
+  id,
+  className = ""
+}: {
+  id: "wishapply" | "gudi" | "flowhall";
+  className?: string;
+}) => {
   const { t } = useTranslation("common");
   const base = `work.${id}`;
   const highlights = t(`${base}.highlights`, {}, { returnObjects: true }) as Highlight[];
@@ -24,7 +31,9 @@ const WorkCard = ({ id }: { id: "wishapply" | "gudi" }) => {
   const { live, source } = links[id];
 
   return (
-    <article className="overflow-hidden rounded-2xl border border-line bg-surface">
+    <article
+      className={`overflow-hidden rounded-2xl border border-line bg-surface ${className}`}
+    >
       <div className="border-b border-line p-6 sm:p-8">
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
           <h3 className="text-xl font-semibold tracking-tight sm:text-2xl">
@@ -113,6 +122,7 @@ const SelectedWorkSection = () => {
       <div className="grid gap-6 xl:grid-cols-2">
         <WorkCard id="wishapply" />
         <WorkCard id="gudi" />
+        <WorkCard id="flowhall" className="xl:col-span-2" />
       </div>
     </Section>
   );

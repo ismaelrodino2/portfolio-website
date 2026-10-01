@@ -22,6 +22,8 @@ const groups = [
   {
     key: "backendData",
     items: [
+      "NestJS",
+      "Express",
       "PostgreSQL",
       "Row-Level Security",
       "PostGIS",
@@ -32,14 +34,18 @@ const groups = [
       "MongoDB",
       "Firebase",
       "REST",
-      "GraphQL"
+      "GraphQL",
+      "WebSocket"
     ]
   },
   {
     key: "cloudOps",
     items: [
-      "AWS",
+      "AWS (Cognito, S3, Route 53)",
+      "Terraform",
       "Docker",
+      "GitHub Actions",
+      "PM2",
       "Vercel",
       "Edge Functions (Deno)",
       "CI/CD",

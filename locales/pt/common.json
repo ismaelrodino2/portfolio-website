@@ -58,8 +58,8 @@
     },
     "aws": {
       "title": "AWS & Cloud",
-      "desc": "Passar do padrão das plataformas gerenciadas para assumir a infraestrutura — rede, infraestrutura como código, observabilidade e o custo por trás de cada decisão arquitetural.",
-      "tags": ["IaC", "Serverless", "Observabilidade", "Engenharia de custo"]
+      "desc": "Passar do padrão das plataformas gerenciadas para assumir a infraestrutura. Aplicado no FlowHall: Cognito para identidade, bucket S3 privado de mídia com upload pré-assinado e regras de lifecycle, Route 53 para TLS, tudo provisionado com Terraform sobre state remoto criptografado.",
+      "tags": ["Terraform", "Cognito", "S3", "Route 53"]
     },
     "ai": {
       "title": "AI Engineering",
@@ -132,9 +132,9 @@
 
     "gudi": {
       "name": "Gudi",
-      "tagline": "Marketplace de eventos culturais · fundador",
+      "tagline": "Marketplace de eventos culturais · engenheiro único",
       "period": "2025 — presente",
-      "role": "Fundador e engenheiro: produto, arquitetura, os dois apps e o backend",
+      "role": "Engenheiro único (contrato): arquitetura, os dois apps, backend e pagamentos",
       "summary": "Conecta pessoas a eventos culturais próximos e a vendedores locais. Duas aplicações sobre um único backend Supabase, construídas a partir de um repositório vazio.",
       "highlights": [
         {
@@ -155,16 +155,46 @@
         }
       ],
       "stack": ["React Native (Expo)", "Next.js", "TypeScript", "Supabase", "PostgreSQL", "PostGIS", "RLS", "Asaas / PIX", "Turborepo"]
+    },
+
+    "flowhall": {
+      "name": "FlowHall",
+      "tagline": "SaaS multi-tenant de atendimento via WhatsApp · projeto pessoal",
+      "period": "2026 — em desenvolvimento",
+      "role": "Sozinho: arquitetura, API, aplicação web e infraestrutura AWS",
+      "summary": "Help desk B2B em que equipes dividem conversas de WhatsApp: fila, assumir, transferir, histórico do contato e campanhas em massa. Monolito modular em que o tenant é identificado pelo hostname e todas as organizações rodam no mesmo build, backend e banco.",
+      "highlights": [
+        {
+          "lead": "Infraestrutura como código desde o início.",
+          "text": "Terraform com state remoto em bucket S3 versionado e criptografado, e módulos reutilizáveis para o user pool do Cognito e o bucket de mídia."
+        },
+        {
+          "lead": "Mídia nunca passa pela API.",
+          "text": "Bucket S3 privado com regras de lifecycle e CORS; o navegador faz upload e download direto por URLs pré-assinadas."
+        },
+        {
+          "lead": "O Postgres é a fila.",
+          "text": "Campanhas para milhares de destinatários rodam sobre FOR UPDATE SKIP LOCKED com lease, retentativa com backoff e cancelamento — sem broker, sem Redis, sem processo extra."
+        },
+        {
+          "lead": "Concorrência resolvida no banco.",
+          "text": "Assumir uma conversa é um UPDATE condicional, então dois atendentes clicando juntos produzem um vencedor e um 409."
+        },
+        {
+          "lead": "Tempo real sem segunda fonte da verdade.",
+          "text": "A mensagem chega à tela por WebSocket só depois do COMMIT; o PostgreSQL continua sendo a fonte da verdade e o socket é só notificação."
+        }
+      ],
+      "stack": ["NestJS", "Next.js", "TypeScript", "Zod", "PostgreSQL", "WebSocket", "AWS Cognito", "S3", "Route 53", "Terraform", "Docker", "Caddy", "WhatsApp (Gupshup)"]
     }
   },
 
   "experience": {
     "title": "Experiência",
-    "subtitle": "Sete times em quatro países, todos remote-first",
+    "subtitle": "Sete times em três países, todos remote-first",
     "present": "Atual",
     "notlisted": "Outros trabalhos freelance disponíveis mediante solicitação.",
     "roles": {
-      "founderEngineer": "Fundador & Engenheiro de Software",
       "softwareEngineer": "Engenheiro de Software",
       "contractor": "Engenheiro de Software (contrato)"
     },
@@ -176,18 +206,20 @@
         "Arquitetei e construí um monorepo de duas aplicações — React Native (Expo) para compradores e Next.js para vendedores e administradores — sobre um único backend Supabase com tipos gerados compartilhados",
         "Desenhei a orquestração de pagamentos no PIX: split, repasse a vendedores, créditos em carteira virtual e distribuição da receita da plataforma",
         "Modelei um sistema de quatro papéis inteiramente em row-level security do Postgres, com RPCs security definer e auditorias de segurança escritas",
-        "Construí descoberta por localização com PostGIS, pensada para expansão cidade a cidade"
+        "Construí descoberta por localização com PostGIS, pensada para expansão cidade a cidade",
+        "Construí o fluxo de ingressos de ponta a ponta, da compra à geração do QR code e à validação por leitura na entrada do evento"
       ]
     },
 
     "bucksense": {
       "location": "EUA · Remoto",
-      "summary": "Plataforma de reservas de cruzeiros de alto tráfego para a Crystal Cruises, em time internacional.",
+      "summary": "Engenheiro full-stack em duas plataformas de reservas de alto tráfego e críticas para SEO no setor de viagens de luxo, incluindo a Crystal Cruises, atuando nos dois times de produto.",
       "highlights": [
+        "Levei uma página crítica de 1,62 MB para 781 KB e o tempo de main thread de 10,4s para 4,7s — redução de 55% — com code splitting, lazy loading, imagens responsivas e ajustes de renderização",
+        "Aumentei em ~20 pontos a nota de performance do Lighthouse em páginas cujo principal canal de aquisição era a busca orgânica",
         "Reduzi em ~30% as requisições de busca ao Algolia eliminando queries redundantes e colocando um cache Redis à frente da busca de cruzeiros",
-        "Aumentei em ~20 pontos a nota de performance do Lighthouse com otimização de bundle, imagens responsivas, lazy loading e cache",
-        "Levei uma página crítica de 1,62 MB para 781 KB e o tempo de main thread de 10,4s para 4,7s — redução de 55%",
-        "Criei cobertura automatizada para fluxos de pagamento multi-país"
+        "Montei pipelines no GitHub Actions com gates de lint, formatação e testes, e fui dono das releases entre sandbox, QA e produção com PM2",
+        "Mantive cobertura automatizada entre as variantes regionais do site e os fluxos de pagamento multi-país, e monitorei a saúde de produção em dashboards usados pela liderança"
       ]
     },
 
@@ -195,8 +227,9 @@
       "location": "Porto Alegre, Brasil",
       "summary": "Modernização do frontend de sistemas corporativos.",
       "highlights": [
-        "Liderei a migração de aplicações corporativas de ExtJS para Next.js, definindo a arquitetura de frontend e a estratégia de migração",
-        "Entreguei um pacote npm privado de componentes de UI reutilizáveis consumido por todas as aplicações migradas",
+        "Liderei a migração de aplicações corporativas de ExtJS para Next.js num time de 8 pessoas, definindo a arquitetura de frontend e a estratégia de migração e eliminando custos de licença do legado",
+        "Entreguei um pacote npm privado de componentes de UI reutilizáveis consumido por todas as aplicações migradas, definindo a API de componentes sobre a qual o resto do time construía",
+        "Desenhei uma arquitetura híbrida SSR/SSG com estratégias de cache, melhorando a performance da aplicação em ~40%",
         "Contribuí em uma plataforma de processamento de documentos baseada em LLMs"
       ]
     },
@@ -271,28 +304,20 @@
 
   "projects": {
     "title": "Projetos paralelos",
-    "subtitle": "Coisas menores, quase todas open source",
+    "subtitle": "Coisas menores, open source",
     "openSource": "Open source",
 
-    "mentoring": {
-      "title": "Plataforma de mentoria",
-      "desc": "Matching entre mentor e mentorado com chat em tempo real, autenticação e gestão de usuários."
+    "workspace": {
+      "title": "Sistema de reserva de estações de trabalho",
+      "desc": "Teste técnico full-stack + IoT feito em 2 dias: API em Express, Prisma e PostgreSQL com regras de domínio e autenticação por API key, telemetria de dispositivos via MQTT repassada a um dashboard React por WebSocket, e ambientes Docker Compose separados para dev, teste e produção."
+    },
+    "certificates": {
+      "title": "Emissor de certificados",
+      "desc": "Feito para uma empresa que precisava emitir certificados em lote: sobe um modelo em PDF, posiciona os campos de nome e data nele e envia por e-mail um certificado personalizado para cada pessoa da lista, de uma vez."
     },
     "autofill": {
       "title": "Autofill de candidaturas",
       "desc": "App desktop em Electron que automatiza candidaturas com Puppeteer — o protótipo que deu origem ao WishApply."
-    },
-    "ecommerce": {
-      "title": "E-commerce",
-      "desc": "Loja online com checkout Stripe, pagamentos e gestão de conta."
-    },
-    "blog": {
-      "title": "Plataforma de blog",
-      "desc": "Contas, gestão de posts, comentários e reações."
-    },
-    "certificates": {
-      "title": "Emissor de certificados",
-      "desc": "Gera e envia certificados em PDF personalizados, com dados dinâmicos por aluno e layout configurável."
     }
   },
 

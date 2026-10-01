@@ -6,7 +6,7 @@ type Entry = {
   key: string;
   company: string;
   website?: string;
-  roleKey: "founderEngineer" | "softwareEngineer" | "contractor";
+  roleKey: "softwareEngineer" | "contractor";
   start: string;
   end?: string;
 };
@@ -15,14 +15,14 @@ const entries: Entry[] = [
   {
     key: "gudi",
     company: "Gudi",
-    roleKey: "founderEngineer",
+    roleKey: "contractor",
     start: "2025-02"
   },
   {
     key: "bucksense",
     company: "Bucksense",
     website: "https://www.bucksense.com/",
-    roleKey: "softwareEngineer",
+    roleKey: "contractor",
     start: "2024-07",
     end: "2026-07"
   },
