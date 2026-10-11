@@ -25,6 +25,7 @@
     "availability": "Open to senior & staff roles",
     "headline": "I build production systems that hold up under real users.",
     "lead": "Five-plus years across frontend, backend, cloud and AI-enabled systems. I take products from architecture to production — and I come back with numbers, not adjectives.",
+    "recent": "Most recently, two years at Bucksense working on the high-traffic booking platforms of <0>Crystal Cruises</0> and <1>Abercrombie & Kent</1>.",
     "resumeHint": "Two-page PDF"
   },
 
@@ -238,7 +239,7 @@
 
     "bucksense": {
       "location": "USA · Remote",
-      "summary": "Full-stack engineer on two high-traffic, SEO-critical booking platforms for the luxury travel sector, including Crystal Cruises, across both product teams.",
+      "summary": "Full-stack engineer on two high-traffic, SEO-critical booking platforms for the luxury travel sector, Crystal Cruises and Abercrombie & Kent, across both product teams.",
       "highlights": [
         "Took a key page from 1.62 MB to 781 KB and main-thread execution from 10.4s to 4.7s — a 55% reduction — through code splitting, lazy loading, responsive images and rendering fixes",
         "Raised the Lighthouse performance score by ~20 points on pages where organic search was the primary acquisition channel",

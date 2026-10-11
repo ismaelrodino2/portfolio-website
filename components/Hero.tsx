@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Trans from "next-translate/Trans";
 import useTranslation from "next-translate/useTranslation";
 import Icon from "./Icon";
 import { PERSON, resumeFor } from "../lib/site";
@@ -61,6 +62,27 @@ const Hero = () => {
               {t("hero.headline")}
             </p>
             <p className="mt-4 max-w-2xl text-muted">{t("hero.lead")}</p>
+            <p className="mt-3 max-w-2xl text-muted">
+              <Trans
+                i18nKey="common:hero.recent"
+                components={[
+                  <a
+                    key="crystal"
+                    className="text-ink underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+                    href="https://www.crystalcruises.com/"
+                    target="_blank"
+                    rel="noopener"
+                  />,
+                  <a
+                    key="ak"
+                    className="text-ink underline decoration-line-strong underline-offset-4 transition-colors hover:decoration-accent"
+                    href="https://www.abercrombiekent.com/"
+                    target="_blank"
+                    rel="noopener"
+                  />
+                ]}
+              />
+            </p>
 
             <ul className="mt-6 flex flex-col gap-x-6 gap-y-2 text-sm text-muted sm:flex-row sm:flex-wrap">
               <li className="flex items-center gap-2">

@@ -4,6 +4,7 @@ import Icon from "./Icon";
 export type Props = {
   company: string;
   website?: string;
+  products?: { label: string; href: string }[];
   role: string;
   /** `YYYY-MM` */
   start: string;
@@ -72,6 +73,24 @@ const Experience = (props: Props) => {
 
       {props.summary && (
         <p className="mt-3 max-w-3xl text-sm text-muted">{props.summary}</p>
+      )}
+
+      {props.products && props.products.length > 0 && (
+        <ul className="mt-3 flex flex-wrap gap-2 print:hidden">
+          {props.products.map((product) => (
+            <li key={product.href}>
+              <a
+                className="flex items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1 font-mono text-xs text-muted transition-colors hover:border-line-strong hover:text-ink"
+                href={product.href}
+                target="_blank"
+                rel="noopener"
+              >
+                <Icon name="external" className="h-3.5 w-3.5" />
+                {product.label}
+              </a>
+            </li>
+          ))}
+        </ul>
       )}
 
       {/* Capped measure — full-container lines run past 140 characters. */}
