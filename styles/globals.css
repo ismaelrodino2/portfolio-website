@@ -167,3 +167,24 @@ a {
   --accent-wash: #ffffff;
   --grid: transparent;
 }
+
+/* Soft spotlight behind the project screenshots. */
+.work-gallery {
+  background-image: radial-gradient(ellipse 80% 60% at 50% 0%, var(--glow), transparent 70%),
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: auto, 24px 24px, 24px 24px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.lightbox {
+  background-color: rgba(4, 5, 8, 0.94);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}

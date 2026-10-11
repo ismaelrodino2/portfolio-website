@@ -91,6 +91,12 @@
     ]
   },
 
+  "gallery": {
+    "expand": "Ampliar",
+    "close": "Fechar",
+    "previous": "Tela anterior",
+    "next": "Próxima tela"
+  },
   "work": {
     "title": "Projetos em destaque",
     "subtitle": "Produtos que desenhei e construí de ponta a ponta",
@@ -132,6 +138,17 @@
 
     "gudi": {
       "name": "Gudi",
+      "shots": {
+        "catalog": "Catálogo",
+        "event": "Página do evento",
+        "map": "Rota até o local",
+        "gestures": "Explorar por gestos",
+        "accessibility": "Filtros de acessibilidade",
+        "categories": "Categorias",
+        "profile": "Perfil e moedas GUDI",
+        "sign-in": "Login",
+        "sign-up": "Cadastro"
+      },
       "tagline": "Marketplace de eventos culturais · engenheiro único",
       "period": "2025 — presente",
       "role": "Engenheiro único (contrato): arquitetura, os dois apps, backend e pagamentos",
@@ -159,6 +176,14 @@
 
     "flowhall": {
       "name": "FlowHall",
+      "shots": {
+        "chat": "Atendimento",
+        "roles": "Cargos e permissões",
+        "live": "Atendentes ao vivo",
+        "contacts": "Contatos",
+        "users": "Usuários",
+        "departments": "Departamentos"
+      },
       "tagline": "SaaS multi-tenant de atendimento via WhatsApp · projeto pessoal",
       "period": "2026 — em desenvolvimento",
       "role": "Sozinho: arquitetura, API, aplicação web e infraestrutura AWS",
