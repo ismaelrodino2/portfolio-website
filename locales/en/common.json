@@ -91,6 +91,12 @@
     ]
   },
 
+  "gallery": {
+    "expand": "View larger",
+    "close": "Close",
+    "previous": "Previous screen",
+    "next": "Next screen"
+  },
   "work": {
     "title": "Selected work",
     "subtitle": "Products I designed and built end to end",
@@ -132,6 +138,17 @@
 
     "gudi": {
       "name": "Gudi",
+      "shots": {
+        "catalog": "Catalogue",
+        "event": "Event page",
+        "map": "Directions to the venue",
+        "gestures": "Swipe to explore",
+        "accessibility": "Accessibility filters",
+        "categories": "Categories",
+        "profile": "Profile & GUDI coins",
+        "sign-in": "Sign in",
+        "sign-up": "Sign up"
+      },
       "tagline": "Cultural event marketplace · sole engineer",
       "period": "2025 — present",
       "role": "Sole engineer (contract): architecture, both apps, backend, payments",
@@ -159,6 +176,14 @@
 
     "flowhall": {
       "name": "FlowHall",
+      "shots": {
+        "chat": "Shared inbox",
+        "roles": "Roles & permissions",
+        "live": "Live agent view",
+        "contacts": "Contacts",
+        "users": "Users",
+        "departments": "Departments"
+      },
       "tagline": "Multi-tenant WhatsApp customer-service SaaS · personal project",
       "period": "2026 — in development",
       "role": "Solo: architecture, API, web app, AWS infrastructure",

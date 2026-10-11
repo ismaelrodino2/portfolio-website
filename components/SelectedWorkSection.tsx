@@ -1,5 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
 import Icon from "./Icon";
+import ScreenGallery, { Shot } from "./ScreenGallery";
 import Section from "./Section";
 
 type Highlight = { lead: string; text: string };
@@ -17,6 +18,42 @@ const links: Record<string, ProjectLinks> = {
   flowhall: {}
 };
 
+type Gallery = {
+  variant: "browser" | "phone";
+  address?: string;
+  /** Key under `work.<id>.shots` → image under /public/work/<id>/. */
+  shots: { key: string; width: number; height: number }[];
+};
+
+const galleries: Partial<Record<string, Gallery>> = {
+  gudi: {
+    variant: "phone",
+    shots: [
+      "catalog",
+      "event",
+      "map",
+      "gestures",
+      "accessibility",
+      "categories",
+      "profile",
+      "sign-in",
+      "sign-up"
+    ].map((key) => ({ key, width: 698, height: 1422 }))
+  },
+  flowhall: {
+    variant: "browser",
+    address: "flowhall",
+    shots: [
+      { key: "chat", width: 1520, height: 824 },
+      ...["roles", "live", "contacts", "users", "departments"].map((key) => ({
+        key,
+        width: 1180,
+        height: 640
+      }))
+    ]
+  }
+};
+
 const WorkCard = ({
   id,
   className = ""
@@ -29,6 +66,15 @@ const WorkCard = ({
   const highlights = t(`${base}.highlights`, {}, { returnObjects: true }) as Highlight[];
   const stack = t(`${base}.stack`, {}, { returnObjects: true }) as string[];
   const { live, source } = links[id];
+  const gallery = galleries[id];
+  const shots: Shot[] = gallery
+    ? gallery.shots.map(({ key, width, height }) => ({
+        src: `/work/${id}/${key}.webp`,
+        width,
+        height,
+        label: t(`${base}.shots.${key}`)
+      }))
+    : [];
 
   return (
     <article
@@ -80,6 +126,12 @@ const WorkCard = ({
           </div>
         )}
       </div>
+
+      {gallery && (
+        <div className="work-gallery border-b border-line p-6 sm:p-8 print:hidden">
+          <ScreenGallery shots={shots} variant={gallery.variant} address={gallery.address} />
+        </div>
+      )}
 
       <div className="p-6 sm:p-8">
         <ul className="flex flex-col gap-5">
