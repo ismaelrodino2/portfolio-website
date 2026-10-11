@@ -25,6 +25,7 @@
     "availability": "Aberto a vagas sênior e staff",
     "headline": "Desenvolvo aplicações reais, pensadas para performance, escala e confiabilidade.",
     "lead": "Mais de cinco anos entre frontend, backend, cloud e sistemas com IA. Levo produtos da arquitetura à produção — e volto com números, não com adjetivos.",
+    "recent": "Nos últimos dois anos, pela Bucksense, trabalhei nas plataformas de reserva de alto tráfego da <0>Crystal Cruises</0> e da <1>Abercrombie & Kent</1>.",
     "resumeHint": "PDF de duas páginas"
   },
 
@@ -238,7 +239,7 @@
 
     "bucksense": {
       "location": "EUA · Remoto",
-      "summary": "Engenheiro full-stack em duas plataformas de reservas de alto tráfego e críticas para SEO no setor de viagens de luxo, incluindo a Crystal Cruises, atuando nos dois times de produto.",
+      "summary": "Engenheiro full-stack em duas plataformas de reservas de alto tráfego e críticas para SEO no setor de viagens de luxo, Crystal Cruises e Abercrombie & Kent, atuando nos dois times de produto.",
       "highlights": [
         "Levei uma página crítica de 1,62 MB para 781 KB e o tempo de main thread de 10,4s para 4,7s — redução de 55% — com code splitting, lazy loading, imagens responsivas e ajustes de renderização",
         "Aumentei em ~20 pontos a nota de performance do Lighthouse em páginas cujo principal canal de aquisição era a busca orgânica",

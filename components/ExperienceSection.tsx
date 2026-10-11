@@ -6,6 +6,8 @@ type Entry = {
   key: string;
   company: string;
   website?: string;
+  /** Live products from the engagement, shown as links under the summary. */
+  products?: { label: string; href: string }[];
   roleKey: "softwareEngineer" | "contractor";
   start: string;
   end?: string;
@@ -22,6 +24,10 @@ const entries: Entry[] = [
     key: "bucksense",
     company: "Bucksense",
     website: "https://www.bucksense.com/",
+    products: [
+      { label: "crystalcruises.com", href: "https://www.crystalcruises.com/" },
+      { label: "abercrombiekent.com", href: "https://www.abercrombiekent.com/" }
+    ],
     roleKey: "contractor",
     start: "2024-07",
     end: "2026-07"
@@ -46,6 +52,7 @@ const entries: Entry[] = [
     key: "speedcast",
     company: "Speedcast",
     website: "https://www.speedcast.com/",
+    products: [{ label: "compass.speedcast.com", href: "https://compass.speedcast.com/login" }],
     roleKey: "contractor",
     start: "2022-02",
     end: "2023-04"
@@ -60,7 +67,7 @@ const entries: Entry[] = [
   {
     key: "lucalto",
     company: "Lucalto",
-    website: "https://www.linkedin.com/company/lucalto/",
+    website: "https://lucalto.com/",
     roleKey: "contractor",
     start: "2021-01",
     end: "2021-09"
@@ -82,6 +89,7 @@ const ExperienceSection = () => {
             key={entry.key}
             company={entry.company}
             website={entry.website}
+            products={entry.products}
             role={t(`experience.roles.${entry.roleKey}`)}
             start={entry.start}
             end={entry.end}
