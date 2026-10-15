@@ -72,6 +72,8 @@
   "principles": {
     "title": "Como eu trabalho",
     "subtitle": "Quatro posições que consigo defender com o código por trás",
+    "readPost": "Ler o artigo (em inglês)",
+    "blog": "Mais notas de engenharia no BatDev",
     "items": [
       {
         "title": "Medir antes de afirmar",
