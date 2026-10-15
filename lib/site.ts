@@ -12,6 +12,7 @@ export const PERSON = {
   githubDisplay: "github.com/ismaelrodino2",
   calendly: "https://calendly.com/ismaelrodino/30min",
   repository: "https://github.com/ismaelrodino2/portfolio-website",
+  blog: "https://batdev.vercel.app",
   image: "/profile.jpg"
 } as const;
 

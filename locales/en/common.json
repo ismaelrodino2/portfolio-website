@@ -72,6 +72,8 @@
   "principles": {
     "title": "How I work",
     "subtitle": "Four positions I can defend with the code behind them",
+    "readPost": "Read the write-up",
+    "blog": "More engineering notes on BatDev",
     "items": [
       {
         "title": "Measure, then claim",
